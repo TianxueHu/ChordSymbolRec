@@ -1,0 +1,243 @@
+I	[2.ee 2.g	24	1	3	[ee] [g]
+I	[2.ee 2.g	25	.	0	.
+I	[2.ee 2.g	26	.	0	.
+(I)	4ee 4g]	28	1	1	P1 P1
+(I)	4ff	29	2	1	+m2 +m7
+(I)	[4dd	30	3	1	-m3
+V7	[4dd 4g]	32	1	1	P1 -P5
+V7	4ee	33	2	1	+M2 +M6
+V7	[4gg	34	3	1	+m3
+I	4gg 4g]_	36	1	1	P1 -P8
+I	4ff	37	2	1	-M2 +m7
+I	[4ee	38	3	1	-m2
+(I)	4ee 4g]	40	1	1	P1 -M6
+(I)	4dd	41	2	1	-M2 +P5
+(I)	4ee	42	3	1	+M2
+V7	[2.ff 2.g	44	1	3	+m2 -M6
+V7	2ff]	46	.	2	P1 +m7
+V7	16ff	47	3	0.25	P1
+V7	16ee	48	3.25	0.25	-m2
+V7	16ff	49	3.5	0.25	+m2
+V7	16gg	50	3.75	0.25	+M2
+IV	4aa	52	1	1	+M2
+IV	4gg	53	2	1	-M2
+IV	4ff	54	3	1	-M2
+IV	4ff	56	1	1	P1
+IV	4ee	57	2	1	-m2
+IV	4dd#	58	3	1	-m2
+V/iii	2.dd#	60	1	3	P1
+I	4ee	62	1	1	+m2
+I	4ee	63	2	1	P1
+viiob/V	4ff#	64	3	1	+M2
+Vb	4gg	66	1	1	+m2
+Vb	4gg	67	2	1	P1
+Vb/V	4aa	68	3	1	+M2
+V	4bb	70	1	1	+M2
+V	4bb	71	2	1	P1
+V	4ccc	72	3	1	+m2
+V	4ddd	74	1	1	+M2
+V	4bb	75	2	1	-m3
+V	4ggg	76	3	1	+m6
+V	2ddd	78	1	2	-P4
+V	2ddd	79	.	0	.
+V	8fff#	80	3	0.5	+M3
+V	8ggg	81	3.5	0.5	+m2
+V	4ddd	83	1	1	-P4
+V	4ddd	84	2	1	P1
+V	8fff#	85	3	0.5	+M3
+V	8ggg	86	3.5	0.5	+m2
+V	4ddd	88	1	1	-P4
+V	8eee	89	2	0.5	+M2
+V	8fff#	90	2.5	0.5	+M2
+V	8ggg	91	3	0.5	+m2
+V	8aaa	92	3.5	0.5	+M2
+V	4bbb	94	1	1	+M2
+V	4r	95	.	1	r
+V	4B	96	3	1	-P22
+V7/V	4c	99	1	1	+m2
+V7/V	4A	100	2	1	-m3
+V7/V	4d	101	3	1	+P4
+V	4G	103	1	1	-P5
+V	2r	104	.	2	r
+V[V/i]	2G 2g]	107	1	2	P1 +P8
+V[V/i]	2G 2g]	108	.	0	.
+V[V/i]	4f#	109	3	1	+M7 -m2
+V7	4f 4G	111	1	1	d1 -M7
+I	4e	112	2	1	-m2 +M6
+viioD7c/V	4e-	113	3	1	d1
+V	4d 4G	115	1	1	-m2 -m6
+V	4g	116	2	1	+P4 +P8
+V	4f#	117	3	1	-m2
+V7	4f 4G	119	1	1	d1 -M7
+I	4e	120	2	1	-m2 +M6
+viioD7c/V	4e-	121	3	1	d1
+V	4d 4G	123	1	1	-m2 -m6
+V	4g	124	2	1	+P4 +P8
+V	4f#	125	3	1	-m2
+V7	4f 4G	127	1	1	d1 -M7
+I	4e	128	2	1	-m2 +M6
+viioD7c/V	4e-	129	3	1	d1
+V	4d 4G	131	1	1	-m2 -m6
+V	4g	132	2	1	+P4 +P8
+viioD7c/V	4e-	133	3	1	-M3
+V	4G 4d	135	1	1	-m6 -m2
+V	2r	136	.	2	r r
+I	[2.ee 2.g	139	1	3	+M13 +P4
+I	[2.ee 2.g	140	.	0	.
+I	[2.ee 2.g	141	.	0	.
+(I)	4ee 4g]_	143	1	1	P1 P1
+(I)	4ff	144	2	1	+m2 +m7
+(I)	[4dd	145	3	1	-m3
+V	4dd 4g]_	147	1	1	P1 -P5
+V	4ee	148	2	1	+M2 +M6
+V	[4gg	149	3	1	+m3
+I	4gg 4g]_	151	1	1	P1 -P8
+I	4ff	152	2	1	-M2 +m7
+I	[4ee	153	3	1	-m2
+(I)	4ee 4g]	155	1	1	P1 -M6
+(I)	4dd	156	2	1	-M2 +P5
+(I)	4ee	157	3	1	+M2
+V7	[2.ff 2.g	159	1	3	+m2 -M6
+V7	2ff]	161	.	2	P1 +m7
+V7	16ff	162	3	0.25	P1
+V7	16ee	163	3.25	0.25	-m2
+V7	16ff	164	3.5	0.25	+m2
+V7	16gg	165	3.75	0.25	+M2
+IV	4aa	167	1	1	+M2
+IV	4gg	168	2	1	-M2
+IV	4ff	169	3	1	-M2
+IV	4ff	171	1	1	P1
+IV	4ee	172	2	1	-m2
+IV	4ff	173	3	1	+m2
+Ib	4gg	175	1	1	+M2
+Ib	8ee	176	2	0.5	-m3
+Ib	8ff	177	2.5	0.5	+m2
+Ib	8gg	178	3	0.5	+M2
+Ib	8aa	179	3.5	0.5	+M2
+V/IV	4bb-	181	1	1	+m2
+V/IV	4aa	182	2	1	-m2
+V/IV	4gg	183	3	1	-M2
+IV	4aa	185	1	1	+M2
+IV	4aa	186	2	1	P1
+viio	4bb	187	3	1	+M2
+Ib	4ccc	189	1	1	+m2
+Ib	4ccc	190	2	1	P1
+V7b	4ddd	191	3	1	+M2
+I	4eee	193	1	1	+M2
+I	4eee	194	2	1	P1
+I	4fff	195	3	1	+m2
+I	4ggg	197	1	1	+M2
+I	8ggg	198	2	0.5	P1
+I	8eee	199	2.5	0.5	-m3
+I	8aaa	200	3	0.5	+P4
+I	8fff	201	3.5	0.5	-M3
+I	2ggg	203	1	2	+M2
+I	2ggg	204	.	0	.
+I	4cccc	205	3	1	+P4
+I	4ggg	207	1	1	-P4
+I	4ggg	208	2	1	P1
+I	4cccc	209	3	1	+P4
+I	2ggg	211	1	2	-P4
+vi	4cc	212	3	1	-P12
+iib	4dd	214	1	1	+M2
+iib	4ff	215	2	1	+m3
+V	4b	216	3	1	-d5
+I	4cc	218	1	1	+m2
+I	2r	219	.	2	r
+I	[2.e	221	1	3	-m6
+(I)	4e]	223	.	1	P1
+(I)	4f	224	2	1	+m2
+(I)	[4d	225	3	1	-m3
+V7	4d]	227	.	1	P1
+V7	4e	228	2	1	+M2
+V7	[4g	229	3	1	+m3
+I	4g]	231	.	1	P1
+I	4f	232	2	1	-M2
+I	4e	233	3	1	-m2
+I	4e	235	1	1	P1
+Vb	4d	236	2	1	-M2
+I	4e	237	3	1	+M2
+IV	2.f	239	1	3	+m2
+V7	4d	241	1	1	-m3
+V7	4c	242	2	1	-M2
+V7	4d	243	3	1	+M2
+I	4c	245	1	1	-M2
+I	2r	246	.	2	r
+i[i/I]	2.g	251	1	3	+P5
+i[i/I]	2.g	252	.	0	.
+i[i/I]	2.g	253	.	0	.
+ivm7b	[2.f	255	1	3	-M2
+ivm7b	[2.f	256	.	0	.
+ivm7b	[2.f	257	.	0	.
+VII	2.f]	259	.	3	P1
+VII	2.f]	260	.	0	.
+VII	2.f]	261	.	0	.
+IIIM7b	[2.e-	263	1	3	-M2
+IIIM7b	[2.e-	264	.	0	.
+IIIM7b	[2.e-	265	.	0	.
+VI	2.e-]	267	.	3	P1
+VI	2.e-]	268	.	0	.
+VI	2.e-]	269	.	0	.
+iiom7b	[2.d	271	1	3	-m2
+iiom7b	[2.d	272	.	0	.
+iiom7b	[2.d	273	.	0	.
+V7	2.d]	275	.	3	P1
+V7	2.d]	276	.	0	.
+V7	2.d]	277	.	0	.
+ib	4e-	279	1	1	+m2
+ib	4cc	280	2	1	+M6
+ib	4b-	281	3	1	-M2
+ivb	4a-	283	1	1	-M2
+V	4g	284	2	1	-m2
+viio/V	4f#	285	3	1	-m2
+V	4g	287	1	1	+m2
+V	4G	288	2	1	-P8
+V	4dd	289	3	1	+P12
+i	4ee-	291	1	1	+m2
+i	4r	292	.	1	r
+viio/V	4cc	293	3	1	-m3
+V	4b	295	1	1	-m2
+V	2r	296	.	2	r
+iv/iv	2.b-	298	1	3	d1
+VI/iv	2.d-	300	1	3	-M6
+V7/iv	4c	302	1	1	-m2
+V7/iv	4b-	303	2	1	+m7
+V7/iv	4g	304	3	1	-m3
+ivb	4a-	306	1	1	+m2
+viio/iv	4e	307	2	1	-d4
+iv	4f	308	3	1	+m2
+iv/V[i]	2.cc	310	1	3	+P5
+vi/V[III]	2.e-	312	1	3	-M6
+V/V	4d	314	1	1	-m2
+V/V	4cc	315	2	1	+m7
+V/V	4a	316	3	1	-m3
+Vb	4b	318	1	1	+M2
+vii/V	4f#	319	2	1	-P4
+V	4g	320	3	1	+m2
+V	[2.gg	322	1	3	+P8
+V	[2.gg	323	.	0	.
+IIIb	[2.gg	324	.	0	.
+IIIb	2.gg_	326	.	3	P1
+IIIb	2.gg_	327	.	0	.
+V7	2.gg_	328	.	0	.
+V7	2.gg_	330	.	3	P1
+V7	2.gg_	331	.	0	.
+ic	2.gg_	332	.	0	.
+ic	2.gg]	334	.	3	P1
+ic	2.gg]	335	.	0	.
+V	2.gg]	336	.	0	.
+V	[2.g	338	1	3	-P8
+V	[2.g	339	.	0	.
+ic	[2.g	340	.	0	.
+ic	2.g]	342	.	3	P1
+ic	2.g]	343	.	0	.
+V	2.g]	344	.	0	.
+V	2.f#	346	1	3	-m2
+V	2.f#	347	.	0	.
+viiob/V	2.f#	348	.	0	.
+V	4g	350	1	1	+m2
+V	2r	351	.	2	r
+V	4g	353	1	1	P1
+V	2r	354	.	2	r
+V	4g	356	1	1	P1
+V	2r	357	.	2	r

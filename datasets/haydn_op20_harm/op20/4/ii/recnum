@@ -1,0 +1,18 @@
+#!/usr/local/bin/awk -f
+
+{
+if ($0 ~ /^!!!/)
+	print $0
+else
+	if ($0 ~ /^\*\*/)
+		print $0"\t**recordnumber"
+	else
+		if ($0 ~ /^\*-/)
+			print $0"\t*-"
+		else
+			if ($0 ~ /^[*=!]/)
+				print $0"\t"substr($1, 1,1)
+			else
+				print $0"\t"NR
+
+}
