@@ -2,7 +2,7 @@
 
 This repo provides pre-processing code, corpora, models, and supplementary resources of this project.<br>
 <br>
-Project Log is located in /misc folder.<br>
+Project Log is located in `/misc` folder.<br>
 
 ### Datasets:
 • Annotated Beethoven Corpus (ABC) [10]: all Beethoven string quartets (16 string quartets, 70 movements) in MuseScore format, annotated with Roman numerals. Mic- chi et al. used in their research.<br>
