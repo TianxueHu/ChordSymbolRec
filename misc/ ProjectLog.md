@@ -1,4 +1,6 @@
 # Project log
+## 9/22
+Pre-process Bach Chorale Dataset - removed NCT and generate new scores
 ## 9/12
 Pre-process Haydn Dataset:
 - Take out each part as melody to feed in NCT model (Humdrum).
