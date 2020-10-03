@@ -1,4 +1,10 @@
 # Project log
+## 10/2
+- Augmented Bach chorals (69 songs) and Haydn sun quartets.
+Located at
+`/dataset/haydn_op20_harm/haydn_final_scores` and `/datasets/bhchorale/bach_final_scores`
+- Aligning the new Bach chorales dataset (140 songs). 
+- Parsed ABC dataset from .mscx to .musicxml, failed to convert to .krn since musicxml2krn command doesn't work for harmony. [PENDING]
 ## 9/22
 Pre-process Bach Chorale Dataset - removed NCT and generate new scores
 ## 9/12
