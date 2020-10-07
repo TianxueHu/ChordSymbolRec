@@ -1,4 +1,20 @@
 # Project log
+## 10/7
+- [TODO] Process vectors for FFNN
+- [TODO] Orgranize and process availiable pieces that Craig Sapp in the ABC dataset
+- [TODO] Orgranize and process David Sears's dataset
+
+So far the datasets we have: <br>
+- Haydn op20
+- Bach Chorale 69 pieces
+- [TODO] ABC 
+- [TOOD] David Sear's dataset
+
+Some experiments plans: <br>
+ - Compare the performances with/without NCT eleminated
+ - Compare the performances using 12 entries (with post-processing) input and 21 entries input.
+
+
 ## 10/2
 - Augmented Bach chorals (69 songs) and Haydn sun quartets.
 Located at
