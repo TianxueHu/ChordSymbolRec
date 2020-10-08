@@ -1,0 +1,202 @@
+
+musicxml/n04op18-4_01.musicxml =============
+[Tremolo conversion problem, Fixed manually]
+========================================================
+Previous line is: .	.	16G 16fJJ	.	16bJJ	.	.	.	.
+Error on line 1362:
+   Expected 9 fields,    but found 1
+Line is: *
+
+
+musicxml/n04op18-4_04.musicxml =============
+[m. 119 of Humdrum or m125 of Musescore has a chord with a
+dotted half note and three quarter notes which was fixed by hand]
+========================================================
+ERROR: Negative duration: -2
+	tokendur = 1
+	slicedur = 3
+	token    = 4G 4d 4bn
+	CURRENT SLICE = TS=943/2 (p0:)(s0:)(v0:) "2.ff)" (v1:) "4G 4d 4bn"  sside: []  pside: [] (p1:)(s0:)(v0:) "2.dd;)"  sside: []  pside: [dyn:ff] (p2:)(s0:)(v0:) "2.G;)"  sside: []  pside: [dyn:ff] (p3:)(s0:)(v0:) "2.GG;)"  sside: []  pside: [dyn:ff] 
+	TIMESTAMP 943/2
+	NEXT SLICE = TS=943/2 (p0:)(s0:)(v0:) "2.ff)" (v1:) "4G 4d 4bn"  sside: []  pside: [] (p1:)(s0:)(v0:) "2.dd;)"  sside: []  pside: [dyn:ff] (p2:)(s0:)(v0:) "2.G;)"  sside: []  pside: [dyn:ff] (p3:)(s0:)(v0:) "2.GG;)"  sside: []  pside: [dyn:ff] 
+	NEXT TIMESTAMP 949/2
+
+
+
+musicxml/n05op18-5_04.musicxml =============
+[problem occurs in insertPartNames().  Not fixed yet.]
+========================================================
+libc++abi.dylib: terminating with uncaught exception of type std::out_of_range: vector
+Abort trap: 6
+
+
+
+musicxml/n06op18-6_04.musicxml =============
+[problem occurs in insertPartNames().  Not fixed yet.]
+========================================================
+libc++abi.dylib: terminating with uncaught exception of type std::out_of_range: vector
+Abort trap: 6
+
+
+
+musicxml/n07op59-1_03.musicxml =============
+[Some strange problem in humdrum m116, musescore m125 where the last
+note in the septuplet is overwritten with a null token; fixed by hand]
+========================================================
+Warning, replacing existing token: 112ddnJJJJ with a null token
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 2374
+Expected durationFromStart to be: 7013/28 but found it to be 501/2
+Line: (16.cL	.	16.gL)	.	16.enL	.	16.ccLL	.	.
+
+
+
+musicxml/n08op59-2_01.musicxml =============
+[Tremolo ending problem in measure 30 fixed by hand]
+========================================================
+Previous line is: 16EE-JJ	.	16E-JJ	.	16G 16gJJ	.	.	.	.
+Error on line 297:
+   Expected 9 fields,    but found 1
+Line is: *
+
+
+
+musicxml/n09op59-3_02.musicxml =============
+[voicing problem in measure 143 fixed manually]
+========================================================
+Error: Inconsistent rhythm analysis occurring near line 1235
+Expected durationFromStart to be: 429 but found it to be 857/2
+Line: 8r	.	8BJ)	.	8g#XJ)	.	.	.	8dd\	.	#viio6]
+
+
+
+musicxml/n10op74_01.musicxml =============
+Warning, replacing existing token: (16BB-LL with a null token
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 1922
+Expected durationFromStart to be: 2887/4 but found it to be 722
+Line: 16ryy	.	8E-)	.	8bb-)	.	(16ggLL	.	V7
+
+
+
+musicxml/n12op127_01.musicxml =============
+Warning, replacing existing token: 8r with a null token
+Warning, replacing existing token: 4cc with a null token
+Warning, replacing existing token: 8r with a null token
+Warning, replacing existing token: 4EE-' 4GG with a null token
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 1197
+Expected durationFromStart to be: 1055/2 but found it to be 528
+Line: 4ryy	.	8E-L 8B-	.	8gL	.	8B-L	.	.
+
+
+
+musicxml/n12op127_02.musicxml =============
+Warning, replacing existing token: [4B with a null token
+Warning, replacing existing token: (4G# with a null token
+Warning, replacing existing token: [2.BB with a null token
+Warning, replacing existing token: (4EE with a null token
+Warning, replacing existing token: 8CL 8c with a null token
+Warning, replacing existing token: (8eeL with a null token
+Warning, replacing existing token: 8CCnL with a null token
+Warning, replacing existing token: 1.r with a null token
+Warning, replacing existing token: 1.r with a null token
+Warning, replacing existing token: (4B-] with a null token
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 1405
+Expected durationFromStart to be: 1487/4 but found it to be 372
+Line: 8ryy	.	8ryy	.	.	(8GnL 8g	.	8ryy	.	.bVI
+
+
+
+musicxml/n12op127_04.musicxml =============
+Warning, replacing existing token: (8e-L with a null token
+Warning, replacing existing token: 8gJ) with a null token
+Warning, replacing existing token: (8BnL with a null token
+Warning, replacing existing token: 8e-J) with a null token
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 661
+Expected durationFromStart to be: 367 but found it to be 368
+Line: 4ryy	pp	4ryy	pp	(8ffL	pp	(8aa-L	pp	viio7/vi
+
+
+
+musicxml/n14op131_04.musicxml =============
+Error: Inconsistent rhythm analysis occurring near line 1827
+Expected durationFromStart to be: 1033/2 but found it to be 516
+Line: (2BB)	(2EE)	.	(2B)	4rD	.	8raa	4rc	.	4r	.	V7
+
+
+
+musicxml/n15op132_01.musicxml =============
+Warning, replacing existing token: 1B 1dn with a null token
+Warning, replacing existing token: [1E with a null token
+Warning, replacing existing token: 1GG#X with a null token
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 112
+Expected durationFromStart to be: 223/4 but found it to be 56
+Line: 1ryy	p	1ryy	.	1ryy	.	(4e	.	V65
+
+
+
+musicxml/n15op132_03.musicxml =============
+Warning, replacing existing token: 2B with a null token
+Warning, replacing existing token: 2f with a null token
+Warning, replacing existing token: 4ddd with a null token
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 1621
+Expected durationFromStart to be: 861/2 but found it to be 431
+Line: 2ryy	<[	2ryy	<[	(16eeLL]	<	4ryy	<	V65
+
+
+
+musicxml/n15op132_05.musicxml =============
+Warning, replacing existing token: 8r with a null token
+Warning, replacing existing token: (4ffnt with a null token
+Warning, replacing existing token: 8AL with a null token
+Warning, replacing existing token: 4r with a null token
+Warning, replacing existing token: 4r with a null token
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 1451
+Expected durationFromStart to be: 1215/2 but found it to be 608
+Line: 8ryy	.	8CJ)	.	.	.	8eeeJ)	.	.
+
+
+
+musicxml/n16op135_01.musicxml =============
+Warning, replacing existing token: 24gJJ with a null token
+
+
+musicxml/n16op135_03.musicxml =============
+ERROR: Negative duration: -1/4
+	tokendur = 1/8
+	slicedur = 3/8
+	token    = 32eee-JJJ)
+	CURRENT SLICE = TS=1279/8 (p0:)(s0:)(v0:) "32eee-JJJ)"  sside: []  pside: [] (p1:)(s0:)(v0:) "."  sside: []  pside: [] (p2:)(s0:)(v0:) "."  sside: []  pside: [] (p3:)(s0:)(v0:) "." (v1:) "."  sside: []  pside: [] 
+	TIMESTAMP 1279/8
+	NEXT SLICE = TS=1279/8 (p0:)(s0:)(v0:) "32eee-JJJ)"  sside: []  pside: [] (p1:)(s0:)(v0:) "."  sside: []  pside: [] (p2:)(s0:)(v0:) "."  sside: []  pside: [] (p3:)(s0:)(v0:) "." (v1:) "."  sside: []  pside: [] 
+	NEXT TIMESTAMP 641/4
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Cannot deal with this slice addition case yet...
+Error: Inconsistent rhythm analysis occurring near line 600
+Expected durationFromStart to be: 160 but found it to be 321/2
+Line: 4.D-;]	4.DD-	.	4.F;]	.	4.f; 4.dd-	.	16aa-LL	.	.
+
+
+

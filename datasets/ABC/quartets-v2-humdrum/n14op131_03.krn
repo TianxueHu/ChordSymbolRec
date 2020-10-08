@@ -1,0 +1,156 @@
+**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**mxhm
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1	*part1
+*staff4	*	*staff3	*	*staff2	*	*staff1	*	*
+*I"Cello	*	*I"Viola	*	*I"2nd Violin	*	*I"1st Violin	*	*
+*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*
+*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*
+*f#:	*	*f#:	*	*f#:	*	*f#:	*	*
+*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*
+*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*
+=1	=1	=1	=1	=1	=1	=1	=1	=1
+!	!	!	!	!	!	!LO:TX:a:B:t=No 3.  Allegro moderato	!	!
+4r	.	4r	.	4r	.	4r	.	.
+!	!	!	!LO:DY:a	!	!LO:DY:a	!	!	!
+4B'	f	4d'	f f	4f#'	f	4f#'	.	.b.i
+4A#X'	.	4c#'	.	4f#'	.	4cc#'	.	V6
+4r	.	4r	.	4r	.	4r	.	.
+=2	=2	=2	=2	=2	=2	=2	=2	=2
+!	!	!	!LO:DY:a	!	!LO:DY:a	!	!	!
+1r	.	1r	p	2r	p	8r	.	.
+.	.	.	.	.	.	(16f#LL	.	V
+.	.	.	.	.	.	16g#JJ)	.	.
+.	.	.	.	.	.	8a#X'L	.	.
+.	.	.	.	.	.	8b'J	.	.
+.	.	.	.	8r	.	4cc#	.	V65
+.	.	.	.	(16c#LL	.	.	.	.
+.	.	.	.	16dJJ)	.	.	.	.
+.	.	.	.	8e'L	.	4r	.	.
+.	.	.	.	8f#'J	.	.	.	.
+=3	=3	=3	=3	=3	=3	=3	=3	=3
+2r	.	8r	.	4gn	.	1r	.	iio65
+.	.	8Gn'L	p	.	.	.	.	.
+.	.	8E'	.	4r	.	.	.	.
+.	.	8D'J	.	.	.	.	.	.
+8r	.	4C#'	.	2r	.	.	.	.
+8E'L	p	.	.	.	.	.	.	.
+8C#'	.	4r	.	.	.	.	.	.
+8F#'J	.	.	.	.	.	.	.	.
+=4	=4	=4	=4	=4	=4	=4	=4	=4
+4D'	.	4r	.	4r	.	4r	.	i6
+!	!	!	!LO:DY:a	!	!	!	!	!
+4B'	f	4d'	f f	4B'	.	4f#'	f	i
+!	!	!	!LO:DY:a	!	!	!	!	!
+4BB'	.	4F#'	p	8f#'L	.	4dd'	.	i\\
+.	.	.	.	(16dL	.	.	.	.
+.	.	.	.	16eJJ)	.	.	.	.
+4r	.	4r	.	8f#'L	.	4r	.	V6
+.	.	.	.	8A#X'J	.	.	.	.
+=5	=5	=5	=5	=5	=5	=5	=5	=5
+!	!	!	!	!	!LO:DY:a	!	!	!
+1r	.	1r	.	4B	p	8r	.	i
+.	.	.	.	.	.	(16bLL	.	.
+.	.	.	.	.	.	16cc#JJ)	.	.
+.	.	.	.	4r	.	8dd'L	.	.
+.	.	.	.	.	.	8ee'J	.	.
+.	.	.	.	8r	.	8ff#	.	V
+.	.	.	.	(16f#LL	p	4r	.	.
+.	.	.	.	16a#XJJ)	.	.	.	.
+.	.	.	.	8b'L	.	.	.	.
+.	.	.	.	8f#'J	.	8r	.	.
+=6	=6	=6	=6	=6	=6	=6	=6	=6
+8r	.	2r	.	4d	.	2r	.	i6
+(16BLL	p	.	.	.	.	.	.	.
+16c#JJ)	.	.	.	.	.	.	.	.
+8d'L	.	.	.	4r	.	.	.	.
+8F#'J	.	.	.	.	.	.	.	.
+8BZ	.	8d'ZL	p	8r	.	8r	.	#vio65
+!	!	!	!	!	!	!LO:TX:a:B:t=Adagio	!	!
+8r	.	(16G#L	.	8r	.	8r	.	.
+.	.	16AJJ)	.	.	.	.	.	.
+4r	.	8B'L	.	4r	.	4rg	.	.
+.	.	8D'J	.	.	.	.	.	.
+=7	=7	=7	=7	=7	=7	=7	=7	=7
+4r	.	(2.C#	.	4r	.	4r	.	V
+(4EE#X	.	.	.	(4g#	.	(4b	.	V65
+4FF#	.	.	.	4c#	.	4a	.	i\\
+4AA)	.	4c#)	.	4f#)	.	8.ff#L	.	VII.ii65
+.	.	.	.	.	.	16eeJk)	.	.
+=8	=8	=8	=8	=8	=8	=8	=8	=8
+(4BB	.	4F# 4A	.	4B 4f#	.	(8eeL	.	V7(4)
+.	.	.	.	.	.	[8dd#XJ)	.	V7
+!	!	!LO:TX:b:i:t=piu vivace	!	!	!	!LO:TX:b:i:t=piu vivace	!	!
+8BB)	.	[4F# [4A	.	8f# 8a	.	(32dd#LLL]	.	.
+.	.	.	.	.	.	32cc#	.	.
+.	.	.	.	.	.	32b	.	.
+.	.	.	.	.	.	32cc#	.	.
+8r	.	.	.	8r	.	32dd#	.	.
+.	.	.	.	.	.	32cc#	.	.
+.	.	.	.	.	.	32dd#	.	.
+.	.	.	.	.	.	32eeJJJ	.	.
+2r	.	((2F#] 2A]	.	2r	.	32ff#LLL	.	V43
+.	.	.	.	.	.	32ee	.	.
+.	.	.	.	.	.	32ff#	.	.
+.	.	.	.	.	.	32gg#	.	.
+.	.	.	.	.	.	32aa	.	.
+.	.	.	.	.	.	32bb	.	.
+.	.	.	.	.	.	32aa	.	.
+.	.	.	.	.	.	32gg#JJJ	.	.
+.	.	.	.	.	.	32ff#LLL	.	.
+.	.	.	.	.	.	32gg#	.	.
+.	.	.	.	.	.	32ff#	.	.
+.	.	.	.	.	.	32ee	.	.
+.	.	.	.	.	.	32dd#	.	.
+.	.	.	.	.	.	32ee	.	.
+.	.	.	.	.	.	32dd#	.	.
+.	.	.	.	.	.	32cc#JJJ	.	.
+=9	=9	=9	=9	=9	=9	=9	=9	=9
+2r	.	[2F#)) [2A	.	2r	.	32bLLL	.	.
+.	.	.	.	.	.	32cc#	.	.
+.	.	.	.	.	.	32b	.	.
+.	.	.	.	.	.	32b-X	.	.
+.	.	.	.	.	.	32a	.	.
+.	.	.	.	.	.	32g#	.	.
+.	.	.	.	.	.	32f#	.	.
+.	.	.	.	.	.	32eJJJ	.	.
+.	.	.	.	.	.	32d#XLLL	.	.
+.	.	.	.	.	.	32c#	.	.
+.	.	.	.	.	.	32Bn	.	.
+.	.	.	.	.	.	32d#	.	.
+.	.	.	.	.	.	32f#	.	.
+.	.	.	.	.	.	32a	.	.
+.	.	.	.	.	.	32bn	.	.
+.	.	.	.	.	.	32dd#XJJJ	.	.
+8r	.	8F#L] 8A]	.	8r	.	32ff#LLL	.	.
+.	.	.	.	.	.	32aa	.	.
+.	.	.	.	.	.	32ccc#	.	.
+.	.	.	.	.	.	32bbJJ)	.	.
+!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!	!
+(8AAL	.	(8F#	.	(8d#XL	.	(8bbJ	.	V2
+8GG#	.	8B)	.	8e)	.	(8bbL)	.	I6
+8G#J	.	(8BJ	.	[8eJ	.	[8eeJ)	.	.
+=10	=10	=10	=10	=10	=10	=10	=10	=10
+8A)	.	8c#)	.	8e]	.	(8eeL]	.	IV
+!LO:TX:b:i:t=r	!	!LO:TX:b:i:t=r	!	!LO:TX:b:i:t=r	!	!LO:TX:b:i:t=rin	!	!
+(4.A#X	f	(4.e	f	[4.f#	f	8cc#	.	V65/V
+.	.	.	.	.	.	8dd#X	.	.
+.	.	.	.	.	.	8eeJ)	.	.
+(8A#)	.	8e)	.	(8f#L]	.	(8ee	.	.
+4.B)	>]	(8e	>	8g#	>	[4.b)	>]	V7
+.	.	4d#X	]]	8f#	.	.	.	.
+.	.	.	.	8f#J 8a	]]	.	.	.
+=11	=11	=11	=11	=11	=11	=11	=11	=11
+8EL	p	8dnL)	p	8g#L)	p	8b]	p	V7/IV
+!	!	!	!	!LO:TX:b:i:t=cresc.	!	!	!	!
+(8EEJ	.	8r	.	(8B	.	8r	.	.
+!LO:TX:b:i:t=cresc.	!	!	!	!	!	!	!	!
+2FFn	.	8r	.	8G#	.	4r	.	iiio2
+!	!	!LO:TX:b:i:t=cresc.	!	!	!	!	!	!
+.	.	(8G#J	.	8dJ	.	.	.	.
+.	.	8DL	.	8BL)	.	4r	.	.
+.	.	8A	.	8r	.	.	.	.
+8EE)	f	8G#J) 8B	f	8eJ 8ee	f	8r	.	I
+8r	.	8r	.	8r	.	8r	.	.
+==	==	==	==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: Z = caesura
