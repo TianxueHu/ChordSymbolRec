@@ -6,7 +6,7 @@ echo $i
 # beat position
 beat -p $i | extractx -s "1"  > beat_pos
 
-ditto $i > ditto_score
+ditto -s "=" $i > ditto_score
 
 # spine for key
 extractx -s "1" $i> tmp_spine 
