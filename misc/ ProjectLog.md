@@ -1,6 +1,13 @@
 # Project log
+## 10/11
+- Finished vector encoding for FFNN with 21 notes encoding for Haydn and Bach
+ - Using Harmalysis program for chord label translation 
+ - The Harmalysis program doesn’t recognize 9th chord
+ - In the Bach Chorale dataset, the original encoding of diminished 7th chord is not able to identify (e.g. c#:viiD7/VI)
+ - There existing some broken files that caused in the preprocessing step. passed those pieces
+
 ## 10/7
-- [TODO] Process vectors for FFNN
+- Process vectors for FFNN
 - [TODO] Orgranize and process availiable pieces that Craig Sapp in the ABC dataset
 - [TODO] Orgranize and process David Sears's dataset
 
