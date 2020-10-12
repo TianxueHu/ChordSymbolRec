@@ -1,4 +1,4 @@
-for i in *.krn
+for i *.krn
 
 do 
 echo $i
