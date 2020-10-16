@@ -1,0 +1,98 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/3//-1750/7/28/
+!!!OTL@@DE: Liebster Jesu, wir sind hier
+!!!AGN: 4-Part Chorale
+!!!SCT: BH 328
+!!!SCT: BWV 373
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!soprno
+*	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]
+*A-:	*A-:	*A-:	*A-:	*A-:	*A-:
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
+*>A	*>A	*>A	*>A	*>A	*>A
+=1-	=1-	=1-	=1-	=1-	=1-
+I	4GG	4AA-	8A-	4e-	4cc
+.	.	.	8B-	.	.
+I	4GG	[4A-	4c	4e-	8b-
+.	.	.	.	.	8a-
+Vb	4DD	8A-]	4B-	4e-	4b-
+.	.	8G	.	.	.
+V	4DD	8F	4B-	4g	4ee-
+.	.	8E-	.	.	.
+=2	=2	=2	=2	=2	=2
+I	4GG	8A-	8c	4e-	4cc
+.	.	8B-	8d-	.	.
+Ib	4GG	8c	4e-	8e-	4a-
+.	.	8A-	.	8f	.
+V;	2DD;	2E-;	2e-;	2g;	2b-;
+=3	=3	=3	=3	=3	=3
+vi	4EE	8FF	4c	4f	4a-
+.	.	4F	.	.	.
+V7c/IV	4GG	.	4c	4g-	4a-
+.	.	8E-	.	.	.
+IV	4CC	8DD-	4d-	4f	4a-
+.	.	4D-	.	.	.
+Ib	4GG	.	4A-	4e-	4a-
+.	.	8C	.	.	.
+=4	=4	=4	=4	=4	=4
+ii	4AA	4BB-	4d-	8f	4b-
+.	.	.	.	8gy	.
+I	4GG	8AA-	4e-	4a-	4cc
+.	.	8C	.	.	.
+ii7b	4AA	8D-	8f	4a-	2b-
+.	.	8BB-	8d-	.	.
+V	4DD	4E-	8B-	4g	.
+.	.	.	16e-	.	.
+.	.	.	16d-	.	.
+=5	=5	=5	=5	=5	=5
+I;	1GG;	1AA-;	1c;	1e-;	1a-;
+*>B	*>B	*>B	*>B	*>B	*>B
+!!linebreak: 2
+=6:|!	=6:|!	=6:|!	=6:|!	=6:|!	=6:|!
+I	4GG	8AA-	4A-	4c	4e-
+.	.	4A-	.	.	.
+Vb	4DD	.	4B-	4B-	4e-
+.	.	8G	.	.	.
+viiob/V	4CC#	4F	4A-	8c	4f
+.	.	.	.	8d	.
+V	4DD	[4E-	4B-	4e-	4g
+=7	=7	=7	=7	=7	=7
+vi7d	4EE	4E-]	4c	4f	4a-
+Vb/V	4AA	4D	4B-	4f	8b-
+.	.	.	.	.	8a-
+V	4DD	4E-	8B-	4e-	8g
+.	.	.	8A-	.	8f
+V;	4DD;	4E-;	4G;	4B-;	4e-;
+=8	=8	=8	=8	=8	=8
+Ib	4GG	8C	4.A-	8e-	4a-
+.	.	8AA-	.	8c	.
+ii7	8AA	8BB-	.	8d-	4a-
+V7b/IV	8GG	8C	8G-	8e-	.
+IV	4CC	8D-	8F	4f	4a-
+.	.	8E-	8G	.	.
+IV	4CC	8D-	8A-	4f	4a-
+.	.	8C	16B-	.	.
+.	.	.	16c	.	.
+=9	=9	=9	=9	=9	=9
+ii	4AA	4BB-	4d-	8f	4b-
+.	.	.	.	8g	.
+I	4GG	4AA-	4e-	[4a-	4cc
+V	2DD	2E-	4.e-	8a-]	2b-
+.	.	.	.	8f	.
+.	.	.	.	4g	.
+.	.	.	8d-	.	.
+=10	=10	=10	=10	=10	=10
+I;	1GG;	1AA-;	1c;	1e-;	1a-;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx
+!!!YEC: Copyright 1994, David Huron
+!!!YEC: Changes/Additions 2001 by Craig Stuart Sapp
+!!!YEN: United States of America
+!!!SMA: 371 Bach Chorales, edited by Ludwig Erk, C.F. Peters
+!!!PDT: 1850, 1865
+!!!ONB: Harmony and Root analysis done manually

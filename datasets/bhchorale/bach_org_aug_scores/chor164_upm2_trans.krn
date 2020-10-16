@@ -1,0 +1,119 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/3//-1750/7/28/
+!!!OTL@@DE: Herr Gott, dich loben alle wir
+!!!AGN: 4-Part Chorale
+!!!SCT: BH 164
+!!!SCT: BWV 326
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!soprno
+*	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*	*	*clefF4	*clefF4	*clefG2	*clefG2
+*k[]	*k[]	*k[]	*k[]	*k[]	*k[]
+*C:	*C:	*C:	*C:	*C:	*C:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+I	4BB-	8C	4e	4g	4cc
+.	.	8BB	.	.	.
+=1	=1	=1	=1	=1	=1
+vi	2GG	8AA	2e	2a	2cc
+.	.	8BB	.	.	.
+.	.	8C	.	.	.
+.	.	8D	.	.	.
+I7	4BB-	8E	4e	4g	4b
+.	.	8C	.	.	.
+=2	=2	=2	=2	=2	=2
+IV	2EE-	8F	2c	2f	2a
+.	.	8G	.	.	.
+.	.	8A	.	.	.
+.	.	8B	.	.	.
+I	4BB-	8c	4c	4e	4g
+.	.	8B	.	.	.
+=3	=3	=3	=3	=3	=3
+vi	4GG	8A	2c	4e	4cc
+.	.	8G	.	.	.
+V7b/V	4CC	8F	.	4a	2dd
+.	.	8E	.	.	.
+V7d	4FF	8F	4B	4g	.
+.	.	8G	.	.	.
+=4	=4	=4	=4	=4	=4
+I;	2BB-;	2C;	2c;	2g;	2ee;
+V/VI	4DD	4GG#	4B	4b	4ee
+=5	=5	=5	=5	=5	=5
+vi	2.GG	8AA	2c	2a	2ee
+.	.	8E	.	.	.
+.	.	8A	.	.	.
+.	.	8G	.	.	.
+.	.	8F	4c	4a	4ee
+.	.	8E	.	.	.
+=6	=6	=6	=6	=6	=6
+IV7	4EE-	8F	4c	4a	2dd
+.	.	8D	.	.	.
+V	4FF	8G	4B	4g	.
+.	.	8F	.	.	.
+Ib	4BB-	8E	4c	4g	4ee
+.	.	8D	.	.	.
+=7	=7	=7	=7	=7	=7
+V7b	4FF	8C	4d	4g	4ff
+.	.	8BB	.	.	.
+I	2BB-	8C	2c	2g	2ee
+.	.	8D	.	.	.
+.	.	8E	.	.	.
+.	.	8F	.	.	.
+!!linebreak: 2
+=8	=8	=8	=8	=8	=8
+V;	2FF;	2G;	2B;	2g;	2dd;
+vi	4GG	4A	4e	4a	4cc
+=9	=9	=9	=9	=9	=9
+V	2FF	8B	2d	2g	2dd
+.	.	8G	.	.	.
+.	.	8A	.	.	.
+.	.	8B	.	.	.
+vi7	4GG	8c	4c	8g	4ee
+.	.	8A	.	8cc	.
+=10	=10	=10	=10	=10	=10
+ii7	4CC	8F	4c	4a	2dd
+.	.	8E	.	.	.
+V7d	4FF	8F	4B	8g	.
+.	.	8G	.	8f	.
+vi	4GG	8A	4c	4e	4cc
+.	.	8E	.	.	.
+=11	=11	=11	=11	=11	=11
+IV	4EE-	8F	8c	4a	4a
+.	.	8C	8e	.	.
+vii7D	4AA	8D	4f	4a	2b
+.	.	8BB	.	.	.
+V/VI	4DD	8E	4e	4g#	.
+.	.	8EE	.	.	.
+=12	=12	=12	=12	=12	=12
+vi;	2GG;	2AA;	2e;	2a;	2cc;
+Vb	4FF	4B	4d	4g	4gg
+=13	=13	=13	=13	=13	=13
+I	2BB-	8c	2e	2g	2ee
+.	.	8d	.	.	.
+.	.	8c	.	.	.
+.	.	8B	.	.	.
+vi	4GG	8A	4e	4a	4cc
+.	.	8G	.	.	.
+=14	=14	=14	=14	=14	=14
+V7d	2FF	8F	2B	2g	2dd
+.	.	8A	.	.	.
+.	.	8G	.	.	.
+.	.	8F	.	.	.
+iii7	4DD	8E	4B	4g	4ff
+.	.	8D	.	.	.
+=15	=15	=15	=15	=15	=15
+I	4BB-	8C	2c	4g	4ee
+.	.	8E	.	.	.
+ii7b	4CC	8F	.	4a	2dd
+.	.	8D	.	.	.
+V7	4FF	8G	4B	8g	.
+.	.	8GG	.	8f	.
+=16	=16	=16	=16	=16	=16
+I;	2BB-;	2C;	2G;	2e;	2cc;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx
+!!!YEC: Copyright 2003 by Craig Stuart Sapp
+!!!license: GNU General Public License (http://www.gnu.org/copyleft/gpl.html)
+!!!SMA: 371 Bach Chorales, edited by Ludwig Erk, C.F. Peters
+!!!PDT: 1850, 1865

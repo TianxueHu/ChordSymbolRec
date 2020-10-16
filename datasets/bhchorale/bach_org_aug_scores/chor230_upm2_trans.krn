@@ -1,0 +1,108 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/3//-1750/7/28/
+!!!OTL@@DE: Christ, der du bist der helle Tag
+!!!AGN: 4-Part Chorale
+!!!SCT: BH 230
+!!!SCT: BWV 273
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!soprno
+*	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*	*	*clefF4	*clefF4	*clefG2	*clefG2
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+*k[]	*k[]	*k[]	*k[]	*k[]	*k[]
+*a:	*a:	*a:	*a:	*a:	*a:
+i	4GG	4AA	4c	4e	4a
+=1	=1	=1	=1	=1	=1
+i	4GG	4A	4c	8e	4a
+.	.	.	.	8f#	.
+IIIb	8BB-	8E	8e	8g	4cc
+V7b/-VII	8CC	8F#	8d	8a	.
+-VII	8FF	8G	4d	8g	4b
+viio7	8FF#	8G#	.	8f	.
+i	4GG	8A	8c	4e	4a
+.	.	8G	8B	.	.
+=2	=2	=2	=2	=2	=2
+VI	8EE-	8Fy	16A	8a	4cc
+.	.	.	16B	.	.
+III	8BB-	8E	4c	8g	.
+iv7	8CC	8D	.	8f	4dd
+-VII	8FF	8G	8B	8g	.
+III;	4BB-;	4C;	4c;	4g;	4ee;
+III	4BB-	4C	8c	4g	4ee
+.	.	.	8d	.	.
+=3	=3	=3	=3	=3	=3
+IIIb	4BB-	8c	8e	4g	4ee
+.	.	8B	8d	.	.
+i	4GG	4A	4c	4a	8ee
+.	.	.	.	.	8ff
+-VII	4FF	4G	4d	4b	8gg
+.	.	.	.	.	8ff
+i	4GG	8A	8c	[4cc	4ee
+.	.	8G	8e	.	.
+=4	=4	=4	=4	=4	=4
+ivb	4CC	4F	4a	8cc]	4dd
+.	.	.	.	16b	.
+.	.	.	.	16a	.
+V7/III	4FF	4G	8g	4b	4dd
+.	.	.	8f	.	.
+III;	4BB-;	4C;	4e;	4g;	4cc;
+i	4GG	8A	4e	4a	4cc
+.	.	8G	.	.	.
+=5	=5	=5	=5	=5	=5
+VI	4EE-	8F	4f	8a	4cc
+.	.	8E	.	8b	.
+III	4BB-	8D	4g	4cc	4ee
+.	.	8C	.	.	.
+-VII	2FF	4.G	4g	8cc	4dd
+.	.	.	.	16b	.
+.	.	.	.	16a	.
+.	.	.	4d	4g	4b
+.	.	8F	.	.	.
+=6	=6	=6	=6	=6	=6
+III	4BB-	8E	4.c	4g	4cc
+.	.	8C	.	.	.
+-VII	4FF	4G	.	4g	4dd
+.	.	.	8B	.	.
+III;	4BB-;	4C;	4c;	4g;	4ee;
+III	4BB-	4C	4c	4g	4ee
+=7	=7	=7	=7	=7	=7
+III	4BB-	8C	4c	4g	4ee
+.	.	8D	.	.	.
+III	4BB-	8E	[4c	4g	4ee
+.	.	8F	.	.	.
+-VII	4FF	4G	8c]	8.g	4dd
+.	.	.	8B	.	.
+.	.	.	.	16f	.
+V7	4DD	8G#	[4B	[4e	4dd
+.	.	8E	.	.	.
+=8	=8	=8	=8	=8	=8
+i	4GG	4A	8B]	4e]	4.cc
+.	.	.	8A	.	.
+vii7o/V	4CC#	4D#	8A	4f#	.
+.	.	.	16B	.	16b
+.	.	.	16c	.	16a
+v;	4DD;	4E;	4B;	4e;	4g;
+III	4BB-	8C	8c	4e	4g
+.	.	8BB	8d	.	.
+=9	=9	=9	=9	=9	=9
+i	4GG	4AA	8e	8a	8cc
+.	.	.	8d	8b	8dd
+i	4GG	8A	8c	4cc	4ee
+.	.	8G	8B	.	.
+V7b/-VII	4CC	4F#	4A	4cc	4dd
+V	4DD	4G#	4e	4b	4ee
+=10	=10	=10	=10	=10	=10
+i	8GG	8A	8e	8b	4cc
+V7/-VII	8CC	8D	8f	4a	.
+V	4DD	4E	8B	.	4b
+.	.	.	8e	8g#	.
+i;	4GG;	4AA;	4c;	4e;	4a;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx
+!!!YEC: Copyright 2003 by Craig Stuart Sapp
+!!!SMA: 371 Bach Chorales, edited by Ludwig Erk, C.F. Peters
+!!!PDT: 1850, 1865
+!!!ONB: Harmony and Root analysis done manually by Craig Sapp

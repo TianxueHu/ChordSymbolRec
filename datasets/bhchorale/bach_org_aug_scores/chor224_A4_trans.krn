@@ -1,0 +1,101 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTL: 224. Das walt' Gott Vater und Gott Sohn
+!!!ONM: No. 224
+!!!OCL: Erk
+!!!SCA: BWV 290
+!!!YOE: Riemenschneider, Albert
+!!!OPR: 371 Harmonized Chorales and 69 Chorale Melodies with Figured Bass
+!!!OPT: Bach Chorale Harmonizations
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!sprno
+*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]
+*B:	*B:	*B:	*B:	*B:	*B:
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+I	4FF	4B	4d#	4f#	4b
+=1	=1	=1	=1	=1	=1
+I	4FF	4B	4f#	4b	4dd#
+Ib	4FF	8D#	4f#	4b	4ff#
+.	.	8E	.	.	.
+V	4CC	4F#	4c#	4a#	4ff#
+Vb/vi	4AA	4F##	4d#	[4a#	4dd#
+=2	=2	=2	=2	=2	=2
+vi	4DD	4G#	4d#	8a#]	4b
+.	.	.	.	8g#	.
+Vb	4CC	4A#	4c#	4f#	4cc#
+I;	4FF;	4B;	4B;	4f#;	4dd#;
+I	4FF	4B	4d#	4f#	4b
+=3	=3	=3	=3	=3	=3
+I	4FF	4.B	4d#	4b	4ff#
+Vb	4CC	.	4f#	4cc#	4ff#
+.	.	8A#	.	.	.
+vi	4DD	4G#	4b	8dd#	4gg#
+.	.	.	.	8ee#	.
+iii	4AA	8d#	4a#	4ff#	4aa#
+.	.	8c#	.	.	.
+=4	=4	=4	=4	=4	=4
+I	4FF	4B	4dd#	4.ff#	8bb
+.	.	.	.	.	8aa#
+V/V	4GG	4c#	8g#	.	4gg#
+.	.	.	16cc#	8ee#	.
+.	.	.	16b	.	.
+V;	4CC;	4F#;	4a#;	4cc#;	4ff#;
+Vb	4CC	4A#	4f#	[4cc#	4ff#
+=5	=5	=5	=5	=5	=5
+!!linebreak: 2
+I	4FF	4B	4f#	8cc#]	4dd#
+.	.	.	.	16b	.
+.	.	.	.	16a#	.
+Ib	4FF	8D#	[4f#	4b	4ff#
+.	.	8BB	.	.	.
+IV	4BB-	4E	8f#]	4b	4gg#
+.	.	.	[8e	.	.
+I	4FF	[4B	8e]	4b	4ff#
+.	.	.	8d#	.	.
+=6	=6	=6	=6	=6	=6
+V7b	4CC	8B]	4c#	8cc#	4ee
+.	.	8A#	.	8f#	.
+I	4FF	4B	8.d#	8f#	4dd#
+.	.	.	.	[8b	.
+.	.	.	16e	.	.
+V;	4CC;	4F#;	4f#;	8b]	4cc#;
+.	.	.	.	8a#;	.
+Vb	4CC	4A#	4f#	4cc#	4ff#
+=7	=7	=7	=7	=7	=7
+I	4FF	4B	4f#	4b	8dd#
+.	.	.	.	.	8ee
+Ib	4FF	4D#	4f#	4b	4ff#
+IV	4BB-	4E	4g#	4b	4ee
+V7	4CC	4F#	8f#	4a#	8dd#
+.	.	.	8e	.	8cc#
+=8	=8	=8	=8	=8	=8
+vi	4DD	4G#	8d#	16g#	4b
+.	.	.	.	16a#	.
+.	.	.	16c#	4b	.
+.	.	.	16B	.	.
+V	4CC	4F#	8.f#	.	4cc#
+.	.	.	.	8a#	.
+.	.	.	16e	.	.
+I;	4FF;	4B;	4d#;	4f#;	4b;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!CDT: 1685/3//-1750/7/28
+!!!OCY: Deutschland
+!!!AGN: chorale
+!!!AST: Baroque
+!!!AIN: vox
+!!!YOY: 1941
+!!!PPP: New York; London
+!!!PPR: G. Schirmer
+!!!ENC: David Huron
+!!!EED: David Huron
+!!!YEN: United States of America
+!!!YER: 1992
+!!!YEC: Copyright 1992 David Huron
+!!!YEM: Rights to all derivative electronic formats reserved.
+!!!YER: March 20, 1996
+!!!AMT: simple quadruple
+!!!EEV: 1.1
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx

@@ -1,0 +1,102 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTL: 46. Vom Himmel hoch, da komm' ich her
+!!!ONM: No. 46
+!!!OCL: Erk
+!!!SCA: BWV 248.9
+!!!YOE: Riemenschneider, Albert
+!!!OPR: 371 Harmonized Chorales and 69 Chorale Melodies with Figured Bass
+!!!OPT: Bach Chorale Harmonizations
+!!!ONB: From the end of the "Christmas Oratorio"
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!sprno
+*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*k[]	*k[]	*k[]	*k[]	*k[]	*k[]
+*C:	*C:	*C:	*C:	*C:	*C:
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+I	4DD	4C	4e	4g	4cc
+=1	=1	=1	=1	=1	=1
+V	4AA	4.G	4d	8g	4b
+.	.	.	.	8f#	.
+vi7d	4BB	.	4c	4e	4a
+.	.	8F#	.	.	.
+V	4AA	8G	4B	4d	4b
+.	.	8F	.	.	.
+Ib	4DD	4E	8c	8e	4g
+.	.	.	8B	8d	.
+=2	=2	=2	=2	=2	=2
+IV	4GG	8F	8A	4c	4a
+.	.	8E	8G	.	.
+viib	4CC#	4D	4F	4d	4b
+I;	4DD;	4C;	4G;	4e;	4cc;
+I	4DD	8C	4G	8e	4cc
+.	.	8D	.	8f	.
+=3	=3	=3	=3	=3	=3
+Ib	4DD	4E	4c	8g	4cc
+.	.	.	.	8f	.
+Ib	4DD	8E	4c	4e	4g
+.	.	8F	.	.	.
+V	4AA	4G	4B	4d	4g
+V7c/IV	8DD	8G	8B-	4c	8e
+IV	8GG	8F	8A	.	8f
+=4	=4	=4	=4	=4	=4
+Ib	4DD	8E	4G	4c	4g
+.	.	8D	.	.	.
+V7b	4AA	8C	4G	4d	4f
+.	.	8BBy	.	.	.
+I;	4DD;	4C;	4G;	4c;	4e;
+I	4DD	4C	4G	8c	4e
+.	.	.	.	8d	.
+=5	=5	=5	=5	=5	=5
+!!linebreak: 2
+V7b/ii	4BB	4C#	4G	4e	4a
+II	4EE	8D	4F#	4d	4a
+.	.	8C	.	.	.
+Vb	8AA	8BB	8G	8d	8g
+viib/V	8GG#	8AA	8c	8f#	8a
+V	4AA	4GG	8B	4g	4b
+.	.	.	8A	.	.
+=6	=6	=6	=6	=6	=6
+Ib	8DD	8E	8G	4.g	8cc
+Vb	8AA	8D	8B	.	8b
+vii7b	8CC#	8C	8e	.	4a
+V/V	8EE	8D	8d	8f#	.
+V;	4AA;	4GG;	4B;	4d;	4g;
+vi	8BB	8A	8c	8e	4cc
+V7/V	8EE	8D	[8A	8d	.
+=7	=7	=7	=7	=7	=7
+V	8AA	4G	8A]	8d	4b
+iiib	8FF#	.	8G	[8e	.
+vi7b	8BB	8C	8G	8e]	4a
+iib	8EE	[8F	8F	8d	.
+V7d	8AA	8F]	4G	8B	4g
+Ib	8DD	8E	.	8c	.
+IV	8GG	8F	8F	8A	8a
+iii	8FF#	8G	8E	8B	8g
+=8	=8	=8	=8	=8	=8
+IVb	4GG	8A	4C	4.c	8f
+.	.	8F	.	.	8e
+V	8AA	8G	8G	.	4d
+V7	8AA	8GG	8F	8B	.
+I;	4DD;	4C;	4E;	4G;	4c;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!CDT: 1685/3//-1750/7/28
+!!!OCY: Deutschland
+!!!AGN: chorale
+!!!AST: Baroque
+!!!AIN: vox
+!!!YOY: 1941
+!!!PPP: New York; London
+!!!PPR: G. Schirmer
+!!!ENC: David Huron
+!!!EED: David Huron
+!!!YEN: United States of America
+!!!YER: 1992
+!!!YEC: Copyright 1992 David Huron
+!!!YEM: Rights to all derivative electronic formats reserved.
+!!!YER: March 20, 1996
+!!!AMT: simple quadruple
+!!!EEV: 1.1
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx

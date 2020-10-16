@@ -1,0 +1,93 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTL: 217. Ach Gott, wie manches Herzeleid
+!!!ONM: No. 217
+!!!OCL: Erk
+!!!SCA: BWV 153.9
+!!!YOE: Riemenschneider, Albert
+!!!OPR: 371 Harmonized Chorales and 69 Chorale Melodies with Figured Bass
+!!!OPT: Bach Chorale Harmonizations
+!!!ONB: From the end of Cantata 153
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!sprno
+*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]
+*D:	*D:	*D:	*D:	*D:	*D:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+=1-	=1-	=1-	=1-	=1-	=1-
+I	4CC	4D	4A	4f#	4dd
+Ib	4CC	4F#	4d	4a	4dd
+I	4CC	4D	4f#	4a	4dd
+=2	=2	=2	=2	=2	=2
+IV	4FF	2G	4d	4g	4b
+V7d	4GG	.	4e	4a	4cc#
+Ib	4CC	4F#	4f#	4a	4dd
+=3	=3	=3	=3	=3	=3
+Vb/V	2DD	2G#	2e	2b	4ee
+.	.	.	.	.	4dd
+V	4GG	4A	4e	4a	4cc#
+=4	=4	=4	=4	=4	=4
+V/V;	2.DD;	2.E;	2.e;	2.g#;	2.b;
+=5	=5	=5	=5	=5	=5
+V/V	4DD	4E	4e	4g#	4b
+V	4GG	4A	4e	4a	4cc#
+Ib	4CC	4F#	4f#	4a	4dd
+=6	=6	=6	=6	=6	=6
+Vb	2GG	2C#	2e	2a	2ee
+I	4CC	4D	4f#	4a	4dd
+=7	=7	=7	=7	=7	=7
+V	4GG	4A	4e	4a	4cc#
+V/V	2DD	2E	4.e	4a	2b
+.	.	.	.	4g#	.
+.	.	.	8d	.	.
+=8	=8	=8	=8	=8	=8
+V;	2.GG;	2.AA;	2.c#;	2.a;	2.a;
+=9	=9	=9	=9	=9	=9
+!!linebreak: 2
+I	4CC	4d	4d	4a	4ff#
+Vb/vi	4EE	4A#	4c#	4f#	4ff#
+V/vi	4EE	4F#	4f#	4a#	4ff#
+=10	=10	=10	=10	=10	=10
+vi	4AA	2B	4f#	4b	4dd
+vii7d	4BB	.	4g	4cc#	4ee
+V7/ii	4AA	4BB	4a	4dd#	4ff#
+=11	=11	=11	=11	=11	=11
+ii	4DD	4E	4g	4ee	4gg
+Ib	4CC	4F#	4a	2dd	2ff#
+IV7	4FF	4G	4d	.	.
+=12	=12	=12	=12	=12	=12
+V;	2.GG;	2.A;	2.c#;	2.a;	2.ee;
+=13	=13	=13	=13	=13	=13
+Ib	4CC	4F#	4d	4a	4dd
+viib	4BB	4E	4G	4cc#	4ee
+I	4CC	4D	4A	4dd	4ff#
+=14	=14	=14	=14	=14	=14
+ii7b	4DD	4G	4B	4dd	2ee
+V	4GG	4A	4c#	4cc#	.
+vi	4AA	4B	4d	4f#	4dd
+=15	=15	=15	=15	=15	=15
+V7b/V	4DD	4G#	4e	4b	4dd
+V	2GG	4A	2e	2a	2cc#
+.	.	4AA	.	.	.
+=16	=16	=16	=16	=16	=16
+I;	2.CC;	2.D;	2.f#;	2.a;	2.dd;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!CDT: 1685/3//-1750/7/28
+!!!OCY: Deutschland
+!!!AGN: chorale
+!!!AST: Baroque
+!!!AIN: vox
+!!!YOY: 1941
+!!!PPP: New York; London
+!!!PPR: G. Schirmer
+!!!ENC: David Huron
+!!!EED: David Huron
+!!!YEN: United States of America
+!!!YER: 1992
+!!!YEC: Copyright 1992 David Huron
+!!!YEM: Rights to all derivative electronic formats reserved.
+!!!YER: March 20, 1996
+!!!AMT: simple quadruple
+!!!EEV: 1.1
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx

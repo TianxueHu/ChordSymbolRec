@@ -1,0 +1,93 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTL: 217. Ach Gott, wie manches Herzeleid
+!!!ONM: No. 217
+!!!OCL: Erk
+!!!SCA: BWV 153.9
+!!!YOE: Riemenschneider, Albert
+!!!OPR: 371 Harmonized Chorales and 69 Chorale Melodies with Figured Bass
+!!!OPT: Bach Chorale Harmonizations
+!!!ONB: From the end of Cantata 153
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!sprno
+*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*k[f#c#g#d#]	*k[f#c#g#d#]	*k[f#c#g#d#]	*k[f#c#g#d#]	*k[f#c#g#d#]	*k[f#c#g#d#]
+*E:	*E:	*E:	*E:	*E:	*E:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+=1-	=1-	=1-	=1-	=1-	=1-
+I	4CC	4E	4B	4g#	4ee
+Ib	4CC	4G#	4e	4b	4ee
+I	4CC	4E	4g#	4b	4ee
+=2	=2	=2	=2	=2	=2
+IV	4FF	2A	4e	4a	4cc#
+V7d	4GG	.	4f#	4b	4dd#
+Ib	4CC	4G#	4g#	4b	4ee
+=3	=3	=3	=3	=3	=3
+Vb/V	2DD	2A#	2f#	2cc#	4ff#
+.	.	.	.	.	4ee
+V	4GG	4B	4f#	4b	4dd#
+=4	=4	=4	=4	=4	=4
+V/V;	2.DD;	2.F#;	2.f#;	2.a#;	2.cc#;
+=5	=5	=5	=5	=5	=5
+V/V	4DD	4F#	4f#	4a#	4cc#
+V	4GG	4B	4f#	4b	4dd#
+Ib	4CC	4G#	4g#	4b	4ee
+=6	=6	=6	=6	=6	=6
+Vb	2GG	2D#	2f#	2b	2ff#
+I	4CC	4E	4g#	4b	4ee
+=7	=7	=7	=7	=7	=7
+V	4GG	4B	4f#	4b	4dd#
+V/V	2DD	2F#	4.f#	4b	2cc#
+.	.	.	.	4a#	.
+.	.	.	8e	.	.
+=8	=8	=8	=8	=8	=8
+V;	2.GG;	2.BB;	2.d#;	2.b;	2.b;
+=9	=9	=9	=9	=9	=9
+!!linebreak: 2
+I	4CC	4e	4e	4b	4gg#
+Vb/vi	4EE	4B#	4d#	4g#	4gg#
+V/vi	4EE	4G#	4g#	4b#	4gg#
+=10	=10	=10	=10	=10	=10
+vi	4AA	2c#	4g#	4cc#	4ee
+vii7d	4BB	.	4a	4dd#	4ff#
+V7/ii	4AA	4C#	4b	4ee#	4gg#
+=11	=11	=11	=11	=11	=11
+ii	4DD	4F#	4a	4ff#	4aa
+Ib	4CC	4G#	4b	2ee	2gg#
+IV7	4FF	4A	4e	.	.
+=12	=12	=12	=12	=12	=12
+V;	2.GG;	2.B;	2.d#;	2.b;	2.ff#;
+=13	=13	=13	=13	=13	=13
+Ib	4CC	4G#	4e	4b	4ee
+viib	4BB	4F#	4A	4dd#	4ff#
+I	4CC	4E	4B	4ee	4gg#
+=14	=14	=14	=14	=14	=14
+ii7b	4DD	4A	4c#	4ee	2ff#
+V	4GG	4B	4d#	4dd#	.
+vi	4AA	4c#	4e	4g#	4ee
+=15	=15	=15	=15	=15	=15
+V7b/V	4DD	4A#	4f#	4cc#	4ee
+V	2GG	4B	2f#	2b	2dd#
+.	.	4BB	.	.	.
+=16	=16	=16	=16	=16	=16
+I;	2.CC;	2.E;	2.g#;	2.b;	2.ee;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!CDT: 1685/3//-1750/7/28
+!!!OCY: Deutschland
+!!!AGN: chorale
+!!!AST: Baroque
+!!!AIN: vox
+!!!YOY: 1941
+!!!PPP: New York; London
+!!!PPR: G. Schirmer
+!!!ENC: David Huron
+!!!EED: David Huron
+!!!YEN: United States of America
+!!!YER: 1992
+!!!YEC: Copyright 1992 David Huron
+!!!YEM: Rights to all derivative electronic formats reserved.
+!!!YER: March 20, 1996
+!!!AMT: simple quadruple
+!!!EEV: 1.1
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx

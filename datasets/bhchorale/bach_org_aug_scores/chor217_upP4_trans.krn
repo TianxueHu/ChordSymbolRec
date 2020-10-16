@@ -1,0 +1,93 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTL: 217. Ach Gott, wie manches Herzeleid
+!!!ONM: No. 217
+!!!OCL: Erk
+!!!SCA: BWV 153.9
+!!!YOE: Riemenschneider, Albert
+!!!OPR: 371 Harmonized Chorales and 69 Chorale Melodies with Figured Bass
+!!!OPT: Bach Chorale Harmonizations
+!!!ONB: From the end of Cantata 153
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!sprno
+*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]
+*F:	*F:	*F:	*F:	*F:	*F:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+=1-	=1-	=1-	=1-	=1-	=1-
+I	4CC	4F	4c	4a	4ff
+Ib	4CC	4A	4f	4cc	4ff
+I	4CC	4F	4a	4cc	4ff
+=2	=2	=2	=2	=2	=2
+IV	4FF	2B-	4f	4b-	4dd
+V7d	4GG	.	4g	4cc	4ee
+Ib	4CC	4A	4a	4cc	4ff
+=3	=3	=3	=3	=3	=3
+Vb/V	2DD	2B	2g	2dd	4gg
+.	.	.	.	.	4ff
+V	4GG	4c	4g	4cc	4ee
+=4	=4	=4	=4	=4	=4
+V/V;	2.DD;	2.G;	2.g;	2.b;	2.dd;
+=5	=5	=5	=5	=5	=5
+V/V	4DD	4G	4g	4b	4dd
+V	4GG	4c	4g	4cc	4ee
+Ib	4CC	4A	4a	4cc	4ff
+=6	=6	=6	=6	=6	=6
+Vb	2GG	2E	2g	2cc	2gg
+I	4CC	4F	4a	4cc	4ff
+=7	=7	=7	=7	=7	=7
+V	4GG	4c	4g	4cc	4ee
+V/V	2DD	2G	4.g	4cc	2dd
+.	.	.	.	4b	.
+.	.	.	8f	.	.
+=8	=8	=8	=8	=8	=8
+V;	2.GG;	2.C;	2.e;	2.cc;	2.cc;
+=9	=9	=9	=9	=9	=9
+!!linebreak: 2
+I	4CC	4f	4f	4cc	4aa
+Vb/vi	4EE	4c#	4e	4a	4aa
+V/vi	4EE	4A	4a	4cc#	4aa
+=10	=10	=10	=10	=10	=10
+vi	4AA	2d	4a	4dd	4ff
+vii7d	4BB	.	4b-	4ee	4gg
+V7/ii	4AA	4D	4cc	4ff#	4aa
+=11	=11	=11	=11	=11	=11
+ii	4DD	4G	4b-	4gg	4bb-
+Ib	4CC	4A	4cc	2ff	2aa
+IV7	4FF	4B-	4f	.	.
+=12	=12	=12	=12	=12	=12
+V;	2.GG;	2.c;	2.e;	2.cc;	2.gg;
+=13	=13	=13	=13	=13	=13
+Ib	4CC	4A	4f	4cc	4ff
+viib	4BB	4G	4B-	4ee	4gg
+I	4CC	4F	4c	4ff	4aa
+=14	=14	=14	=14	=14	=14
+ii7b	4DD	4B-	4d	4ff	2gg
+V	4GG	4c	4e	4ee	.
+vi	4AA	4d	4f	4a	4ff
+=15	=15	=15	=15	=15	=15
+V7b/V	4DD	4B	4g	4dd	4ff
+V	2GG	4c	2g	2cc	2ee
+.	.	4C	.	.	.
+=16	=16	=16	=16	=16	=16
+I;	2.CC;	2.F;	2.a;	2.cc;	2.ff;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!CDT: 1685/3//-1750/7/28
+!!!OCY: Deutschland
+!!!AGN: chorale
+!!!AST: Baroque
+!!!AIN: vox
+!!!YOY: 1941
+!!!PPP: New York; London
+!!!PPR: G. Schirmer
+!!!ENC: David Huron
+!!!EED: David Huron
+!!!YEN: United States of America
+!!!YER: 1992
+!!!YEC: Copyright 1992 David Huron
+!!!YEM: Rights to all derivative electronic formats reserved.
+!!!YER: March 20, 1996
+!!!AMT: simple quadruple
+!!!EEV: 1.1
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx

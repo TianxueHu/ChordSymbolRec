@@ -18,11 +18,17 @@ class KRN2VEC(object):
     
     
     def add_header(self, collection):
-        if collection == "Haydn":
+        if collection == "Haydn_REDUCE":
             self.df.columns = ["harm", "voice4", "voice3", "voice2", "voice1", "index", "beat", "measure", "key", "meter" ]
                 
-        elif collection == "Bach":
+        elif collection == "Bach_REDUCE":
             self.df.columns = ["harm", "root", "voice4", "voice3", "voice2", "voice1", "index", "beat", "measure", "key", "meter" ]
+
+        elif collection == "Haydn_ORG":
+            self.df.columns = ["harm", "voice4", "voice3", "voice2", "voice1", "beat", "measure", "key", "meter" ]
+        
+        elif collection == "Bach_ORG":
+            self.df.columns = ["harm", "root", "voice4", "voice3", "voice2", "voice1", "beat", "measure", "key", "meter" ]
 
         # process dataframe
         self.df = self.df[~self.df['beat'].astype(str).str.startswith(('=','.','*'))]
@@ -84,11 +90,12 @@ class KRN2VEC(object):
 
 if __name__ == "__main__":
     script_dir = os.getcwd()
-    SCORE_COLLECTION_REL_PATH = "datasets/haydn_op20_harm/haydn_score_for_vec/"
-    COLLECTION = "Haydn"
+    SCORE_COLLECTION_REL_PATH = "datasets/haydn_op20_harm/haydn_org_score_for_vec/"
+    COLLECTION = "Haydn_ORG"
     collection_path = os.path.join(script_dir, SCORE_COLLECTION_REL_PATH)
 
     collection_list = []
+    bad_files = []
     for subdir, dirs, files in os.walk(collection_path):
         num_files = len(files)
         for idx, file in enumerate(files):
@@ -102,9 +109,12 @@ if __name__ == "__main__":
                     vec.krn2vec_ffnn_21(COLLECTION)
                     collection_list.append(vec.piece_output)
                 except:
+                    bad_files.append(file)
                     pass
     
-    print(np.array(collection_list).shape)
+    #print(np.array(collection_list).shape)
+    print("Bad files:", bad_files)
 
-    with open('Haydn_vectors_ffnn_21enc.pkl', 'wb') as f:
+    with open('Haydn_org_vectors_ffnn_21enc.pkl', 'wb') as f:
         pickle.dump(collection_list, f)
+    print("Pickle vector list saved!")

@@ -1,0 +1,88 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTL@@DE: 90. Hast du denn, Liebster, dein Angesicht
+!!!OTL@EN: Hast Thou then, Jesus, hidden Thy countenance
+!!!SCA: BWV 57.8
+**harm	**root	**kern	**kern	**kern	**kern
+*staff2	*	*staff2	*staff2	*staff1	*staff1
+*Iorgan	*Ipiano	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
+*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]
+*>A	*>A	*>A	*>A	*>A	*>A
+!	!	!bass	!tenor	!alto	!sprno
+*	*	*clefF4	*clefF4	*clefG2	*clefG2
+*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]
+*F:	*F:	*F:	*F:	*F:	*F:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM80	*MM80	*MM80	*MM80	*MM80	*MM80
+=1-	=1-	=1-	=1-	=1-	=1-
+I	4BB-	4F	4A	4c	4f
+I	4BB-	4F	4A	4c	4f
+Vb	4FF	4E	4G	4c	4cc
+=2	=2	=2	=2	=2	=2
+I	4.BB-	4.F	4.F	4.c	4.a
+Vb	8FF	8E	8G	8c	8g
+vi	4GG	4D	8AL	4d	4f
+.	.	.	8BJ	.	.
+=3	=3	=3	=3	=3	=3
+V	4FF	4C	4c	4G	4e
+Vc	4FF	4GG	4c	4G	8fL
+.	.	.	.	.	8e
+V7d	4FF	4BB-	4E	4G	8d
+.	.	.	.	.	8cJ
+=4	=4	=4	=4	=4	=4
+Ib	4BB-	4AA	4F	4c	4f
+viiob	4AA	4GG	4BB-	8dL	4g
+.	.	.	.	8e	.
+I	4BB-	4FF	4C	8f	8aL
+.	.	.	.	8gJ	8b-J
+=5	=5	=5	=5	=5	=5
+V7	2FF	2C	4c	2e	2g
+.	.	.	4B-	.	.
+I;	4BB-;	4FF;	4A;	4c;	4f;
+=6:|!	=6:|!	=6:|!	=6:|!	=6:|!	=6:|!
+*>B	*>B	*>B	*>B	*>B	*>B
+I	4BB-	4FF	4A	4f	4cc
+viiob	4AA	4GG	4B-	4e	8b-L
+.	.	.	.	.	8a
+Ib	4BB-	4AA	4c	4c	8g
+.	.	.	.	.	8fJ
+=7	=7	=7	=7	=7	=7
+!!linebreak: 2
+IV;	2EE-;	2BB-;	2B-;	2f;	2dd;
+r	4r	4r	4r	4r	4r
+=8	=8	=8	=8	=8	=8
+I	4BB-	4F	4c	4f	4a
+IVb	4EE-	8EL	4d	4f	4b-
+.	.	8D	.	.	.
+V	4FF	8C	4G	8eL	4cc
+.	.	8BB-J	.	8dJ	.
+=9	=9	=9	=9	=9	=9
+iii7	4DD	4AA	4G	4c	4cc
+Ib	4BB-	4AA	4F	4f	8ddL
+.	.	.	.	.	8cc
+IV	4EE-	4BB-	4F	4d	8b-
+.	.	.	.	.	8aJ
+=10	=10	=10	=10	=10	=10
+V;	2FF;	2C;	2c;	2e;	2g;
+r	4r	4r	4r	4r	4r
+=11	=11	=11	=11	=11	=11
+Ib	4BB-	4AA	4F	4c	4c
+Vb/V	4CC	4BB	8EL	4G	4d
+.	.	.	8DJ	.	.
+viioD7/VI	4FF#	4C#	4B-y	4G	4e
+=12	=12	=12	=12	=12	=12
+vi	4GG	4D	4A	4F	4f
+Vb	4FF	4E	4G	4c	4g
+I	4BB-	4F	4F	4c	8aL
+.	.	.	.	.	8b-J
+=13	=13	=13	=13	=13	=13
+Ic	4BB-	2C	4F	4.c	2g
+V7	4FF	.	4E	.	.
+.	.	.	.	8B-	.
+I;	4BB-;	4FF;	4C;	4A;	4f;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!ENC: Craig Stuart Sapp
+!!!END: 2004/12/06/
+!!!ONB: Harmony and Root analysis done manually by Craig Sapp
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx

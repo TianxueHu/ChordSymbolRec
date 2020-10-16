@@ -1,4 +1,5 @@
 from fractions import Fraction
+import re
 
 def define_beat_from_meter(meter):
         '''
@@ -82,6 +83,44 @@ def to_12d_vec(note_list):
             output_vec[n] = 1
     return output_vec
 
+def process_note(note):
+    '''
+    Process note name
+
+    Input: 
+        note - string
+    Output:
+        out_note - string
+    '''
+    d = {'C--':'B-', 'C##': 'D#', 'D--':'C', 'D##':'E', 'E--':'D', 'E##':'F#', 'F--':'E-', 'F##':'G', 
+    'G--':'F', 'G##':'A', 'A--':'G', 'A##':'B', 'B--':'A', 'B##':'C#'}
+    if '-' in note:
+        cnt = len(re.findall("-", note))
+        if cnt == 1:
+            out_note = "".join(dict.fromkeys(note))
+        else:
+            l = re.sub('[^a-gA-G]+', '', note)
+            letter = "".join(dict.fromkeys(l))
+            tmp_note = letter + cnt * '-'
+            tmp_note = tmp_note.upper()
+            out_note = d[tmp_note]
+
+    elif '#' in note:
+        cnt = len(re.findall("#", note))
+        if cnt == 1:  
+            out_note = "".join(dict.fromkeys(note))
+        else:
+            l = re.sub('[^a-gA-G]+', '', note)
+            letter = "".join(dict.fromkeys(l))
+            tmp_note = letter + cnt * '#'
+            tmp_note = tmp_note.upper()
+            out_note = d[tmp_note]
+    else:
+        out_note = "".join(dict.fromkeys(note))
+    out_note = out_note.upper()
+    return out_note
+
+
 def to_21d_vec(note_list):
     '''
     one-hot encoding on 21 dimension with input of a list in note name
@@ -97,8 +136,7 @@ def to_21d_vec(note_list):
     out_vec = [0]*21
 
     for note in note_list:
-        note_name = "".join(dict.fromkeys(note)) #remove duplicates to get note name
-        note_name = note_name.upper()
+        note_name = process_note(note)
         idx = dic[note_name]
         if out_vec[idx] == 0:
             out_vec[idx] = 1
