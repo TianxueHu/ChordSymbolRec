@@ -1,4 +1,7 @@
 # Project log
+## 10/15
+- Finished baseline FFNN model on Haydn and Bach datasets
+
 ## 10/11
 - Finished vector encoding for FFNN with 21 notes encoding for Haydn and Bach
  - Using Harmalysis program for chord label translation 
