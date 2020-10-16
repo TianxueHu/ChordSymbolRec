@@ -1,6 +1,7 @@
 # Project log
 ## 10/15
 - Finished baseline FFNN model on Haydn and Bach datasets
+- Manually modified separate spines to single splines in the ABC dataset (for easier processing)
 
 ## 10/11
 - Finished vector encoding for FFNN with 21 notes encoding for Haydn and Bach
