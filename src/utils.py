@@ -145,7 +145,7 @@ def to_21d_vec(note_list):
 def specialChords(chord):
     output = chord
     if chord == "C64" or 'C':
-        output = 'I'
+        output = 'Cad'
     elif chord == "Gr":
         output = "Gn"
     
