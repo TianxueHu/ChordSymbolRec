@@ -1,6 +1,6 @@
 import pickle
 objects = []
-with (open("src/pickle_vector_lists/bach_vectors_ffnn_21enc.pkl", "rb")) as openfile:
+with (open("src/pickle_vector_lists/Sears_reduce_vectors_ffnn_21enc.pkl", "rb")) as openfile:
     while True:
         try:
             objects.append(pickle.load(openfile))
