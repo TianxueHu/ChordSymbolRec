@@ -1,0 +1,88 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/3//-1750/7/28/
+!!!OTL@@DE: Komm, Gott Schoepfer, heiliger Geist
+!!!AGN: 4-Part Chorale
+!!!SCT: BH 187
+!!!SCT: BWV 370
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!soprno
+*	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]
+*C:	*C:	*C:	*C:	*C:	*C:
+I	4GG	4c	4e	8g	4cc
+.	.	.	.	8a	.
+=1	=1	=1	=1	=1	=1
+-VII	4FF	4B-	4f	[4b-	4dd
+IV	4CC	4F	4f	8b-]	4cc
+.	.	.	.	[8a	.
+v	4DD	4G	4d	8a]	4b-
+.	.	.	.	16g	.
+.	.	.	.	16f	.
+vi	4EE	4A	8c	8e	4cc
+.	.	.	16f	[8a	.
+.	.	.	16e	.	.
+=2	=2	=2	=2	=2	=2
+ii	8AA	4D	8f	8a]	4ff
+-VIIb	8FF	.	8b-	8f	.
+I	4GG	4C	4e	8cc	4gg
+.	.	.	.	8b-	.
+IV;	4CC;	4F;	4c;	4a;	4ff;
+-VII	4FF	4B-	4d	8f	4ff
+.	.	.	.	8g	.
+=3	=3	=3	=3	=3	=3
+vi	4EE	4A	8e	4a	4cc
+.	.	.	8f	.	.
+iiiob	4BB	4G	4g	4b-	4ee
+IV	4CC	4.F	4a	4cc	4ff
+I	4GG	.	[4g	4cc	4gg
+.	.	8E	.	.	.
+=4	=4	=4	=4	=4	=4
+IV	4CC	4F	8g]	[4cc	4aa
+.	.	.	16f	.	.
+.	.	.	16e	.	.
+IV	8CC	4FF	8f	8cc]	4aa
+vii7c	8FF#	.	8d	8b	.
+I;	4GG;	4C;	4e;	4cc;	4gg;
+I	4GG	4c	4e	4cc	4gg
+!!linebreak: 2
+=5	=5	=5	=5	=5	=5
+IV	4CC	4F	8f	4cc	8aa
+.	.	.	8e	.	8gg
+IVb	4CC	4A	4f	[4cc	4ff
+-VII	4FF	4B-	4f	8cc]	4dd
+.	.	.	.	[8b-	.
+IV	4CC	4f	4f	8b-]	4cc
+.	.	.	.	8a	.
+=6	=6	=6	=6	=6	=6
+I	4GG	8c	4g	4cc	4ee
+.	.	8B-	.	.	.
+vii/v	4CC#	4A	4a	4cc	4ff#
+v;	4DD;	4G;	4b-;	4dd;	4gg;
+vi	4EE	4A	4e	4a	4cc
+=7	=7	=7	=7	=7	=7
+ii	4AA	8D	4d	8a	4ff
+.	.	8E	.	8g	.
+iib	4AA	4F	4d	[4a	4dd
+v	8DD	4G	8d	8a]	4b-
+-IIIb	8BB-	.	8e-	16g	.
+.	.	.	.	16a	.
+-VIIb	4FF	4D	4f	[4b-	4dd
+=8	=8	=8	=8	=8	=8
+I7b	4GG	4E	[4g	4b-]	2cc
+IV	4CC	4F	8g]	4a	.
+.	.	.	[8f	.	.
+I;	4GG;	4C;	8f]	4g;	4cc;
+.	.	.	8e;	.	.
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx
+!!!YEC: Copyright 1994, David Huron
+!!!YEC: Changes/Additions 2001 by Craig Stuart Sapp
+!!!YEN: United States of America
+!!!SMA: 371 Bach Chorales, edited by Ludwig Erk, C.F. Peters
+!!!PDT: 1850, 1865
+!!!ONB: Harmony and Root analysis done manually
+!!!ONB: Actual key is G Mixolydian 

@@ -1,0 +1,21 @@
+for i in *.krn
+do
+echo $i
+
+#data augmentation by transpose to other 12 keys
+transpose -q -t +m2 $i > $(basename $i .krn)_upmm2_trans.krn
+transpose -q -t +M2 $i > $(basename $i .krn)_upm2_trans.krn
+transpose -q -t +m3 $i > $(basename $i .krn)_upmm3_trans.krn
+transpose -q -t +M3 $i > $(basename $i .krn)_upm3_trans.krn
+transpose -q -t +P4 $i > $(basename $i .krn)_upP4_trans.krn
+
+transpose -q -t -m2 $i > $(basename $i .krn)_downmm2_trans.krn
+transpose -q -t -M2 $i > $(basename $i .krn)_downm2_trans.krn
+transpose -q -t -m3 $i > $(basename $i .krn)_downmm3_trans.krn
+transpose -q -t -M3 $i > $(basename $i .krn)_downm3_trans.krn
+transpose -q -t -P4 $i > $(basename $i .krn)_downP4_trans.krn
+
+transpose -q -t A4 $i  > $(basename $i .krn)_A4_trans.krn
+
+
+done

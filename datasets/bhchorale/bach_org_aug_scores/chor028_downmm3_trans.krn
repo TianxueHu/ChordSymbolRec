@@ -1,0 +1,100 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTL: 28. Nun komm, der Heiden Heiland
+!!!ONM: No. 28
+!!!OCL: Erk
+!!!SCA: BWV 36.8
+!!!YOE: Riemenschneider, Albert
+!!!OPR: 371 Harmonized Chorales and 69 Chorale Melodies with Figured Bass
+!!!OPT: Bach Chorale Harmonizations
+!!!ONB: From the end of Canata No. 36
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!sprno
+*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]
+*g#:	*g#:	*g#:	*g#:	*g#:	*g#:
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+=1-	=1-	=1-	=1-	=1-	=1-
+i	4BB	8G#	4B	4d#	4g#
+.	.	8F#	.	.	.
+ivb	4EE	4E	8A#	4c#	4g#
+.	.	.	8G#	.	.
+v	4FF#	8D#	4A#	4d#	4f#
+.	.	8C#	.	.	.
+ib	8BB	8BB	4G#	8d#	4b
+vib	8GG	8GG#	.	16e	.
+.	.	.	.	16f#	.
+=2	=2	=2	=2	=2	=2
+iv	8EE	8C#	4.G#	8e	8a#
+ib	8BB	8BB	.	8d#	8g#
+-VIIc	8AA	8C#	.	4c#	4a#
+V7	8FF#	8D#	8F##	.	.
+i;	2BB;	2GG#;	2D#;	2B;	2g#;
+=3	=3	=3	=3	=3	=3
+i	4BB	4GG#	8B	4d#	8g#
+.	.	.	8A#	.	8a#
+i	4BB	4G#	4G#	8d#	4b
+.	.	.	.	8e#	.
+-VII	4AA	8F#	4A#	4f#	4cc#
+.	.	8E	.	.	.
+ic	4BB	4D#	4B	8f#	4b
+.	.	.	.	8g#	.
+=4	=4	=4	=4	=4	=4
+iio	4CC#	4C#	4E	4a#	4cc#
+V/VI	4DD	4BB	8F#	8b	4dd#
+.	.	.	16G#	8d#	.
+.	.	.	16A	.	.
+VI;	2GG;	2E;	2G#;	2e;	2b;
+!!linebreak: 2
+=5	=5	=5	=5	=5	=5
+Vb/VI	4DD	8D#	4F#	4f#	4b
+.	.	8C#	.	.	.
+Vb/III	4AA	8BB	4c#	4f#	4cc#
+.	.	8AA#	.	.	.
+III	8DD	4BB	8B	8f#	8dd#
+viio	8AA#	.	8A#	8f##	8cc#
+VI	4GG	8E	4G#	4g#	4b
+.	.	8D#	.	.	.
+=6	=6	=6	=6	=6	=6
+iiob	4CC#	4C#	4e	8a#	8cc#
+.	.	.	.	8g#	8b
+V	4FF#	4D#	8A#	4f##	4a#
+.	.	.	8d#	.	.
+i;	2BB;	2GG#;	2B;	2d#;	2g#;
+=7	=7	=7	=7	=7	=7
+i	4BB	8G#	4B	4d#	4g#
+.	.	8F#	.	.	.
+viib/V	4EE#	4E#	8A#	4c##	4g#
+.	.	.	8G#	.	.
+v	4FF#	8D#	4A#	8d#	4f#
+.	.	8C#	.	8e#	.
+IIIb	4DD	8D#	4d#	8f#	4b
+.	.	8E#y	.	8g#	.
+=8	=8	=8	=8	=8	=8
+V7b	8FF#	8F##	8c#	8d#	8a#
+i	8BB	8G#	8B	[8g#	8g#
+V	4FF#	4D#	16A#	8g#]	4a#
+.	.	.	16B	.	.
+.	.	.	8c#	8f##	.
+I;	2BB;	2GG#;	2B#;	2d#;	2g#;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!CDT: 1685/3//-1750/7/28
+!!!OCY: Deutschland
+!!!AGN: chorale
+!!!AST: Baroque
+!!!AIN: vox
+!!!YOY: 1941
+!!!PPP: New York; London
+!!!PPR: G. Schirmer
+!!!ENC: David Huron
+!!!EED: David Huron
+!!!YEN: United States of America
+!!!YER: 1992
+!!!YEC: Copyright 1992 David Huron
+!!!YEM: Rights to all derivative electronic formats reserved.
+!!!YER: March 20, 1996
+!!!AMT: simple quadruple
+!!!EEV: 1.1
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx

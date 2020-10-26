@@ -1,0 +1,99 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/3//-1750/7/28/
+!!!OTL@@DE: O wie selig seid ihr doch, ihr Frommen
+!!!AGN: 4-Part Chorale
+!!!SCT: BH 213
+!!!SCT: BWV 405
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!soprno
+*	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*	*	*clefF4	*clefF4	*clefG2	*clefG2
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+*k[f#]	*k[f#]	*k[f#]	*k[f#]	*k[f#]	*k[f#]
+*e:	*e:	*e:	*e:	*e:	*e:
+=1-	=1-	=1-	=1-	=1-	=1-
+i	4DD	4E	4e	4g	4b
+ivb	4GG	8D	4e	4a	4ee
+.	.	8C	.	.	.
+v7	4AA	4BB	4f#	4a	4dd
+i	4DD	4E	4e	[4g	8cc
+.	.	.	.	.	8b
+=2	=2	=2	=2	=2	=2
+iv7	8GG	4AA	8e	8g]	4cc
+iiob	8EE	.	8c	8f#	.
+IIIb	4FF	8BB	4d	[4g	4b
+.	.	8C	.	.	.
+-VII	4CC	4D	4d	8g]	4a
+.	.	.	.	8f#	.
+III	4FF	4G	4d	4g	8b
+.	.	.	.	.	8cc
+=3	=3	=3	=3	=3	=3
+V7b/-VII	4GG	4C	8e	4g	2a
+.	.	.	8c	.	.
+-VII	4CC	4D	8A	4f#	.
+.	.	.	8d	.	.
+III;	2FF;	2GG;	2B;	2d;	2g;
+=4	=4	=4	=4	=4	=4
+III	4FF	4G	8d	4g	8b
+.	.	.	8e	.	8cc
+-VII	4CC	8F#	8f#	8a	4dd
+.	.	8G#	8e	8b	.
+IV	4GG	8A	4e	4a	4.cc#
+.	.	8G	.	.	.
+viiob	4CC#	4F#	4f#	4a	.
+.	.	.	.	.	8dd#
+=5	=5	=5	=5	=5	=5
+Ib	8DD	8G#	8e	8b	4ee
+viio/V	8GG#	8A#	8c#	8cc#	.
+v	4AA	4B	4f#	4b	8dd
+.	.	.	.	.	8ee
+vb	4AA	4D	4f#	4b	4ff#
+i	4DD	4E	4g	4b	8ee
+.	.	.	.	.	8dd
+!!linebreak: 2
+=6	=6	=6	=6	=6	=6
+V7/V	2EE	4F#	8c#	4b	2cc#
+.	.	.	4f#	.	.
+.	.	4FF#	.	4a#	.
+.	.	.	8e	.	.
+V;	2AA;	2BB;	2d#;	2f#;	2b;
+=7	=7	=7	=7	=7	=7
+r	4r	4r	4r	4r	4r
+V	4AA	4BB	4F#	4d#	4b
+IVb	4GG	4C#	4E	4e	4a
+Vb	4AA	4D#	4B	4f#	4f#
+=8	=8	=8	=8	=8	=8
+i	2DD	4E	2B	4f#	2g
+.	.	4EE	.	4e	.
+V;	2AA;	2BB;	2B;	2d#;	2f#;
+=9	=9	=9	=9	=9	=9
+ib	4DD	4G	4B	4e	4e
+Vb	4AA	4D#	4B	4B	4f#
+i	4DD	4E	8B	4e	4g
+.	.	.	8c	.	.
+-VIIb	4CC	4F#	8B	4d	4a
+.	.	.	8A	.	.
+=10	=10	=10	=10	=10	=10
+III	4FF	4G	8G	4d	4b
+.	.	.	8B	.	.
+viiob/-VII	4BB	8F#	8A	4g	4cc#
+.	.	8E	8G	.	.
+viiob	4CC#	4F#	4A	4f#	4dd#
+ib	4DD	8G	8B	8e	4ee
+.	.	8A	8c	8f#	.
+=11	=11	=11	=11	=11	=11
+ic	4DD	4B	4B	8g	4ee
+.	.	.	.	16f#	.
+.	.	.	.	16e	.
+V	4AA	4BB	4B	4f#	4dd#
+I;	2DD;	2E;	2B;	2g#;	2ee;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx
+!!!YEC: Copyright 2003 by Craig Stuart Sapp
+!!!license: GNU General Public License (http://www.gnu.org/copyleft/gpl.html)
+!!!SMA: 371 Bach Chorales, edited by Ludwig Erk, C.F. Peters
+!!!PDT: 1850, 1865
+!!!ONB: Harmony and Root analysis done manually by Craig Sapp

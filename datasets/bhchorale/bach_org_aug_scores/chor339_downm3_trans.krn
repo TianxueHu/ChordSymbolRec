@@ -1,0 +1,104 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/3//-1750/7/28/
+!!!OTL@@DE: Wer nur den lieben Gott laesst walten
+!!!SCT: BH 339
+!!!SCT: BWV 179
+!!!AGN: 4-Part Chorale
+**harm	**root	**kern	**kern	**kern	**kern
+*	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+!	!	!bass	!tenor	!alto	!soprno
+*	*	*clefF4	*clefF4	*clefG2	*clefG2
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]
+*f:	*f:	*f:	*f:	*f:	*f:
+*>A	*>A	*>A	*>A	*>A	*>A
+i	4AA	8F	4A-	4c	4c
+.	.	8E-	.	.	.
+=1	=1	=1	=1	=1	=1
+VI	4FF	4D-	8A-	16c	4f
+.	.	.	.	16B-	.
+.	.	.	16G	4d-	.
+.	.	.	16F	.	.
+V	4EE	4C	8E	.	4g
+.	.	.	8c	16c	.
+.	.	.	.	16B-	.
+I	4AA	4FF	4c	8A-	4a-
+.	.	.	.	4f	.
+V/V	4BB	4GG	4B	.	4g
+.	.	.	.	[8e-	.
+=2	=2	=2	=2	=2	=2
+V7b/IV	4AA	4AA	4c	8e-]	4f
+.	.	.	.	16d	.
+.	.	.	.	16c	.
+Vb/V	4BB	4BB	4G	8d	4g
+.	.	.	.	8d	.
+V7	2EE	2C	4.G	8d	4.e
+.	.	.	.	8c	.
+.	.	.	.	8B-	.
+.	.	.	8F	8A-	8d
+=3	=3	=3	=3	=3	=3
+V;	4EE;	4C;	4E;	4G;	4c;
+vii/IV	4CC#	4AA	4C	8c	4e-
+.	.	.	.	8B-	.
+V7/IV	4AA	4FF	4F	4A	4e-
+iv	4DD	4D-	4F	4B-	4d-
+=4	=4	=4	=4	=4	=4
+V7d	8EE	8BB-	8E	8G	4c
+ib	8AA	8AA-	8F	8A-	.
+ii7Dc	8BB	8D-	8G	8B-	4f
+ic	8AA	8C	8A-	8c	.
+vii7D/V	4DD#	4BB	8A-	4d	4f
+.	.	.	8G	.	.
+V	4EE	4C	4G	4c	4e
+=5	=5	=5	=5	=5	=5
+I	2.AA	2.FF;	2.A;	2.c;	2.f;
+!!linebreak: 2
+=:|!	=:|!	=:|!	=:|!	=:|!	=:|!
+*>B	*>B	*>B	*>B	*>B	*>B
+V	4EE	4C	4c	4e	4g
+=6	=6	=6	=6	=6	=6
+i	4AA	4F	16c	4f	4a-
+.	.	.	16A-	.	.
+.	.	.	4d-	.	.
+V7/III	4GG	8E-	.	4g	4b-
+.	.	8D-	16c	.	.
+.	.	.	16d-	.	.
+III	4CC	8C	8A-	8a-	4cc
+.	.	8BB-	8B-	8e-	.
+III	4CC	4AA-	4c	8a-	4cc
+.	.	.	.	8g-	.
+=7	=7	=7	=7	=7	=7
+iv	4DD	8BB-	8d-	4f	4b-
+.	.	16C	8B-	.	.
+.	.	16D-	.	.	.
+V7/III	4GG	8E-	8e-	4g	4b-
+.	.	8EE-	8d-	.	.
+III;	4CC;	4AA-;	4c;	4e-;	4a-;
+III	4CC	4AA-	4A-	4e-	4cc
+=8	=8	=8	=8	=8	=8
+iv	4DD	4BB-	8A-	4d-	4b-
+.	.	.	8G	.	.
+vii7D/V	4DD#	4BB	8F	4d	4a-
+.	.	.	16E	.	.
+.	.	.	16F	.	.
+V7	4EE	4C	8C	4e	4g
+.	.	.	8B-	.	.
+VI	4FF	4D-	8A-	4f	4f
+.	.	.	8G	.	.
+=9	=9	=9	=9	=9	=9
+vii7D/V	4DD#	8D	4.F	8B	4a-
+.	.	8BB	.	8d	.
+V7	4EE	8C	.	8d-	4g
+.	.	8CC	8E	16c	.
+.	.	.	.	16B-	.
+I;	4AA;	4FF;	4C;	4A;	4f;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx
+!!!YEC: Copyright 2003 by Craig Stuart Sapp
+!!!license: GNU General Public License (http://www.gnu.org/copyleft/gpl.html)
+!!!SMA: 371 Bach Chorales, edited by Ludwig Erk, C.F. Peters
+!!!PDT: 1850, 1865
+!!!ONB: Harmony and Root analysis done manually by Craig Sapp

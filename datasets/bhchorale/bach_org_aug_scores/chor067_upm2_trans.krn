@@ -1,0 +1,114 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/3//-1750/7/28/
+!!!OTL@@DE: Freu' dich sehr, O meine Seele
+!!!OTL@EN:  Rejoice greatly, O my soul
+!!!OPR@@DE: Cantata: Brich dem Hungrigen dein Brot, BWV 39
+!!!ONB: Chorale is at the conclusion to Part II of the Cantata
+!!!AGN: 4-Part Chorale
+!!!SCT: BH 067
+!!!SCT: BWV 39
+!!!ONB: Harmony and Root analysis done manually by Craig Sapp (not yet proofed)
+**harm	**root	**kern	**kern	**kern	**kern
+!	!	!bass	!tenor	!alto	!sprno
+*	*Iorgan	*Iorgan	*Iorgan	*Iorgan	*Iorgan
+*	*	*clefF4	*clefF4	*clefG2	*clefG2
+*k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]
+*A:	*A:	*A:	*A:	*A:	*A:
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM60	*MM60	*MM60	*MM60	*MM60	*MM60
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
+*>A	*>A	*>A	*>A	*>A	*>A
+I	4GG	4A	4c#	4e	4a
+Vb	4DD	4G#	4B	4e	4b
+I	4GG	4A	4A	4e	4cc#
+V	4DD	4E	4G#	4e	4b
+=2	=2	=2	=2	=2	=2
+vi7	8EE	4F#	4A	8e	4a
+viio7b/V	8CC#	.	.	8d#	.
+V	4DD	8G#	4B	4e	4g#
+.	.	8A	.	.	.
+ii	8AA	8B	8B	4d#	4f#
+ii7	8AA	8BB	8A	.	.
+V;	4DD;	4E;	4G#;	4B;	4e;
+=3	=3	=3	=3	=3	=3
+vi	4EE	4F#	4c#	4f#	4a
+Vb	4DD	4G#	4B	4e	4b
+I	4GG	4A	8A	4e	4cc#
+.	.	.	8G#	.	.
+IVb	4CC	4F#	4A	4d	4dd
+=4	=4	=4	=4	=4	=4
+Ic	4GG	8E	4A	4e	4cc#
+.	.	8D	.	.	.
+V	4DD	4E	4G#	8e	4b
+.	.	.	.	8d	.
+I;	2GG;	2AA;	2E;	2c#;	2a;
+=5:|!	=5:|!	=5:|!	=5:|!	=5:|!	=5:|!
+I	4GG	4AA	4e	4a	4cc#
+viiob	4FF#	4BB	4d	8g#	4dd
+.	.	.	.	8f#	.
+iii	8BB	4C#	8G#	8e	4ee
+Vc/II	8EE	.	8A#	16f#	.
+.	.	.	.	16g	.
+iib	4AA	8D	4B	4f#	4dd
+.	.	8E	.	.	.
+=6	=6	=6	=6	=6	=6
+vi	4EE	8F#	4A	4f#	4cc#
+.	.	8E	.	.	.
+ii	4AA	4D	4d	4f#	4b
+V/VI;	2BB;	2C#;	2G#;	2e#;	2cc#;
+!!linebreak: 2
+=7	=7	=7	=7	=7	=7
+I	4GG	4C#	8A	4e	4ee
+.	.	.	8B	.	.
+I	4GG	4AA	4c#	4a	4ee
+IV	4CC	4D	8d	4a	4ff#
+.	.	.	8c#	.	.
+V	4DD	4E	4B	4g#	4ee
+=8	=8	=8	=8	=8	=8
+IVb	4CC	8F#	8A	4f#	4dd
+.	.	8G#	8B	.	.
+I	4GG	4A	8c#	8e	4cc#
+.	.	.	8d#	8f#	.
+V;	2DD;	2E;	2e;	2g#;	2b;
+=9	=9	=9	=9	=9	=9
+I	4GG	4A	8e	4a	8cc#
+.	.	.	8d	.	8dd
+I	4GG	4AA	4c#	4a	4ee
+ii7	4AA	4BB	4B	8a	4dd
+.	.	.	.	8g#	.
+Ib	4GG	4C#	4E	8a	8cc#
+.	.	.	.	8g#	8b
+=10	=10	=10	=10	=10	=10
+IV	4CC	8D	4F#	8f#	4a
+.	.	8C#	.	8e	.
+viiob	4FF#	4BB	4G#	4d	4b
+I	4GG	8AA	4A	8c#	2cc#
+.	.	8BB	.	8d#	.
+V/VI	4BB	4C#	4G#	4e#	.
+=11	=11	=11	=11	=11	=11
+vi;	2EE;	2FF#;	2F#;	2f#;	2a;
+vi	4EE	4F#	4A	4f#	8cc#
+.	.	.	.	.	8dd
+viio7/II	4GG#	4C#	4A#	4g	4ee
+=12	=12	=12	=12	=12	=12
+iib	4AA	4D	4B	8f#	4dd
+.	.	.	.	8g#y	.
+viiD7/V	4CC#	4D#	4F#	4a	4cc#
+V	4DD	8E	4G#	8g#	4b
+.	.	8D	.	8f#	.
+Ib	4GG	8C#	4A	4e	4cc#
+.	.	8AA	.	.	.
+=13	=13	=13	=13	=13	=13
+V	2DD	2E	4A	4.e	2b
+.	.	.	4G#	.	.
+.	.	.	.	8d	.
+I;	2GG;	2AA;	2E;	2c#;	2a;
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!chor2scor: -l 2 -s 0.6 -o %b.pmx
+!!!ONB: In the cantata, the key of the chorale is B-flat
+!!!YEC: Copyright 2001 by Craig Stuart Sapp
+!!!license: GNU General Public License (http://www.gnu.org/copyleft/gpl.html)
+!!!SMA: J.S. Bach Chorale Harmonizations, edited by Ludwig Erk, C.F. Peters
+!!!PDT: 1850, 1865

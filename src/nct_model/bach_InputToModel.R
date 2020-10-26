@@ -5,11 +5,11 @@ rm(list = ls())
 setwd("/Users/tianxuehu/documents/ChordSymbolRec/src/nct_model")
 model <- readRDS("final_model.rds")
 #####################LOAD .krn MELODY##############################################################################################################
-setwd("/Users/tianxuehu/documents/ChordSymbolRec/datasets/bhchorale/")    ### change dir for different movement
+setwd("/Users/tianxuehu/documents/ChordSymbolRec/datasets/Sears_corpus/sears_org_score_nct")    ### change dir for different movement
 library(stringi)
 library(stringr)
 
-files=dir(pattern="^ch.*.krn$")
+files=dir(pattern="^op.*.krn$")
 
 for (file in files){
   cat('working on', file,'...\n')
@@ -40,7 +40,7 @@ Rreduce <- function(file_name, raw, save_name, col_num) {
   datafile<-lapply(file_name,read.delim, header=F, stringsAsFactors=F)
   dataframe <- datafile[[1]]
   
-  colnames(dataframe)=c("harm", "melody", "index", "beat_pos","duration","approaching")
+  colnames(dataframe)=c("melody",'harm', "index", "beat_pos","duration","approaching")
   
   ### Delete null point rows and investigation
   dataframe<-dataframe[!(dataframe$duration==0),] #remove dur = 0 data (originally '.' in pieces),they are generated as placeholders to '.'
@@ -162,12 +162,12 @@ Rreduce <- function(file_name, raw, save_name, col_num) {
   #raw <- "raw_score.krn"                                                                                #####CHANGE FILE
   #count.fields(raw, sep = "\t")
   rawfile<-read.delim2(raw, header=F, stringsAsFactors=F, sep = "\t", quote="\"")
-  colnames(rawfile)=c("harm","bass","four", "three", "two","one", "index")
+  colnames(rawfile)=c("four", "three", "two","one", "harm", "index")
   
   ##search NCT and change to a REST in org score
   for(i in 1:nrow(dataframe)){ #for loop counting dataframe
     if (dataframe$Response[i] == 0){
-      num <- which(rawfile[,7] == dataframe$index[i])
+      num <- which(rawfile[,6] == dataframe$index[i])
       #find the row and change to "r"
       note<-rawfile[,col_num][num]                                                                               ####CHANGE COLUMN!!
       tmp<-str_remove_all(note,"[^0-9.]")

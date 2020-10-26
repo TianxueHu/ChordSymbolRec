@@ -1,4 +1,11 @@
 # Project log
+## 10/18
+- Finished proccessing and encoding Sears corpus
+
+## 10/15
+- Finished baseline FFNN model on Haydn and Bach datasets
+- Manually modified separate spines to single splines in the ABC dataset (for easier processing)
+
 ## 10/11
 - Finished vector encoding for FFNN with 21 notes encoding for Haydn and Bach
  - Using Harmalysis program for chord label translation 
@@ -9,13 +16,13 @@
 ## 10/7
 - Process vectors for FFNN
 - [TODO] Orgranize and process availiable pieces that Craig Sapp in the ABC dataset
-- [TODO] Orgranize and process David Sears's dataset
+- Orgranize and process David Sears's dataset
 
 So far the datasets we have: <br>
 - Haydn op20
 - Bach Chorale 69 pieces
 - [TODO] ABC 
-- [TOOD] David Sear's dataset
+- David Sear's dataset
 
 Some experiments plans: <br>
  - Compare the performances with/without NCT eleminated
