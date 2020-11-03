@@ -143,12 +143,12 @@ def to_21d_vec(note_list):
     return out_vec
 
 def specialChords(chord):
-    output = chord
-    if chord == "C64" or 'C':
+    if chord == "C64" or chord == 'C':
         output = 'Cad'
     elif chord == "Gr":
         output = "Gn"
-    
+    else:
+        output = chord
     return output
 
 #print(to_21d_vec(['A', 'e', 'c#', 'a']))
