@@ -184,7 +184,7 @@ class KRN2VEC(object):
                 continue # pass this onset slice if RN is not recognizable
             this_onset_vec.append(str(chord_label))
             this_onset_vec.append(''.join(row[['measure']].values))
-            print(this_onset_vec)
+            #print(this_onset_vec)
             all_vecs.append(this_onset_vec)
         return all_vecs
 
@@ -193,21 +193,20 @@ class KRN2VEC(object):
         all_vecs = self.get_all_vec_with_mea(collection)
         max_mea = self.get_mea_num(''.join(self.df['measure'].iloc[-1]))
         pre_mea = 1
-        #all_windows_vec = []  ### cur_window_list = [[window_onsets_list][window_chords_list]]
-
+        #all_windows_vec = []  # cur_window_list = [[window_onsets_list][window_chords_list]]
         for idx, vec in enumerate(all_vecs):
-            print("index", idx)
             this_mea = self.get_mea_num(vec[-1])
+
+            if this_mea >= max_mea - mea_window_size + 1:
+                break
             
             if this_mea != pre_mea:
                 #new measure -> proceed to a new window
                 this_window_vec = self.get_window_vecs(all_vecs, idx, this_mea, mea_window_size)
                 self.piece_output.append(this_window_vec)
-                print(this_mea, this_window_vec)
+                #print(this_mea, this_window_vec)
                 pre_mea = this_mea
                 
-            if this_mea >= max_mea - mea_window_size + 1:
-                continue
             
 
         #self.piece_output.append(all_windows_vec)
@@ -215,8 +214,8 @@ class KRN2VEC(object):
 
 if __name__ == "__main__":
     script_dir = os.getcwd()
-    SCORE_COLLECTION_REL_PATH = "datasets/haydn_op20_harm/haydn_org_score_for_vec/"
-    COLLECTION = "Haydn_ORG"
+    SCORE_COLLECTION_REL_PATH = "datasets/bhchorale/bach_reduced_score_for_vec/"
+    COLLECTION = "Bach_REDUCE"
     WINDOW_SIZE = 4
 
     collection_path = os.path.join(script_dir, SCORE_COLLECTION_REL_PATH)
@@ -242,6 +241,6 @@ if __name__ == "__main__":
     
     print("Bad files:", bad_files)
 
-    with open('haydn_org_vectors_ffnn_21enc.pkl', 'wb') as f:
+    with open('bach_reduce_vectors_s2s_21enc_4meaWindow.pkl', 'wb') as f:
         pickle.dump(collection_list, f)
     print("Pickle vector list saved!")
