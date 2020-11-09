@@ -116,10 +116,13 @@ class KRN2VEC(object):
             window_onsets_list.append(this_onset)
             
             this_chord = all_vecs[tail_idx][-2]
+            window_chords_list.append(this_chord)
+            '''
             if not window_chords_list:
                 window_chords_list.append(this_chord)
             elif window_chords_list and this_chord != window_chords_list[-1]:
                 window_chords_list.append(this_chord)
+            '''
             
             if tail_idx+1 < len(all_vecs):
                 tail_idx += 1
@@ -214,8 +217,8 @@ class KRN2VEC(object):
 
 if __name__ == "__main__":
     script_dir = os.getcwd()
-    SCORE_COLLECTION_REL_PATH = "datasets/bhchorale/bach_reduced_score_for_vec/"
-    COLLECTION = "Bach_REDUCE"
+    SCORE_COLLECTION_REL_PATH = "datasets/haydn_op20_harm/haydn_reduced_score_for_vec/"
+    COLLECTION = "Haydn_REDUCE"
     WINDOW_SIZE = 4
 
     collection_path = os.path.join(script_dir, SCORE_COLLECTION_REL_PATH)
@@ -241,6 +244,6 @@ if __name__ == "__main__":
     
     print("Bad files:", bad_files)
 
-    with open('bach_reduce_vectors_s2s_21enc_4meaWindow.pkl', 'wb') as f:
+    with open('haydn_reduce_vectors_s2s_21enc_4meaWindow_ditto.pkl', 'wb') as f:
         pickle.dump(collection_list, f)
     print("Pickle vector list saved!")
