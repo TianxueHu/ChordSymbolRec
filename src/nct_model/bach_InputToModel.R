@@ -5,20 +5,20 @@ rm(list = ls())
 setwd("/Users/tianxuehu/documents/ChordSymbolRec/src/nct_model")
 model <- readRDS("final_model.rds")
 #####################LOAD .krn MELODY##############################################################################################################
-setwd("/Users/tianxuehu/documents/ChordSymbolRec/datasets/Sears_corpus/sears_org_score_nct")    ### change dir for different movement
+setwd("/Users/tianxuehu/documents/ChordSymbolRec/datasets/ABC/quartets-v2-humdrum")    ### change dir for different movement
 library(stringi)
 library(stringr)
 
-files=dir(pattern="^op.*.krn$")
+files=dir(pattern="^n.*.krn$")
 
 for (file in files){
   cat('working on', file,'...\n')
   cur_piece <- tools::file_path_sans_ext(file)
   file_ls <- list.files(pattern=cur_piece)
-  mel1 <- str_subset(file_ls, "mel1")
-  mel2 <- str_subset(file_ls, "mel2")
-  mel3 <- str_subset(file_ls, "mel3")
-  mel4 <- str_subset(file_ls, "mel4")
+  mel1 <- str_subset(file_ls, "mel1") #soparano
+  mel2 <- str_subset(file_ls, "mel2") #alto 
+  mel3 <- str_subset(file_ls, "mel3") #tenor
+  mel4 <- str_subset(file_ls, "mel4") #bass
   raw <- str_subset(file_ls, "raw")
   
   #reduce score
@@ -162,12 +162,13 @@ Rreduce <- function(file_name, raw, save_name, col_num) {
   #raw <- "raw_score.krn"                                                                                #####CHANGE FILE
   #count.fields(raw, sep = "\t")
   rawfile<-read.delim2(raw, header=F, stringsAsFactors=F, sep = "\t", quote="\"")
-  colnames(rawfile)=c("four", "three", "two","one", "harm", "index")
+  #colnames(rawfile)=c("four", "three", "two","one", "harm", "index")  #sears
+  colnames(rawfile)=c("four", "d4", "three", "d3", "two", "d2", "one", "d1", "harm", "index")    #ABC
   
   ##search NCT and change to a REST in org score
   for(i in 1:nrow(dataframe)){ #for loop counting dataframe
     if (dataframe$Response[i] == 0){
-      num <- which(rawfile[,6] == dataframe$index[i])
+      num <- which(rawfile[,10] == dataframe$index[i])       #ABC
       #find the row and change to "r"
       note<-rawfile[,col_num][num]                                                                               ####CHANGE COLUMN!!
       tmp<-str_remove_all(note,"[^0-9.]")
@@ -177,7 +178,7 @@ Rreduce <- function(file_name, raw, save_name, col_num) {
   
   #drop the index column
   #final<-rawfile[ , !(names(rawfile) %in% 'index')]
-  
+  #remove_empty(rawfile, which = c("cols"), quiet = TRUE)
   write.table(rawfile, file = save_name, sep = "\t",
               col.names=FALSE, row.names=FALSE, quote = FALSE)                                           ####CHANGE filename!!
   
