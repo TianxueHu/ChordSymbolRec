@@ -4,9 +4,10 @@
 *ICello	*	*IViola	*	*I2nd Violin	*	*I1st Violin	*	*	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*	*
+*a:	*	*a:	*	*a:	*	*a:	*	*	*
 *M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=
-4EE	f	2.r	.	2.r	.	8r	.	.a.i64	12
+4EE	f	2.r	.	2.r	.	8r	.	i64	12
 .	.	.	.	.	.	8r	.	.	13
 8r	.	.	.	.	.	(8e	p	.	14
 4EE	p	.	.	.	.	8aL	.	.	15
