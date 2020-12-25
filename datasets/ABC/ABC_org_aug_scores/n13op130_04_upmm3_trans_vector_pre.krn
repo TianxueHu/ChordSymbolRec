@@ -1,0 +1,910 @@
+**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**mxhm	**beat	**kern	**kern	**kern
+=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+4B-	p <	(8B-L	p p <	(8dL	p <	(8ffL	<	I	1	=1	B-	M3/8
+4B-	p <	8d	>	8f	>	8dd	>	I	1.5	=1	B-	M3/8
+8r	[ > ]]	8B-J)	] ]]	8dJ)	] ]]	16ffJk)	]	I	2	=1	B-	M3/8
+8r	[ > ]]	8B-J)	] ]]	8dJ)	] ]]	16r	]]	I	.	=1	B-	M3/8
+=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+4g	p	(8dL	p	(8gL	p	4.b-	p	vi	1	=2	B-	M3/8
+4g	p	8G	p	8B-	p	4.b-	p	vi	1.5	=2	B-	M3/8
+8r	p	8dJ)	p	8gJ)	p	4.b-	p	vi	2	=2	B-	M3/8
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+4e-	<	(8E-L	<	(8gL	<	(16ccLL	<	ii6	1	=3	B-	M3/8
+4e-	<	(8E-L	<	(8gL	<	16ddJ	<	ii6	1.25	=3	B-	M3/8
+4e-	<	8c	<	8e-	<	8ee-	<	ii6	1.5	=3	B-	M3/8
+8r	[[	8E-J)	[[	8ccJ)	[[	16ggJk)	<	ii6	2	=3	B-	M3/8
+8r	[[	8E-J)	[[	8ccJ)	[[	16r	[[	ii6	.	=3	B-	M3/8
+=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+4f	p	(8e-L	p	(8ccL	p	(8b-	p	V7(4)	1	=4	B-	M3/8
+4f	p	8F	p	8ee-	p	4a)	p	V7	1.5	=4	B-	M3/8
+8r	p	8e-J)	p	8ccJ)	p	4a)	p	V7	2	=4	B-	M3/8
+=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+(8BB-L	<	(8dL	<	(8ffL	<	(8fffL	<	I	1	=5	B-	M3/8
+8D	>	8f	>	8dd	>	8ddd	>	I	1.5	=5	B-	M3/8
+8BB-J)	] ]]	8dJ)	] ]]	16ffJk)	]	16fffJk)	]	I	2	=5	B-	M3/8
+8BB-J)	] ]]	8dJ)	] ]]	16r	]]	16r	]]	I	.	=5	B-	M3/8
+=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
+(8DL	p	(8gL	p	4.b-	p	4.bb-	p	vi64	1	=6	B-	M3/8
+8GG	p	8B-	p	4.b-	p	4.bb-	p	vi64	1.5	=6	B-	M3/8
+8DJ)	p	8gJ)	p	4.b-	p	4.bb-	p	vi64	2	=6	B-	M3/8
+=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
+(8EE-L	<	(8gL	<	(16ccLL	<	(16cccLL	<	ii6	1	=7	B-	M3/8
+(8EE-L	<	(8gL	<	16ddJ	<	16dddJ	<	ii6	1.25	=7	B-	M3/8
+8C	<	8G	<	8ee-	<	8eee-	<	ii	1.5	=7	B-	M3/8
+8FFJ)	[[	8e-J) 8cc	[[	16aJk)	<	16aaJk)	<	V7	2	=7	B-	M3/8
+8FFJ)	[[	8e-J) 8cc	[[	16r	[[	16r	[[	V7	.	=7	B-	M3/8
+=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+(8FL	p p	(8e-L 8cc	[[	(8a	p	(8aa	p	V7	1	=8	B-	M3/8
+8FF	p p	8d 8b-	[[	4b-)	p	4bb-)	p	I\\	1.5	=8	B-	M3/8
+8BB-J)	p p	8dJ)	[[	4b-)	p	4bb-)	p	I\\	2	=8	B-	M3/8
+=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:
+(8dL	<	(8B-	<	4.r	p	(8fffL	<	I	1	=8	B-	M3/8
+8c	>	[4f)	[ > ]]	4.r	p	8eee-	>	V43	1.5	=8	B-	M3/8
+8B-J)	] ]]	[4f)	[ > ]]	4.r	p	16dddJk)	]	I	2	=8	B-	M3/8
+8B-J)	] ]]	[4f)	[ > ]]	4.r	p	16r	]	I	.	=8	B-	M3/8
+=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
+(8AL	p	4.f_	p	(8ffL	p	4.ccc	p	V6	1	=10	B-	M3/8
+8G	p	4.f_	p	8eeX	p	4.ccc	p	V6	1.5	=10	B-	M3/8
+8AJ)	p	4.f_	p	16ffJk)	p	4.ccc	p	V6	2	=10	B-	M3/8
+8AJ)	p	4.f_	p	16r	p	4.ccc	p	V6	.	=10	B-	M3/8
+=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
+(8B-L	<	4.f_	< > ]]	4.r	p	(8dddL	<	I	1	=11	B-	M3/8
+8A	>	4.f_	< > ]]	4.r	p	8ccc	>	I	1.5	=11	B-	M3/8
+8GJ)	] ]]	4.f_	< > ]]	4.r	p	16bb-Jk)	]	I	2	=11	B-	M3/8
+8GJ)	] ]]	4.f_	< > ]]	4.r	p	16r	]	I	.	=11	B-	M3/8
+=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
+(8FL	] ]]	4.f_	]	8ffL	p	(4.aa	]	V2	1	=12	B-	M3/8
+8EX	] ]]	4.f_	]	8gg	p	(4.aa	]	V2	1.5	=12	B-	M3/8
+8E-J	] ]]	4.f_	]	16ffJk	p	(4.aa	]	V2	2	=12	B-	M3/8
+8E-J	] ]]	4.f_	]	16r	p	(4.aa	]	V2	.	=12	B-	M3/8
+=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
+8DL	] ]]	(8fL]	]	(8ffL	p	8fffL	]	I6	1	=13	B-	M3/8
+8C	] ]]	8A	]	8ee-	p	8eee-	]	V43	1.5	=13	B-	M3/8
+8BB-J	] ]]	8B-J	]	8ddJ	p	8dddJ	]	I	2	=13	B-	M3/8
+=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
+8AAL	] ]]	8c	]	8ccL	p	8cccL	]	V6	1	=14	B-	M3/8
+8GG	] ]]	[4F	]	8b-	p	8bb-	]	vi7	1.5	=14	B-	M3/8
+8AAJ	] ]]	[4F	]	8ccJ	p	8cccJ	]	V6	2	=14	B-	M3/8
+=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
+8BB-L	] ]]	8FL]	]	8ddL	p	8dddL	]	I	1	=15	B-	M3/8
+8AA	] ]]	8c	]	8cc	p	8ccc	]	V6	1.5	=15	B-	M3/8
+8GGJ	] ]]	8B-J	]	8eeXJ	p	8eeeXJ	]	#viio6/V	2	=15	B-	M3/8
+=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
+8FFL	] ]]	8AL	]	8ffL	p	8fffL	]	V	1	=16	B-	M3/8
+8EEX	] ]]	8B-	]	8gg	p	8ggg	]	#viio/V	1.5	=16	B-	M3/8
+8EE-J	] ]]	8cJ	]	8aaJ	p	8aaaJ	]	V2	2	=16	B-	M3/8
+=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
+8DL)	] ]]	8FL	]	8bb-L	p	8bbb-L	]	I6	1	=17	B-	M3/8
+8D	] ]]	8B-	]	8d	p	8dd	]	I6	1.5	=17	B-	M3/8
+8BB-J	] ]]	8dJ)	]	16fJk)	p	16ffJk)	]	I	2	=17	B-	M3/8
+8BB-J	] ]]	8dJ)	]	16r	p	16r	]	I	.	=17	B-	M3/8
+=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18
+(8DL	p	(8gL	p p	(4B-	p	(4b-	p	vi64	1	=18	B-	M3/8
+8GG	p	8B-	p p	(4B-	p	(4b-	p	vi64	1.5	=18	B-	M3/8
+8DJ)	p	8GJ)	p p	8b-	p	8bb-	p	vi64	2	=18	B-	M3/8
+=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19
+(8EE-L	<	(8gL	<	16ccLL	<	16cccLL	<	ii6	1	=19	B-	M3/8
+(8EE-L	<	(8gL	<	16ddJ	<	16dddJ	<	ii6	1.25	=19	B-	M3/8
+8C	<	8G	<	8ee-	<	8eee-	<	ii	1.5	=19	B-	M3/8
+8EE-J)	[[	8cJ)	[[	16ggJk)	<	16gggJk)	<	ii6	2	=19	B-	M3/8
+8EE-J)	[[	8cJ)	[[	16r	[[	16r	[[	ii6	.	=19	B-	M3/8
+=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20
+(8E-L	p	(8cL	p	(8b-	p	(8bb-	p	ii65	1	=20	B-	M3/8
+8FF	p	8e-	p	4a)	p	4aa)	p	V7	1.5	=20	B-	M3/8
+8E-J)	p	8cJ)	p	4a)	p	4aa)	p	V7	2	=20	B-	M3/8
+=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21
+(8BB-L	<	(8ddL	<	(8ffL	<	(8fffL	<	I	1	=21	B-	M3/8
+8D	[ >	8f	[ >	8dd	[ >	8ddd	[ >	I6	1.5	=21	B-	M3/8
+8BB-J)	]	8b-J)	]	16ffJk)	[ >	16fffJk)	[ >	I	2	=21	B-	M3/8
+8BB-J)	]	8b-J)	]	16r	]	16r	]	I	.	=21	B-	M3/8
+=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
+(8DL	p	(8gL	p	4.b-	p	4.bb-	p	vi64	1	=22	B-	M3/8
+8GG	p	8B-	p	4.b-	p	4.bb-	p	vi64	1.5	=22	B-	M3/8
+8DJ)	p	8gJ)	p	4.b-	p	4.bb-	p	vi64	2	=22	B-	M3/8
+=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23
+(8EE-L	<	(8gL	<	(16ccLL	<	(16cccLL	<	ii6	1	=23	B-	M3/8
+(8EE-L	<	(8gL	<	16ddJ	<	16dddJ	<	ii6	1.25	=23	B-	M3/8
+8C	<	8G	<	8ee-	<	8eee-	<	ii6	1.5	=23	B-	M3/8
+8FFJ)	[[	8ccJ) 8ee-	[[	16aJk)	<	16aaJk)	<	V7	2	=23	B-	M3/8
+8FFJ)	[[	8ccJ) 8ee-	[[	16r	[[	16r	[[	V7	.	=23	B-	M3/8
+=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
+(8FL	p	(8ccL 8ee-	p	(8a	p	(8aa	p	V7	1	=24	B-	M3/8
+8FF	p	8dd	p	4b-)	p	4bb-)	p	I\\	1.5	=24	B-	M3/8
+8BB-J)	p	8dJ)	p	4b-)	p	4bb-)	p	I\\	2	=24	B-	M3/8
+=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!
+4.r	p	(16ddLL	p	4.r	p	(4.bb-	p	I	1	=24	B-	M3/8
+4.r	p	16ff	p	4.r	p	(4.bb-	p	I	1.25	=24	B-	M3/8
+4.r	p	16ee-	p	4.r	p	(4.bb-	p	I	1.5	=24	B-	M3/8
+4.r	p	16dd	p	4.r	p	(4.bb-	p	I	1.75	=24	B-	M3/8
+4.r	p	16cc	p	4.r	p	(4.bb-	p	I	2	=24	B-	M3/8
+4.r	p	16ddJJ)	p	4.r	p	(4.bb-	p	I	2.25	=24	B-	M3/8
+=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26
+(16b-LL	p	4cc	p	(16ffLL	p	4.ccc)	p	V	1	=26	B-	M3/8
+16a	p	4cc	p	16ccc	p	4.ccc)	p	V	1.25	=26	B-	M3/8
+16g	p	4cc	p	16bb-	p	4.ccc)	p	V	1.5	=26	B-	M3/8
+16f	p	4cc	p	16aa	p	4.ccc)	p	V	1.75	=26	B-	M3/8
+16eX	p	8r	p	16gg	p	4.ccc)	p	V	2	=26	B-	M3/8
+16fJJ)	p	8r	p	16aaJJ)	p	4.ccc)	p	V	2.25	=26	B-	M3/8
+=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
+4e-	f	(16aLL	f	4.ff 4.aa	f	8fff'L	f	V2	1	=27	B-	M3/8
+4e-	f	16cc	f	4.ff 4.aa	f	8fff'L	f	V2	1.25	=27	B-	M3/8
+4e-	f	16b-	f	4.ff 4.aa	f	8fff'	f	V2	1.5	=27	B-	M3/8
+4e-	f	16a	f	4.ff 4.aa	f	8fff'	f	V2	1.75	=27	B-	M3/8
+8r	f	16g	f	4.ff 4.aa	f	8fff'J	f	V2	2	=27	B-	M3/8
+8r	f	16aJJ)	f	4.ff 4.aa	f	8fff'J	f	V2	2.25	=27	B-	M3/8
+=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28
+(16e-LL	f	4b-	f	(16fLL	f	8fff	f	I6	1	=28	B-	M3/8
+16d	f	4b-	f	16ff	f	8fff	f	I6	1.25	=28	B-	M3/8
+16c	f	4b-	f	16ee-	f	8bbb-	f	I6	1.5	=28	B-	M3/8
+16B-	f	4b-	f	16dd	f	8bbb-	f	I6	1.75	=28	B-	M3/8
+16A	f	8r	f	16cc	f	8bbb-	f	I6	2	=28	B-	M3/8
+16B-JJ)	f	8r	f	16ddJJ)	f	8bbb-	f	I6	2.25	=28	B-	M3/8
+=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
+[4.B-	p	(16B-LL	p	(16ddLL	p	(4.bb-	p	I	1	=29	B-	M3/8
+[4.B-	p	16d	p	16ff	p	(4.bb-	p	I	1.25	=29	B-	M3/8
+[4.B-	p	16c	p	16ee-	p	(4.bb-	p	I	1.5	=29	B-	M3/8
+[4.B-	p	16B-	p	16dd	p	(4.bb-	p	I	1.75	=29	B-	M3/8
+[4.B-	p	16A	p	16cc	p	(4.bb-	p	I	2	=29	B-	M3/8
+[4.B-	p	16B-JJ)	p	16ddJJ)	p	(4.bb-	p	I	2.25	=29	B-	M3/8
+=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30
+(16B-LL]	p	16FLL	p	4cc	p	4.ccc)	p	V	1	=30	B-	M3/8
+16A	p	(16cc	p	4cc	p	4.ccc)	p	V	1.25	=30	B-	M3/8
+16G	p	16b-	p	4cc	p	4.ccc)	p	V	1.5	=30	B-	M3/8
+16F	p	16a	p	4cc	p	4.ccc)	p	V	1.75	=30	B-	M3/8
+16EX	p	16g	p	8r	p	4.ccc)	p	V	2	=30	B-	M3/8
+16FJJ)	p	16aJJ)	p	8r	p	4.ccc)	p	V	2.25	=30	B-	M3/8
+=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
+[4.E-	f	(16ccLL	f	(16aaLL	f	8fff'L	f	V2	1	=31	B-	M3/8
+[4.E-	f	16ee-	f	16ccc	f	8fff'L	f	V2	1.25	=31	B-	M3/8
+[4.E-	f	16dd	f	16bb-	f	8fff'	f	V2	1.5	=31	B-	M3/8
+[4.E-	f	16cc	f	16aa	f	8fff'	f	V2	1.75	=31	B-	M3/8
+[4.E-	f	16b-	f	16gg	f	8fff'J	f	V2	2	=31	B-	M3/8
+[4.E-	f	16ccJJ)	f	16aaJJ)	f	8fff'J	f	V2	2.25	=31	B-	M3/8
+=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32
+(16E-LL]	f	(16fLL	f	(16bb-LL	f	4ddd	f	I	1	=32	B-	M3/8
+16D	f	16b-	f	16ff	f	4ddd	f	I	1.25	=32	B-	M3/8
+16C	f	16a	f	16ee-	f	4ddd	f	I	1.5	=32	B-	M3/8
+16BB-	f	16b-	f	16dd	f	4ddd	f	I	1.75	=32	B-	M3/8
+16AA	f	16e-	f	16cc	f	8r	f	I	2	=32	B-	M3/8
+16BB-JJ)	f	16dJJ)	f	16ddJJ	f	8r	f	I	2.25	=32	B-	M3/8
+=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33
+4BB-	p	4c	p	16ee-LL	p	(4.bb-	p	IV6	1	=33	B-	M3/8
+4BB-	p	4c	p	16dd	p	(4.bb-	p	IV6	1.25	=33	B-	M3/8
+4BB-	p	4c	p	16cc	p	(4.bb-	p	IV6	1.5	=33	B-	M3/8
+4BB-	p	4c	p	16b-	p	(4.bb-	p	IV6	1.75	=33	B-	M3/8
+[8g	p	[8ee-	p	16a	p	(4.bb-	p	IV6	2	=33	B-	M3/8
+[8g	p	[8ee-	p	16b-JJ)	p	(4.bb-	p	IV6	2.25	=33	B-	M3/8
+=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34
+(16gLL]	p	(16ee-LL]	p	4a	p	4.ccc)	p	V43	1	=34	B-	M3/8
+16f	p	16dd	p	4a	p	4.ccc)	p	V43	1.25	=34	B-	M3/8
+16e-	p	16cc	p	4a	p	4.ccc)	p	V43	1.5	=34	B-	M3/8
+16d	p	16b-	p	4a	p	4.ccc)	p	V43	1.75	=34	B-	M3/8
+16c	p	16a	p	[8ee-	p	4.ccc)	p	V43	2	=34	B-	M3/8
+16dJJ)	p	16b-JJ)	p	[8ee-	p	4.ccc)	p	V43	2.25	=34	B-	M3/8
+=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
+4c	f	4a	f	(16ee-LL]	f	8fff'L	f	V43	1	=35	B-	M3/8
+4c	f	4a	f	16dd	f	8fff'L	f	V43	1.25	=35	B-	M3/8
+4c	f	4a	f	16cc	f	8fff'	f	V43	1.5	=35	B-	M3/8
+4c	f	4a	f	16b-	f	8fff'	f	V43	1.75	=35	B-	M3/8
+[8e-	f	[8cc	f	16a	f	8fff'J	f	V2	2	=35	B-	M3/8
+[8e-	f	[8cc	f	16ccJJ)	f	8fff'J	f	V2	2.25	=35	B-	M3/8
+=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
+(16e-LL]	f	(16ccLL]	f	4b-	f	(8fff	f	I6	1	=36	B-	M3/8
+16d	f	16f	f	4b-	f	(8fff	f	I6	1.25	=36	B-	M3/8
+16c	f	16e-	f	4b-	f	4bbb-)	f	vi6	1.5	=36	B-	M3/8
+16B-	f	16d	f	4b-	f	4bbb-)	f	vi6	1.75	=36	B-	M3/8
+16A	f	16c	f	[8gg	f	4bbb-)	f	vi6	2	=36	B-	M3/8
+16B-JJ)	f	16dJJ)	f	[8gg	f	4bbb-)	f	vi6	2.25	=36	B-	M3/8
+=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
+4B-	p	(16e-LL	p p	(16ggLL]	f	(4.bb-	p	I	1	=37	B-	M3/8
+4B-	p	16d	p p	16ff	f	(4.bb-	p	I	1.25	=37	B-	M3/8
+4B-	p	16c	p p	16ee-	f	(4.bb-	p	I	1.5	=37	B-	M3/8
+4B-	p	16B-	p p	16dd	f	(4.bb-	p	I	1.75	=37	B-	M3/8
+[8B-	p	16A	p p	16cc	f	(4.bb-	p	I	2	=37	B-	M3/8
+[8B-	p	16B-JJ)	p p	16ddJJ)	f	(4.bb-	p	I	2.25	=37	B-	M3/8
+=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
+(16B-LL]	p	4F	p p	(16ddLL	f	4.ccc)	p	V6/V	1	=38	B-	M3/8
+16A	p	4F	p p	16cc	f	4.ccc)	p	V6/V	1.25	=38	B-	M3/8
+16G	p	4F	p p	16b-	f	4.ccc)	p	V6/V	1.5	=38	B-	M3/8
+16F	p	4F	p p	16a	f	4.ccc)	p	V6/V	1.75	=38	B-	M3/8
+16EX	p	[8cc	p p	16g	f	4.ccc)	p	V6/V	2	=38	B-	M3/8
+[16FJJ)	p	[8cc	p p	16aJJ)	f	4.ccc)	p	V6/V	2.25	=38	B-	M3/8
+=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39
+(16FLL]	f f	(16ccLL]	p p	4a	f	8fff'L	f	V7	1	=39	B-	M3/8
+16E-	f f	16f)	p p	4a	f	8fff'L	f	V7	1.25	=39	B-	M3/8
+16D	f f	(16f	p p	4a	f	8fff'	f	V7	1.5	=39	B-	M3/8
+16C	f f	16e-	p p	4a	f	8fff'	f	V7	1.75	=39	B-	M3/8
+16BBX	f f	16d	p p	[8ee-	f	8fff'J	f	V7	2	=39	B-	M3/8
+[16CJJ)	f f	16e-JJ)	p p	[8ee-	f	8fff'J	f	V7	2.25	=39	B-	M3/8
+=40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40
+(16CLL]	f f	(16ALL	p p	(16ee-LL]	f	8ddd	f	I\\	1	=40	B-	M3/8
+16BB-	f f	16B-	p p	16dd	f	8ddd	f	I\\	1.25	=40	B-	M3/8
+16AA	f f	16c	p p	16cc	f	8r	f	I\\	1.5	=40	B-	M3/8
+16BB-	f f	16B-	p p	16dd	f	8r	f	I\\	1.75	=40	B-	M3/8
+16AA-	f f	16c	p p	16ee-	f	(16bb-LL	f	V2/IV	2	=40	B-	M3/8
+16FFJJ)	f f	16dJJ)	p p	16ffJJ)	f	16aa-JJ)	f	V2/IV	2.25	=40	B-	M3/8
+=41||	=41||	=41||	=41||	=41||	=41||	=41||	=41||	=41||	=41||	=41||	=41||	=41||
+(4.EE-	p	(4.G 4.B-	p	4gg	p p	(16aa-LL	f	IV.I	1	=40	E-	M3/8
+(4.EE-	p	(4.G 4.B-	p	4gg	p p	16gg	f	IV.I	1.25	=40	E-	M3/8
+(4.EE-	p	(4.G 4.B-	p	4gg	p p	16ff	f	IV.I	1.5	=40	E-	M3/8
+(4.EE-	p	(4.G 4.B-	p	4gg	p p	16ee-	f	IV.I	1.75	=40	E-	M3/8
+(4.EE-	p	(4.G 4.B-	p	8r	p p	16dd	f	IV.I	2	=40	E-	M3/8
+(4.EE-	p	(4.G 4.B-	p	8r	p p	16ee-JJ)	f	IV.I	2.25	=40	E-	M3/8
+=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42
+4.FF)	p	4.A-) 4.B-	p	(16eee-LL	p p	4dd	f	V43	1	=42	E-	M3/8
+4.FF)	p	4.A-) 4.B-	p	16ddd	p p	4dd	f	V43	1.25	=42	E-	M3/8
+4.FF)	p	4.A-) 4.B-	p	16ccc	p p	4dd	f	V43	1.5	=42	E-	M3/8
+4.FF)	p	4.A-) 4.B-	p	16bb-	p p	4dd	f	V43	1.75	=42	E-	M3/8
+4.FF)	p	4.A-) 4.B-	p	16aaX	p p	8r	f	V43	2	=42	E-	M3/8
+4.FF)	p	4.A-) 4.B-	p	16bb-JJ)	p p	8r	f	V43	2.25	=42	E-	M3/8
+=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43
+8BB-'L	f f	8A-L 8B-	p	4aa-	f	(16gggLL	f	V7	1	=43	E-	M3/8
+8BB-'L	f f	8A-L 8B-	p	4aa-	f	16fff	f	V7	1.25	=43	E-	M3/8
+8BB-'	f f	8A- 8B-	p	4aa-	f	16eee-	f	V7	1.5	=43	E-	M3/8
+8BB-'	f f	8A- 8B-	p	4aa-	f	16ddd	f	V7	1.75	=43	E-	M3/8
+8BB-'J	f f	8A-J 8B-	p	8r	f	16ccc	f	V7	2	=43	E-	M3/8
+8BB-'J	f f	8A-J 8B-	p	8r	f	16dddJJ)	f	V7	2.25	=43	E-	M3/8
+=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44
+(8BB-	f f	4.G 4.B-	p	(16aa-LL	f	4eee-	f	I	1	=44	E-	M3/8
+(8BB-	f f	4.G 4.B-	p	16gg	f	4eee-	f	I	1.25	=44	E-	M3/8
+4E-)	f f	4.G 4.B-	p	16ff	f	4eee-	f	I	1.5	=44	E-	M3/8
+4E-)	f f	4.G 4.B-	p	16ee-	f	4eee-	f	I	1.75	=44	E-	M3/8
+4E-)	f f	4.G 4.B-	p	16dd	f	16gggLL	f	I	2	=44	E-	M3/8
+4E-)	f f	4.G 4.B-	p	16ee-JJ)	f	16aaa-JJ	f	I	2.25	=44	E-	M3/8
+=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45
+(4.EE-	p p	(4.G 4.B-	p	(16aa-LL	f	(16aaa-LL	p	I	1	=45	E-	M3/8
+(4.EE-	p p	(4.G 4.B-	p	16gg	f	16ggg	p	I	1.25	=45	E-	M3/8
+(4.EE-	p p	(4.G 4.B-	p	16ff	f	16fff	p	I	1.5	=45	E-	M3/8
+(4.EE-	p p	(4.G 4.B-	p	16ee-	f	16eee-	p	I	1.75	=45	E-	M3/8
+(4.EE-	p p	(4.G 4.B-	p	16dd	f	16ddd	p	I	2	=45	E-	M3/8
+(4.EE-	p p	(4.G 4.B-	p	16ee-JJ)	f	16eee-JJ)	p	I	2.25	=45	E-	M3/8
+=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46
+4.FF)	p p	4.A-) 4.B-	p	(16ee-LL	f	(16eee-LL	p	V43	1	=46	E-	M3/8
+4.FF)	p p	4.A-) 4.B-	p	16dd	f	16ddd	p	V43	1.25	=46	E-	M3/8
+4.FF)	p p	4.A-) 4.B-	p	16cc	f	16ccc	p	V43	1.5	=46	E-	M3/8
+4.FF)	p p	4.A-) 4.B-	p	16b-	f	16bb-	p	V43	1.75	=46	E-	M3/8
+4.FF)	p p	4.A-) 4.B-	p	16aX	f	16aaX	p	V43	2	=46	E-	M3/8
+4.FF)	p p	4.A-) 4.B-	p	16b-JJ)	f	16bb-JJ)	p	V43	2.25	=46	E-	M3/8
+=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47
+8BB-'L	f	8FL 8d	f	(16b-LL	f f	(16bb-LL	p	V7	1	=47	E-	M3/8
+8BB-'L	f	8FL 8d	f	16a-	f f	16aa-	p	V7	1.25	=47	E-	M3/8
+8BB-'	f	8F 8d	f	16g	f f	16gg	p	V7	1.5	=47	E-	M3/8
+8BB-'	f	8F 8d	f	16f	f f	16ff	p	V7	1.75	=47	E-	M3/8
+8BB-'J	f	8FJ 8d	f	16eX	f f	16eeX	p	V7	2	=47	E-	M3/8
+8BB-'J	f	8FJ 8d	f	16fJJ)	f f	16ffJJ)	p	V7	2.25	=47	E-	M3/8
+=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48
+4GG	f	4G 4e-	f	(16fLL	f f	(16ffLL	p	I6	1	=48	E-	M3/8
+4GG	f	4G 4e-	f	16e-	f f	16ee-	p	I6	1.25	=48	E-	M3/8
+4GG	f	4G 4e-	f	16d	f f	16dd	p	I6	1.5	=48	E-	M3/8
+4GG	f	4G 4e-	f	16e-	f f	16ee-	p	I6	1.75	=48	E-	M3/8
+8r	f	[8a-	f	16f	f f	16ff	p	I6	2	=48	E-	M3/8
+8r	f	[8a-	f	16e-JJ)	f f	16ee-JJ)	p	I6	2.25	=48	E-	M3/8
+=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49
+(4.e-	p	(16a-LL]	p p	4e-	f f	4ee-	p	I	1	=49	E-	M3/8
+(4.e-	p	16g	p p	4e-	f f	4ee-	p	I	1.25	=49	E-	M3/8
+(4.e-	p	16f	p p	4e-	f f	4ee-	p	I	1.5	=49	E-	M3/8
+(4.e-	p	16e-	p p	4e-	f f	4ee-	p	I	1.75	=49	E-	M3/8
+(4.e-	p	16d	p p	[8gg	f f	8r	p	I	2	=49	E-	M3/8
+(4.e-	p	16e-JJ)	p p	[8gg	f f	8r	p	I	2.25	=49	E-	M3/8
+=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50
+4.f)	p	(16e-LL	p p	(16ggLL]	f f	4bb-	p	V	1	=50	E-	M3/8
+4.f)	p	16d	p p	16ff	f f	4bb-	p	V	1.25	=50	E-	M3/8
+4.f)	p	16c	p p	16ee-	f f	4bb-	p	V	1.5	=50	E-	M3/8
+4.f)	p	16B-	p p	16dd	f f	4bb-	p	V	1.75	=50	E-	M3/8
+4.f)	p	16AX	p p	16cc	f f	[8bbb-	p	V	2	=50	E-	M3/8
+4.f)	p	16B-JJ)	p p	16ddJJ)	f f	[8bbb-	p	V	2.25	=50	E-	M3/8
+=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51
+8bb-'L	f	(16B-LL	f f	(4dd	f f	(16bbb-LL]	f	V	1	=51	E-	M3/8
+8bb-'L	f	16c	f f	(4dd	f f	16aaa-	f	V	1.25	=51	E-	M3/8
+8bb-'	f	16B-	f f	(4dd	f f	16ggg	f	V	1.5	=51	E-	M3/8
+8bb-'	f	16A-	f f	(4dd	f f	16fff	f	V2	1.75	=51	E-	M3/8
+8bb-'J	f	16G	f f	16ee-LL	f f	16eee-	f	I6	2	=51	E-	M3/8
+8bb-'J	f	16A-JJ)	f f	16ddJJ)	f f	16fffJJ)	f	V2	2.25	=51	E-	M3/8
+=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52
+(8bb-	f	(16A-LL	f f	(16ddLL	f f	(16fffLL	f	I6	1	=52	E-	M3/8
+(8bb-	f	16G	f f	16bb-	f f	16ggg	f	I6	1.25	=52	E-	M3/8
+4eee-)	f	16F)	f f	16aa-	f f	16ddd	f	I	1.5	=52	E-	M3/8
+4eee-)	f	16E-JJ	f f	16gg	f f	16eee-	f	I	1.75	=52	E-	M3/8
+4eee-)	f	[8a-	f f	16dd	f f	16fff	f	I	2	=52	E-	M3/8
+4eee-)	f	[8a-	f f	16ee-JJ)	f f	16eee-JJ)	f	I	2.25	=52	E-	M3/8
+=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53
+(4.ee-	f	16a-LL]	f f	4b-	f f	4eee-	f	I6	1	=53	E-	M3/8
+(4.ee-	f	(16g	f f	4b-	f f	4eee-	f	I6	1.25	=53	E-	M3/8
+(4.ee-	f	16f	f f	4b-	f f	4eee-	f	I6	1.5	=53	E-	M3/8
+(4.ee-	f	16e-	f f	4b-	f f	4eee-	f	I6	1.75	=53	E-	M3/8
+(4.ee-	f	16d	f f	[8gg	f f	8r	f	I	2	=53	E-	M3/8
+(4.ee-	f	16e-JJ)	f f	[8gg	f f	8r	f	I	2.25	=53	E-	M3/8
+=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54
+4.ff)	f	(16e-LL	f f	(16ggLL]	f f	4bb-	f	V6	1	=54	E-	M3/8
+4.ff)	f	16d	f f	16ff	f f	4bb-	f	V6	1.25	=54	E-	M3/8
+4.ff)	f	16c	f f	16ee-	f f	4bb-	f	V6	1.5	=54	E-	M3/8
+4.ff)	f	16B-	f f	16dd	f f	4bb-	f	V6	1.75	=54	E-	M3/8
+4.ff)	f	16AX	f f	16cc	f f	[8bbb-	f	V6	2	=54	E-	M3/8
+4.ff)	f	16B-JJ)	f f	16ddJJ)	f f	[8bbb-	f	V6	2.25	=54	E-	M3/8
+=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
+8bb-'L	f	(16B-LL	f	4dd	f	(16bbb-LL]	f	V	1	=55	E-	M3/8
+8bb-'L	f	16c	f	4dd	f	16aaa-	f	V	1.25	=55	E-	M3/8
+8bb-'	f	16B-	f	4dd	f	16ggg	f	V	1.5	=55	E-	M3/8
+8bb-'	f	16A-	f	4dd	f	16fff	f	V	1.75	=55	E-	M3/8
+8bb-'J	f	16G	f	[8aa-	f	16eee-	f	V	2	=55	E-	M3/8
+8bb-'J	f	16FJJ)	f	[8aa-	f	16fffJJ)	f	V	2.25	=55	E-	M3/8
+=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56
+4gg	f	(16E-LL	f	(16aa-LL]	f	(16fffLL	f	I\\	1	=56	E-	M3/8
+4gg	f	16e-	f	16gg	f	16ggg	f	I\\	1.25	=56	E-	M3/8
+4gg	f	16a-	f	16ff	f	16ddd	f	viio64	1.5	=56	E-	M3/8
+4gg	f	16g	f	16ee-	f	16eee-	f	I6	1.75	=56	E-	M3/8
+8r	f	16d	f	16aa-	f	16fff	f	viio	2	=56	E-	M3/8
+8r	f	16e-JJ)	f	16ggJJ)	f	16gggJJ)	f	I	2.25	=56	E-	M3/8
+=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57
+4.r	f	(16e-LL	p p	(16ggLL	f	8ggg'L	p	I	1	=57	E-	M3/8
+4.r	f	16d	p p	16ff	f	8ggg'L	p	I	1.25	=57	E-	M3/8
+4.r	f	16c	p p	16ee-	f	8ggg'	p	V6/vi	1.5	=57	E-	M3/8
+4.r	f	16BX	p p	16dd	f	8ggg'	p	V6/vi	1.75	=57	E-	M3/8
+4.r	f	16AX	p p	16cc	f	8ggg'J	p	V6/vi	2	=57	E-	M3/8
+4.r	f	16BJJ)	p p	16ddJJ)	f	8ggg'J	p	V6/vi	2.25	=57	E-	M3/8
+=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58
+(16fLL	p	4c	p p	4ee-	f	4eee-	p	vi	1	=58	E-	M3/8
+16e-	p	4c	p p	4ee-	f	4eee-	p	vi	1.25	=58	E-	M3/8
+16d	p	4c	p p	4ee-	f	4eee-	p	vi	1.5	=58	E-	M3/8
+16c	p	4c	p p	4ee-	f	4eee-	p	vi	1.75	=58	E-	M3/8
+16BX	p	8r	p p	8r	f	8r	p	vi	2	=58	E-	M3/8
+16cJJ)	p	8r	p p	8r	f	8r	p	vi	2.25	=58	E-	M3/8
+=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59
+8d'L	p	8f#X'L	p p	8dd'L	f	8ccc'L	p	V7/iii	1	=59	E-	M3/8
+8d'	p	8g'	p p	8dd'	f	8bb-'	p	V(64)/iii	1.5	=59	E-	M3/8
+8d'J	p	8cc'J	p p	8dd'J	f	8aaX'J	p	V7/iii	2	=59	E-	M3/8
+=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60
+(8d	p	(8ccL	p p	4dd	f	(8aaXL	p	V7/iii	1	=60	E-	M3/8
+4g)	p	8b-J)	p p	4dd	f	8bb-	p	iii	1.5	=60	E-	M3/8
+4g)	p	(16B-LL	p p	(16ddLL	f	8ggJ)	p	iii	2	=60	E-	M3/8
+4g)	p	16BXJJ)	p p	16ggJJ)	f	8ggJ)	p	iii	2.25	=60	E-	M3/8
+=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61
+8BBX'L	p	(16gLL	p p	(16ggLL	f	8ggg'L	p	V65/vi	1	=61	E-	M3/8
+8BBX'L	p	16f	p p	16ff	f	8ggg'L	p	V65/vi	1.25	=61	E-	M3/8
+8C'	p	16e-	p p	16ee-	f	8ggg'	p	vi	1.5	=61	E-	M3/8
+8C'	p	16d	p p	16dd	f	8ggg'	p	vi	1.75	=61	E-	M3/8
+8D'J	p	16c	p p	16cc	f	8ggg'J	p	V43/vi	2	=61	E-	M3/8
+8D'J	p	16dJJ)	p p	16ddJJ)	f	8ggg'J	p	V43/vi	2.25	=61	E-	M3/8
+=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62
+(8BBXL	p	(8dL	p p	(8ddL	f	4eee-	p	vi	1	=62	E-	M3/8
+8C	p	8e-	p p	8ee-	f	4eee-	p	vi	1.5	=62	E-	M3/8
+8E-J)	p	8cJ)	p p	8ccJ)	f	8r	p	vi6	2	=62	E-	M3/8
+=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63
+8BB-'L	p	8d'L	p p	8g'L	f	8ddd'L	p	vi.i6	1	=63	E-	M3/8
+8AAX'	p	8d'	p p	8f#X'	f	8ddd'	p	V64	1.5	=63	E-	M3/8
+8AX'J	p	8eX'J	p p	8g'J	f	8ccc#X'J	p	V7/V	2	=63	E-	M3/8
+=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64
+(8AXL	p	(8EXL	p p	(8gL	f	(8ccc#X	p	V7/V	1	=64	E-	M3/8
+8D	p	8F#X	p p	8aX	f	4ddd)	p	i	1.5	=64	E-	M3/8
+8GJ)	p	8GJ)	p p	8B-J)	f	4ddd)	p	i	2	=64	E-	M3/8
+=65||	=65||	=65||	=65||	=65||	=65||	=65||	=65||	=65||	=65||	=65||	=65||	=65||
+(16E-LL	p	(16gLL	p p	(16ggLL	f	8ggg'L	p	VI	1	=64	B-	M3/8
+16D	p	16f	p p	16ff	f	8ggg'L	p	VI	1.25	=64	B-	M3/8
+16C	p	16e-	p p	16ee-	f	8ggg'	p	V6/iv	1.5	=64	B-	M3/8
+16BBX	p	16d	p p	16dd	f	8ggg'	p	V6/iv	1.75	=64	B-	M3/8
+16AA	p	16c	p p	16cc	f	8ggg'J	p	V6/iv	2	=64	B-	M3/8
+16BBJJ)	p	16dJJ)	p p	16ddJJ)	f	8ggg'J	p	V6/iv	2.25	=64	B-	M3/8
+=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66
+(8BBXL	p	(8dL	p p	(8ddL	f	4eee-	p	iv	1	=66	B-	M3/8
+8C	p	8e-	p p	8ee-	f	4eee-	p	iv	1.5	=66	B-	M3/8
+8E-J)	p	8gJ)	p p	8ccJ)	f	8r	p	iv6	2	=66	B-	M3/8
+=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67
+8d'L	p	8f#X'L	p p	8aa'L	f	8ccc'L	p	V7	1	=67	B-	M3/8
+8d'	p	8g'	p p	8gg'	f	8bb-'	p	V(64)	1.5	=67	B-	M3/8
+8d'J	p	8dd'J	p p	8cc'J	f	8aa'J	p	V7	2	=67	B-	M3/8
+=68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68
+(8d	p	4.dd	p p	(8cc	f	(8aaL	p	V7	1	=68	B-	M3/8
+4g)	p	4.dd	p p	4b-)	f	8bb-	p	i	1.5	=68	B-	M3/8
+4g)	p	4.dd	p p	4b-)	f	8ggJ)	p	i	2	=68	B-	M3/8
+=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69
+8GG'L	p	8G'L	p p	(16bXLL	f	(16gggLL	p	V7/iv	1	=69	B-	M3/8
+8GG'L	p	8G'L	p p	16dd	f	16fff	p	V7/iv	1.25	=69	B-	M3/8
+8GG'	p	8G'	p p	16cc	f	16eee-	p	V7/iv	1.5	=69	B-	M3/8
+8GG'	p	8G'	p p	16b	f	16ddd	p	V7/iv	1.75	=69	B-	M3/8
+8GG'J	p	8G'J	p p	16a	f	16ccc	p	V7/iv	2	=69	B-	M3/8
+8GG'J	p	8G'J	p p	16bJJ)	f	16dddJJ)	p	V7/iv	2.25	=69	B-	M3/8
+=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70
+4EE-	p	8G	p p	8cc	f	(8dddL	p	iv6(9)	1	=70	B-	M3/8
+4EE-	p	4c	p p	8r	f	8eee-	p	iv6	1.5	=70	B-	M3/8
+8r	p	4c	p p	8e-	f	8cccJ)	p	iv6	2	=70	B-	M3/8
+=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71
+8BB-'L	p	8B-'L	p p	8g'L	f	8ddd'L	p	i6	1	=71	B-	M3/8
+8AA'	p	8A'	p p	8f#X'	f	8ddd'	p	V(64)/V	1.5	=71	B-	M3/8
+8A'J	p	8eX'J	p p	8g'J	f	8ccc#X'J	p	V7/V	2	=71	B-	M3/8
+=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
+(8AL	p	(8EXL	p p	(8gL	f	(8ccc#X	p	V7/V	1	=72	B-	M3/8
+8D	p	8F#X	p p	8a	f	4ddd)	p	i	1.5	=72	B-	M3/8
+8GJ)	p	8GJ)	p p	8B-J)	f	4ddd)	p	i	2	=72	B-	M3/8
+=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73
+8cc'L	p	8a'L	p p	4.r	f	8ddd'L	p	V43	1	=73	B-	M3/8
+8b-'	p	8g'	p p	4.r	f	8ddd'	p	i	1.5	=73	B-	M3/8
+8a'J	p	8f#X'J	p p	4.r	f	8ddd'J	p	V6	2	=73	B-	M3/8
+=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74
+(8aL	p	(8cL	p p	4.r	f	(8ddd	p	V2	1	=74	B-	M3/8
+8b-	p	8d	p p	4.r	f	4ggg)	p	i6	1.5	=74	B-	M3/8
+8gJ)	p	8B-J)	p p	4.r	f	4ggg)	p	i6	2	=74	B-	M3/8
+=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
+8D'L	p	8f#X'L	p p	8a'L	f	(16dddLL	p	V	1	=75	B-	M3/8
+8D'L	p	8f#X'L	p p	8a'L	f	16ccc	p	V	1.25	=75	B-	M3/8
+8D'	p	8g'	p p	8b-'	f	16bb-	p	V(64)	1.5	=75	B-	M3/8
+8D'	p	8g'	p p	8b-'	f	16aa	p	V(64)	1.75	=75	B-	M3/8
+8D'J	p	8a'J	p p	8cc'J	f	16gg	p	V7	2	=75	B-	M3/8
+8D'J	p	8a'J	p p	8cc'J	f	16aaJJ)	p	V7	2.25	=75	B-	M3/8
+=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76
+(8D	p	(8f#XL	p p	(8ccL	f	(8aaL	p	V7	1	=76	B-	M3/8
+4G)	p	8g	p p	8b-	f	8bb-	p	i\\	1.5	=76	B-	M3/8
+4G)	p	8B-J)	p p	8dJ)	f	8ggJ)	p	i\\	2	=76	B-	M3/8
+=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
+8F#X'L	p	8A'L	p p	(16ddLL	f	8ddd'L	p	V65	1	=77	B-	M3/8
+8F#X'L	p	8A'L	p p	16cc	f	8ddd'L	p	V65	1.25	=77	B-	M3/8
+8G'	p	8B-'	p p	16b-	f	8ddd'	p	i	1.5	=77	B-	M3/8
+8G'	p	8B-'	p p	16a	f	8ddd'	p	i	1.75	=77	B-	M3/8
+8A'J	p	8c'J	p p	16g	f	8ddd'J	p	V43	2	=77	B-	M3/8
+8A'J	p	8c'J	p p	16aJJ)	f	8ddd'J	p	V43	2.25	=77	B-	M3/8
+=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78
+8D'L	p	(8c	p p	(8aL	f	(8ddd	p	V7	1	=78	B-	M3/8
+8D'	p	4B-)	p p	8b-	f	4ggg)	p	V(64)	1.5	=78	B-	M3/8
+8D'J	p	4B-)	p p	8gJ)	f	4ggg)	p	V(64)	2	=78	B-	M3/8
+=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79
+(16DLL	p	8f#X'L	p p	8a'L	f	8ddd'L	p	V	1	=79	B-	M3/8
+16C	p	8f#X'L	p p	8a'L	f	8ddd'L	p	V	1.25	=79	B-	M3/8
+16BB-	p	8g'	p p	8b-'	f	8ddd'	p	i6	1.5	=79	B-	M3/8
+16AA	p	8g'	p p	8b-'	f	8ddd'	p	i6	1.75	=79	B-	M3/8
+16GG	p	8a'J	p p	8cc'J	f	8ddd'J	p	V43	2	=79	B-	M3/8
+16AAJJ)	p	8a'J	p p	8cc'J	f	8ddd'J	p	V43	2.25	=79	B-	M3/8
+=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80
+(8AAL	p	(8cL	p p	(8ccL	f	(8ddd	p	V43	1	=80	B-	M3/8
+8BB-	p	8B-	p p	8dd	f	4ggg)	p	i\\	1.5	=80	B-	M3/8
+8GGJ)	p	8dJ)	p p	8b-J)	f	4ggg)	p	i\\	2	=80	B-	M3/8
+=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81
+(8BB-L	<	(8dL	<	(8b-L	<	(8fffL	<	I.I	1	=81	B-	M3/8
+8D	[ >	8B-	[ >	16bb-L	[ >	8ddd	[ >	I6	1.5	=81	B-	M3/8
+8D	[ >	8B-	[ >	16aa	[ >	8ddd	[ >	I6	1.75	=81	B-	M3/8
+8BB-J)	]]	8dJ)	]]	16bb-	[ >	16fffJk)	[ >	I	2	=81	B-	M3/8
+8BB-J)	]]	8dJ)	]]	16ddJJ)	]]	16r	]]	I	2.25	=81	B-	M3/8
+=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82
+(8DL	p p	(8b-L	]]	(8ddL	p	4.bb-	p	vi64	1	=82	B-	M3/8
+8GG	p p	8d	]]	16b-L	p	4.bb-	p	vi64	1.5	=82	B-	M3/8
+8GG	p p	8d	]]	16a	p	4.bb-	p	vi64	1.75	=82	B-	M3/8
+8DJ)	p p	8gJ)	]]	16b-	p	4.bb-	p	vi64	2	=82	B-	M3/8
+8DJ)	p p	8gJ)	]]	16dJJ)	p	4.bb-	p	vi64	2.25	=82	B-	M3/8
+=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83
+(8EE-L	<	(8GL	<	(8gL	<	(16cccLL	<	ii6	1	=83	B-	M3/8
+(8EE-L	<	(8GL	<	(8gL	<	16dddJ	<	ii6	1.25	=83	B-	M3/8
+8C	<	8E-	<	16ggL	<	8eee-	<	ii	1.5	=83	B-	M3/8
+8C	<	8E-	<	16ff	<	8eee-	<	ii	1.75	=83	B-	M3/8
+8EE-J)	[[	8e-J)	[[	16ee-	<	16gggJk)	<	ii6	2	=83	B-	M3/8
+8EE-J)	[[	8e-J)	[[	16ccJJ)	[[	16r	[[	ii6	2.25	=83	B-	M3/8
+=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84
+(8E-L	p p	(8cL	[[	(8ccL	p	(8bb-	p	V2(4)	1	=84	B-	M3/8
+8FF	p p	8cc	[[	16ee-L	p	4aa)	p	V2	1.5	=84	B-	M3/8
+8FF	p p	8cc	[[	16cc	p	4aa)	p	V2	1.75	=84	B-	M3/8
+8E-J)	p p	8fJ)	[[	16b-	p	4aa)	p	V2	2	=84	B-	M3/8
+8E-J)	p p	8fJ)	[[	16aJJ)	p	4aa)	p	V2	2.25	=84	B-	M3/8
+=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85
+(8BB-L	<	(8fL	<	(8ddL	<	(8fffL	<	I	1	=85	B-	M3/8
+8D	[ >	8B-	[ >	16bb-L	[ >	8ddd	[ >	I6	1.5	=85	B-	M3/8
+8D	[ >	8B-	[ >	16aa	[ >	8ddd	[ >	I6	1.75	=85	B-	M3/8
+8BB-J)	]]	8dJ)	]]	16bb-	[ >	16fffJk)	[ >	I	2	=85	B-	M3/8
+8BB-J)	]]	8dJ)	]]	16ddJJ)	]]	16r	]]	I	2.25	=85	B-	M3/8
+=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86
+(8DL	p	(8GL	p	(8ddL	p	4.bb-	p	vi64	1	=86	B-	M3/8
+8GG	p	8g	p	16b-L	p	4.bb-	p	vi64	1.5	=86	B-	M3/8
+8GG	p	8g	p	16a	p	4.bb-	p	vi64	1.75	=86	B-	M3/8
+8DJ)	p	8B-J)	p	16b-	p	4.bb-	p	vi64	2	=86	B-	M3/8
+8DJ)	p	8B-J)	p	16dJJ)	p	4.bb-	p	vi64	2.25	=86	B-	M3/8
+=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87
+(8EE-L	<	(8e-L	<	(16gLL	<	(16cccLL	<	ii6	1	=87	B-	M3/8
+(8EE-L	<	(8e-L	<	16f	<	16dddJ	<	ii6	1.25	=87	B-	M3/8
+8C	<	8G	<	16e-	<	8eee-	<	ii	1.5	=87	B-	M3/8
+8C	<	8G	<	16ee-	<	8eee-	<	ii	1.75	=87	B-	M3/8
+8FFJ)	[[	8e-J)	[[	16dd	<	16aaJk)	<	V7	2	=87	B-	M3/8
+8FFJ)	[[	8e-J)	[[	16ccJJ)	[[	16r	[[	V7	2.25	=87	B-	M3/8
+=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88
+(8FL	p	(8e-L	p	(16ccLL	p	(8aa	p	V7	1	=88	B-	M3/8
+(8FL	p	(8e-L	p	16ee-	p	(8aa	p	V7	1.25	=88	B-	M3/8
+8FF	p	8B-	p	16dd	p	4bb-)	p	I\\	1.5	=88	B-	M3/8
+8FF	p	8B-	p	16ccJ	p	4bb-)	p	I\\	1.75	=88	B-	M3/8
+8BB-J)	p	8dJ)	p	8b-J)	p	4bb-)	p	I\\	2	=88	B-	M3/8
+=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89
+8BB-	p	8r	p	8r	p	(16fLL	<	I	1	=89	B-	M3/8
+8BB-	p	8r	p	8r	p	16ff	<	I	1.25	=89	B-	M3/8
+8r	p	8B-	p	8d	p	16ddd	<	I	1.5	=89	B-	M3/8
+8r	p	8B-	p	8d	p	16fff	[ >	I	1.75	=89	B-	M3/8
+8BB-	p	8r	p	8r	p	16eee-	[ >	I	2	=89	B-	M3/8
+8BB-	p	8r	p	8r	p	16dddJJ)	]]	I	2.25	=89	B-	M3/8
+=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90
+8r	p	8d	p	8b-	p	(16cccLL	p	vi	1	=90	B-	M3/8
+8r	p	8d	p	8b-	p	16bb-	p	vi	1.25	=90	B-	M3/8
+8GG	p	8r	p	8r	p	16aa	p	vi	1.5	=90	B-	M3/8
+8GG	p	8r	p	8r	p	16bb-	p	vi	1.75	=90	B-	M3/8
+8r	p	8d	p	8b-	p	16ccc	p	vi	2	=90	B-	M3/8
+8r	p	8d	p	8b-	p	16bb-JJ)	p	vi	2.25	=90	B-	M3/8
+=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91
+8EE-	p	8r	p	8r	p	(16dddLL	<	ii6(2)	1	=91	B-	M3/8
+8EE-	p	8r	p	8r	p	16bbX	<	ii6(2)	1.25	=91	B-	M3/8
+8r	p	8e-	p	8cc	p	16ccc	<	ii6	1.5	=91	B-	M3/8
+8r	p	8e-	p	8cc	p	16ddd	<	ii6	1.75	=91	B-	M3/8
+8EE-	p	8r	p	8r	p	16eee-	<	ii6	2	=91	B-	M3/8
+8EE-	p	8r	p	8r	p	16gggJJ)	[[	ii6	2.25	=91	B-	M3/8
+=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92
+8r	p	8c	p	8ee-	p	(16bb-LL	p	V7(4)	1	=92	B-	M3/8
+8r	p	8c	p	8ee-	p	16gg	p	V7(4)	1.25	=92	B-	M3/8
+8FF	p	8r	p	8r	p	16bb-	p	V7(4)	1.5	=92	B-	M3/8
+8FF	p	8r	p	8r	p	16aa	p	V7	1.75	=92	B-	M3/8
+8r	p	8c	p	8ee-	p	16gg	p	V7	2	=92	B-	M3/8
+8r	p	8c	p	8ee-	p	16aaJJ)	p	V7	2.25	=92	B-	M3/8
+=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93
+8BB-	p	8r	p	8r	p	(16fLL	<	I	1	=93	B-	M3/8
+8BB-	p	8r	p	8r	p	16ff	<	I	1.25	=93	B-	M3/8
+8r	p	8d	p	8b-	p	16ddd	<	I	1.5	=93	B-	M3/8
+8r	p	8d	p	8b-	p	16fff	[ >	I	1.75	=93	B-	M3/8
+8BB-	p	8r	p	8r	p	16eee-	[ >	I	2	=93	B-	M3/8
+8BB-	p	8r	p	8r	p	16dddJJ)	]]	I	2.25	=93	B-	M3/8
+=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94
+8r	p	8G 8B-	p	8dd	p	(16cccLL	p	vi	1	=94	B-	M3/8
+8r	p	8G 8B-	p	8dd	p	16bb-	p	vi	1.25	=94	B-	M3/8
+8GG	p	8r	p	8r	p	16aa	p	vi	1.5	=94	B-	M3/8
+8GG	p	8r	p	8r	p	16bb-	p	vi	1.75	=94	B-	M3/8
+8r	p	8G 8B-	p	8dd	p	16ccc	p	vi	2	=94	B-	M3/8
+8r	p	8G 8B-	p	8dd	p	16bb-JJ)	p	vi	2.25	=94	B-	M3/8
+=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95
+8EE-	p	8r	p	8r	p	(16bbXLL	<	ii6	1	=95	B-	M3/8
+8EE-	p	8r	p	8r	p	16ccc	<	ii6	1.25	=95	B-	M3/8
+8r	p	8cL	p	8gL	p	16ddd	<	ii6	1.5	=95	B-	M3/8
+8r	p	8cL	p	8gL	p	16eee-	<	ii6	1.75	=95	B-	M3/8
+8FF	p	8cJ	p	8e-J	p	16gg	<	V7	2	=95	B-	M3/8
+8FF	p	8cJ	p	8e-J	p	16aaJJ)	[[	V7	2.25	=95	B-	M3/8
+=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96
+8r	p	8f	p	8ee-	p	(16aaLL	[[	V7	1	=96	B-	M3/8
+8r	p	8f	p	8ee-	p	16cc	[[	V7	1.25	=96	B-	M3/8
+8FFL	p	8r	p	8r	p	16aa	[[	V7	1.5	=96	B-	M3/8
+8FFL	p	8r	p	8r	p	16ccc	[[	V7	1.75	=96	B-	M3/8
+8BB-J	p	8f	p	8dd	p	16aa	[[	I\\	2	=96	B-	M3/8
+8BB-J	p	8f	p	8dd	p	16bb-JJ)	[[	I\\	2.25	=96	B-	M3/8
+=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97
+4.r	p	(8ddL	< >	[4.ff	p	(16fffLL	<	I6	1	=97	B-	M3/8
+4.r	p	(8ddL	< >	[4.ff	p	16fJJ	<	I6	1.25	=97	B-	M3/8
+4.r	p	8cc	< >	[4.ff	p	16ee-LL	<	V43	1.5	=97	B-	M3/8
+4.r	p	8cc	< >	[4.ff	p	16eee-	[ >	V43	1.75	=97	B-	M3/8
+4.r	p	8b-J)	]]	[4.ff	p	16ddd	[ >	I	2	=97	B-	M3/8
+4.r	p	8b-J)	]]	[4.ff	p	16ddJJ)	]]	I	2.25	=97	B-	M3/8
+=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98
+4.r	p	(8aL	] p	(8ffL]	p	(16cccLL	]]	V6	1	=98	B-	M3/8
+4.r	p	(8aL	] p	(8ffL]	p	16f	]]	V6	1.25	=98	B-	M3/8
+4.r	p	8g	] p	8gg	p	16b-	]]	V6	1.5	=98	B-	M3/8
+4.r	p	8g	] p	8gg	p	16ccc	]]	V6	1.75	=98	B-	M3/8
+4.r	p	8aJ)	] p	8ffJ)	p	16bb-	]]	V6	2	=98	B-	M3/8
+4.r	p	8aJ)	] p	8ffJ)	p	16cccJJ)	]]	V6	2.25	=98	B-	M3/8
+=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99
+4.r	p	(8b-L	] p	4ff	p	(16dddLL	]]	I	1	=99	B-	M3/8
+4.r	p	(8b-L	] p	4ff	p	16f	]]	I	1.25	=99	B-	M3/8
+4.r	p	8a	] p	4ff	p	16cc	]]	V6	1.5	=99	B-	M3/8
+4.r	p	8a	] p	4ff	p	16cccJJ	]]	V6	1.75	=99	B-	M3/8
+4.r	p	8gJ)	] p	[8cc	p	16eeXLL	]]	V43/V	2	=99	B-	M3/8
+4.r	p	8gJ)	] p	[8cc	p	16bb-JJ)	]]	V43/V	2.25	=99	B-	M3/8
+=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100
+(8fL	p	[4.f	] p	8ccL]	p	(16aaLL	]]	V	1	=100	B-	M3/8
+(8fL	p	[4.f	] p	8ccL]	p	16f	]]	V	1.25	=100	B-	M3/8
+8eX	p	[4.f	] p	8b-	p	16gg	]]	V65/V	1.5	=100	B-	M3/8
+8eX	p	[4.f	] p	8b-	p	16aa	]]	V65/V	1.75	=100	B-	M3/8
+8e-J	p	[4.f	] p	8ccJ	p	16bb-	]]	V2	2	=100	B-	M3/8
+8e-J	p	[4.f	] p	8ccJ	p	16aaJJ)	]]	V2	2.25	=100	B-	M3/8
+=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101
+8dL	p	4.f_	] p	(8ffL	p	(16fffLL	]]	I6	1	=101	B-	M3/8
+8dL	p	4.f_	] p	(8ffL	p	16fJJ	]]	I6	1.25	=101	B-	M3/8
+8c	p	4.f_	] p	8ee-	p	16ffLL	]]	V43	1.5	=101	B-	M3/8
+8c	p	4.f_	] p	8ee-	p	16eee-	]]	V43	1.75	=101	B-	M3/8
+8B-J	p	4.f_	] p	8ddJ	p	16ff	]]	I	2	=101	B-	M3/8
+8B-J	p	4.f_	] p	8ddJ	p	16dddJJ)	]]	I	2.25	=101	B-	M3/8
+=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102
+8AL	p	4.f_	] p	8ccL	p	(16cccLL	]]	V6	1	=102	B-	M3/8
+8AL	p	4.f_	] p	8ccL	p	16f	]]	V6	1.25	=102	B-	M3/8
+8G	p	4.f_	] p	8b-	p	16ff	]]	V6	1.5	=102	B-	M3/8
+8G	p	4.f_	] p	8b-	p	16ccc	]]	V6	1.75	=102	B-	M3/8
+8AJ	p	4.f_	] p	8ccJ	p	16ddd	]]	V6	2	=102	B-	M3/8
+8AJ	p	4.f_	] p	8ccJ	p	16cccJJ)	]]	V6	2.25	=102	B-	M3/8
+=103	=103	=103	=103	=103	=103	=103	=103	=103	=103	=103	=103	=103
+8B-L	p	4.f_	] p	8ddL	p	(16dddLL	]]	I	1	=103	B-	M3/8
+8B-L	p	4.f_	] p	8ddL	p	16f	]]	I	1.25	=103	B-	M3/8
+8A	p	4.f_	] p	8cc	p	16ff	]]	V6	1.5	=103	B-	M3/8
+8A	p	4.f_	] p	8cc	p	16ccc	]]	V6	1.75	=103	B-	M3/8
+8GJ	p	4.f_	] p	8b-J	p	16ff	]]	#viio6(9)/V	2	=103	B-	M3/8
+8GJ	p	4.f_	] p	8b-J	p	16eeeXJJ)	]]	#viio6(9)/V	2.25	=103	B-	M3/8
+=104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104
+8FL	p	8fL]	] p	8aL	p	(16fffLL	]]	V	1	=104	B-	M3/8
+8FL	p	8fL]	] p	8aL	p	16ff	]]	V	1.25	=104	B-	M3/8
+8EX	p	8B-	] p	8cc	p	16ggg	]]	V65/V	1.5	=104	B-	M3/8
+8EX	p	8B-	] p	8cc	p	16gg	]]	V65/V	1.75	=104	B-	M3/8
+8E-J)	p	8cJ	] p	8ffJ)	p	16aaa	]]	V2	2	=104	B-	M3/8
+8E-J)	p	8cJ	] p	8ffJ)	p	16aaJJ)	]]	V2	2.25	=104	B-	M3/8
+=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105
+8DL	p	8F	] p	8ff	p	16bbb-'LL	]]	I6	1	=105	B-	M3/8
+8DL	p	8F	] p	8ff	p	16B-JJ	]]	I6	1.25	=105	B-	M3/8
+8BB-J	p	8r	] p	8r	p	(16dddLL	]]	I	1.5	=105	B-	M3/8
+8BB-J	p	8r	] p	8r	p	16fff	]]	I	1.75	=105	B-	M3/8
+8r	p	8B-	] p	8dd	p	16eee-	]]	I	2	=105	B-	M3/8
+8r	p	8B-	] p	8dd	p	16dddJJ)	]]	I	2.25	=105	B-	M3/8
+=106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106
+8GG	p	8r	] p	8r	p	(16cccLL	p	vi	1	=106	B-	M3/8
+8GG	p	8r	] p	8r	p	16bb-	p	vi	1.25	=106	B-	M3/8
+8r	p	8B-	p p	8dd	p	16aa	p	vi	1.5	=106	B-	M3/8
+8r	p	8B-	p p	8dd	p	16bb-	p	vi	1.75	=106	B-	M3/8
+8GG	p	8r	p p	8r	p	16ccc	p	vi	2	=106	B-	M3/8
+8GG	p	8r	p p	8r	p	16bb-JJ)	p	vi	2.25	=106	B-	M3/8
+=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107
+8r	<	8e-	<	8g 8cc	<	(16dddLL	<	ii6(9)	1	=107	B-	M3/8
+8r	<	8e-	<	8g 8cc	<	16bbX	<	ii6(9)	1.25	=107	B-	M3/8
+8EE-	<	8r	<	8r	<	16ccc	<	ii6	1.5	=107	B-	M3/8
+8EE-	<	8r	<	8r	<	16ddd	<	ii6	1.75	=107	B-	M3/8
+8r	[[	8e-	[[	8gg	[[	16eee-	<	ii6	2	=107	B-	M3/8
+8r	[[	8e-	[[	8gg	[[	16gggJJ)	[[	ii6	2.25	=107	B-	M3/8
+=108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108
+8FF	p	8r	[[	8r	[[	(16bb-LL	p	V(4)	1	=108	B-	M3/8
+8FF	p	8r	[[	8r	[[	16gg	p	V(4)	1.25	=108	B-	M3/8
+8r	p	8c	p	8a	p	16bb-	p	V(4)	1.5	=108	B-	M3/8
+8r	p	8c	p	8a	p	16aa	p	V	1.75	=108	B-	M3/8
+8E-	p	8r	p	8r	p	16gg	p	V2	2	=108	B-	M3/8
+8E-	p	8r	p	8r	p	16aaJJ)	p	V2	2.25	=108	B-	M3/8
+=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109
+8D	p	8r	p	8r	p	(16fffLL	<	I6	1	=109	B-	M3/8
+8D	p	8r	p	8r	p	16ff	<	I6	1.25	=109	B-	M3/8
+8r	p	8B-	p	8b-	p	16ddd	<	I6	1.5	=109	B-	M3/8
+8r	p	8B-	p	8b-	p	16dd)	[ >	I6	1.75	=109	B-	M3/8
+8BB-	p	8r	p	8r	p	(16fff	[ >	I	2	=109	B-	M3/8
+8BB-	p	8r	p	8r	p	16dddJJ)	]]	I	2.25	=109	B-	M3/8
+=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110
+8G	p	8r	p	8r	p	(16aaLL	p	vi	1	=110	B-	M3/8
+8G	p	8r	p	8r	p	16bb-JJ	p	vi	1.25	=110	B-	M3/8
+8r	p	8G 8B-	p	8dd	p	16b-LL	p	vi	1.5	=110	B-	M3/8
+8r	p	8G 8B-	p	8dd	p	16bb-	p	vi	1.75	=110	B-	M3/8
+8G	p	8r	p	8r	p	16ccc	p	vi	2	=110	B-	M3/8
+8G	p	8r	p	8r	p	16bb-JJ)	p	vi	2.25	=110	B-	M3/8
+=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111
+8r	<	8G	<	8ee-	<	(16bbXLL	<	ii6	1	=111	B-	M3/8
+8r	<	8G	<	8ee-	<	16ccc	<	ii6	1.25	=111	B-	M3/8
+8EE-L	<	8r	<	8r	<	16ddd	<	ii6	1.5	=111	B-	M3/8
+8EE-L	<	8r	<	8r	<	16eee-	<	ii6	1.75	=111	B-	M3/8
+8FFJ	[[	8e-	[[	8cc	[[	16gg	<	V7	2	=111	B-	M3/8
+8FFJ	[[	8e-	[[	8cc	[[	16aaJJ)	[[	V7	2.25	=111	B-	M3/8
+=112	=112	=112	=112	=112	=112	=112	=112	=112	=112	=112	=112	=112
+8r	[[	8d	p	8b-	p	(16aaLL	p	I6\\	1	=112	B-	M3/8
+8r	[[	8d	p	8b-	p	16bb-	p	I6\\	1.25	=112	B-	M3/8
+8BB-L	p	8r	p	8r	p	16dd	p	I	1.5	=112	B-	M3/8
+8BB-L	p	8r	p	8r	p	16bb-	p	I	1.75	=112	B-	M3/8
+8fJ	p	[8dd	p	8b-	p	16dd	p	I	2	=112	B-	M3/8
+8fJ	p	[8dd	p	8b-	p	16dddJJ)	p	I	2.25	=112	B-	M3/8
+=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113
+[4.f	< > ]]	(8ddL]	<	(8ffL	<	16fff'LL	<	V[I	1	=113	B-	M3/8
+[4.f	< > ]]	(8ddL]	<	(8ffL	<	(16b-JJ	<	V[I	1.25	=113	B-	M3/8
+[4.f	< > ]]	8cc	[ >	8aa	[ >	16ffLL	<	V43	1.5	=113	B-	M3/8
+[4.f	< > ]]	8cc	[ >	8aa	[ >	16eee-	[ >	V43	1.75	=113	B-	M3/8
+[4.f	< > ]]	8b-J)	]]	8bb-J)	]]	16ddd	[ >	I	2	=113	B-	M3/8
+[4.f	< > ]]	8b-J)	]]	8bb-J)	]]	16ffJJ)	]]	I	2.25	=113	B-	M3/8
+=114	=114	=114	=114	=114	=114	=114	=114	=114	=114	=114	=114	=114
+4.f_	] p	(8aL	p p	(8cccL	]]	16ccc'LL	p	V	1	=114	B-	M3/8
+4.f_	] p	(8aL	p p	(8cccL	]]	(16fJJ	p	V	1.25	=114	B-	M3/8
+4.f_	] p	8g	p p	8b-	]]	16ffLL	p	V	1.5	=114	B-	M3/8
+4.f_	] p	8g	p p	8b-	]]	16ccc	p	V	1.75	=114	B-	M3/8
+4.f_	] p	8aJ)	p p	8ccJ)	]]	16ddd	p	V	2	=114	B-	M3/8
+4.f_	] p	8aJ)	p p	8ccJ)	]]	16cccJJ)	p	V	2.25	=114	B-	M3/8
+=115	=115	=115	=115	=115	=115	=115	=115	=115	=115	=115	=115	=115
+4.f_	] p	(8b-L	p p	(4ff	]]	16ddd'LL	p	I	1	=115	B-	M3/8
+4.f_	] p	(8b-L	p p	(4ff	]]	(16fJJ	p	I	1.25	=115	B-	M3/8
+4.f_	] p	8a	p p	(4ff	]]	16ffLL	p	V	1.5	=115	B-	M3/8
+4.f_	] p	8a	p p	(4ff	]]	16ccc	p	V	1.75	=115	B-	M3/8
+4.f_	] p	8gJ)	p p	8eeX)	]]	16ff	p	viio6/V	2	=115	B-	M3/8
+4.f_	] p	8gJ)	p p	8eeX)	]]	16bb-JJ)	p	viio6/V	2.25	=115	B-	M3/8
+=116	=116	=116	=116	=116	=116	=116	=116	=116	=116	=116	=116	=116
+(8fL]	] p	[4.f	p p	(8ffL	]]	16aa'LL	p	V]	1	=116	B-	M3/8
+(8fL]	] p	[4.f	p p	(8ffL	]]	(16aJJ	p	V]	1.25	=116	B-	M3/8
+8eX	] p	[4.f	p p	8gg	]]	16b-LL	p	#viio(+2)/V	1.5	=116	B-	M3/8
+8eX	] p	[4.f	p p	8gg	]]	16bb-JJ	p	#viio(+2)/V	1.75	=116	B-	M3/8
+8e-J	] p	[4.f	p p	8aaJ	]]	16ccLL	p	V2	2	=116	B-	M3/8
+8e-J	] p	[4.f	p p	8aaJ	]]	(16cccJJ)	p	V2	2.25	=116	B-	M3/8
+=117	=117	=117	=117	=117	=117	=117	=117	=117	=117	=117	=117	=117
+8dL	] p	(8fL]	p p	8bb-L	]]	16fffLL)	p	I6	1	=117	B-	M3/8
+8dL	] p	(8fL]	p p	8bb-L	]]	(16f	p	I6	1.25	=117	B-	M3/8
+8c	] p	8A	p p	8ee-	]]	16ff)	p	V43	1.5	=117	B-	M3/8
+8c	] p	8A	p p	8ee-	]]	(16eee-	p	V43	1.75	=117	B-	M3/8
+8B-J	] p	8B-J)	p p	8ddJ	]]	16ff)	p	I	2	=117	B-	M3/8
+8B-J	] p	8B-J)	p p	8ddJ	]]	(16dddJJ	p	I	2.25	=117	B-	M3/8
+=118	=118	=118	=118	=118	=118	=118	=118	=118	=118	=118	=118	=118
+8AL	] p	[4.f	p p	8ccL	]]	16ff)	p	V6	1	=118	B-	M3/8
+8AL	] p	[4.f	p p	8ccL	]]	(16cccLL	p	V6	1.25	=118	B-	M3/8
+8G	] p	[4.f	p p	8b-	]]	16ffJJ)	p	V6	1.5	=118	B-	M3/8
+8G	] p	[4.f	p p	8b-	]]	(16bb-LL	p	V6	1.75	=118	B-	M3/8
+8AJ	] p	[4.f	p p	8ccJ	]]	16ffJJ)	p	V6	2	=118	B-	M3/8
+8AJ	] p	[4.f	p p	8ccJ	]]	(16ccc	p	V6	2.25	=118	B-	M3/8
+=119	=119	=119	=119	=119	=119	=119	=119	=119	=119	=119	=119	=119
+8B-L	] p	(4f]	p p	8ddL	]]	16ff)	p	I	1	=119	B-	M3/8
+8B-L	] p	(4f]	p p	8ddL	]]	(16dddLL	p	I	1.25	=119	B-	M3/8
+8A	] p	(4f]	p p	8cc	]]	16ffJJ)	p	V6	1.5	=119	B-	M3/8
+8A	] p	(4f]	p p	8cc	]]	(16cccLL	p	V6	1.75	=119	B-	M3/8
+8GJ	] p	8g)	p p	8b-J	]]	16ffJJ)	p	#viio6(+2)/V	2	=119	B-	M3/8
+8GJ	] p	8g)	p p	8b-J	]]	(16eeeX	p	#viio6(+2)/V	2.25	=119	B-	M3/8
+=120	=120	=120	=120	=120	=120	=120	=120	=120	=120	=120	=120	=120
+8FL	] p	(8cL	p p	8aL	]]	16fff)	p	V	1	=120	B-	M3/8
+8FL	] p	(8cL	p p	8aL	]]	16ffLL	p	V	1.25	=120	B-	M3/8
+8EX	] p	8B-	p p	8b-	]]	16ggJJ	p	#viio6/V	1.5	=120	B-	M3/8
+8EX	] p	8B-	p p	8b-	]]	16gggLL	p	#viio6/V	1.75	=120	B-	M3/8
+8E-J)	] p	8cJ)	p p	8ccJ)	]]	16aaJJ	p	V2	2	=120	B-	M3/8
+8E-J)	] p	8cJ)	p p	8ccJ)	]]	16aaa	p	V2	2.25	=120	B-	M3/8
+=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121
+(8BB-L	p p <	(8FL	p <	16e-'LL	<	(8bbb-L	p <	I	1	=121	B-	M3/8
+(8BB-L	p p <	(8FL	p <	(16dd	<	(8bbb-L	p <	I	1.25	=121	B-	M3/8
+8D	[ >	8d	[ >	16bb-	[ >	8ddd	[ >	I6	1.5	=121	B-	M3/8
+8D	[ >	8d	[ >	16aa	[ >	8ddd	[ >	I6	1.75	=121	B-	M3/8
+8BB-J)	]]	8b-J)	]]	16bb-	[ >	16fffJk)	[ >	I	2	=121	B-	M3/8
+8BB-J)	]]	8b-J)	]]	16ddJJ)	]]	16r	]]	I	2.25	=121	B-	M3/8
+=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122
+(8DL	]]	(8gL	]]	16dd'LL	]]	4.bb-	]]	vi64	1	=122	B-	M3/8
+(8DL	]]	(8gL	]]	(16B-	]]	4.bb-	]]	vi64	1.25	=122	B-	M3/8
+8GG	]]	8G	]]	16b-	]]	4.bb-	]]	vi64	1.5	=122	B-	M3/8
+8GG	]]	8G	]]	16a	]]	4.bb-	]]	vi64	1.75	=122	B-	M3/8
+8DJ)	]]	8B-J)	]]	16b-	]]	4.bb-	]]	vi64	2	=122	B-	M3/8
+8DJ)	]]	8B-J)	]]	16dJJ)	]]	4.bb-	]]	vi64	2.25	=122	B-	M3/8
+=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123
+(8EE-L	<	(8e-L	<	(16ggLL	<	(16cccLL	<	ii6	1	=123	B-	M3/8
+(8EE-L	<	(8e-L	<	16ff	<	16dddJ	<	ii6	1.25	=123	B-	M3/8
+8C	<	8G	<	16ee-	<	8eee-	<	ii	1.5	=123	B-	M3/8
+8C	<	8G	<	16dd	<	8eee-	<	ii	1.75	=123	B-	M3/8
+8EE-J)	[[	8e-J)	[[	16cc	<	16gggJk)	<	ii6	2	=123	B-	M3/8
+8EE-J)	[[	8e-J)	[[	16e-JJ)	[[	16r	[[	ii6	2.25	=123	B-	M3/8
+=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124
+(8CL	p	(8e-L	[[	(16ee-LL	p	(8bb-	p	V7(4)	1	=124	B-	M3/8
+(8CL	p	(8e-L	[[	16cc	p	(8bb-	p	V7(4)	1.25	=124	B-	M3/8
+8FF	p	8cc	[[	16ee-	p	4aa)	p	V7	1.5	=124	B-	M3/8
+8FF	p	8cc	[[	16dd	p	4aa)	p	V7	1.75	=124	B-	M3/8
+8CJ)	p	8e-J)	[[	16ee-	p	4aa)	p	V7	2	=124	B-	M3/8
+8CJ)	p	8e-J)	[[	16aJJ)	p	4aa)	p	V7	2.25	=124	B-	M3/8
+=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125
+(8BB-L	<	(8dL	<	16dd'LL	<	(8fffL	<	I	1	=125	B-	M3/8
+(8BB-L	<	(8dL	<	(16B-	<	(8fffL	<	I	1.25	=125	B-	M3/8
+8D	[ >	8B-	[ >	16b-	[ >	8ddd	[ >	I6	1.5	=125	B-	M3/8
+8D	[ >	8B-	[ >	16a	[ >	8ddd	[ >	I6	1.75	=125	B-	M3/8
+8BB-J)	]]	8dJ)	]]	16b-	[ >	16fffJk)	[ >	I	2	=125	B-	M3/8
+8BB-J)	]]	8dJ)	]]	16dJJ)	]]	16r	]]	I	2.25	=125	B-	M3/8
+=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126
+(8DL	p	(8dL	p	16b-'LL	p	4.bb-	p	vi64	1	=126	B-	M3/8
+(8DL	p	(8dL	p	(16B-	p	4.bb-	p	vi64	1.25	=126	B-	M3/8
+8GG	p	8G	p	16dd	p	4.bb-	p	vi64	1.5	=126	B-	M3/8
+8GG	p	8G	p	16cc	p	4.bb-	p	vi64	1.75	=126	B-	M3/8
+8DJ)	p	8gJ)	p	16b-	p	4.bb-	p	vi64	2	=126	B-	M3/8
+8DJ)	p	8gJ)	p	16gJJ)	p	4.bb-	p	vi64	2.25	=126	B-	M3/8
+=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127
+(8EE-L	<	(8e-L	<	(16ggLL	<	(16cccLL	<	ii6	1	=127	B-	M3/8
+(8EE-L	<	(8e-L	<	16ff	<	16dddJ	<	ii6	1.25	=127	B-	M3/8
+8C	<	8G	<	16ee-	<	8eee-	<	ii	1.5	=127	B-	M3/8
+8C	<	8G	<	16dd	<	8eee-	<	ii	1.75	=127	B-	M3/8
+8FFJ)	[[	8AJ)	[[	16cc	<	16aaJk)	<	V7	2	=127	B-	M3/8
+8FFJ)	[[	8AJ)	[[	16e-JJ)	[[	16r	[[	V7	2.25	=127	B-	M3/8
+=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128
+(8FL	p	(8cL	p	(16aLL	p	(8aa	p	V7	1	=128	B-	M3/8
+(8FL	p	(8cL	p	16e-	p	(8aa	p	V7	1.25	=128	B-	M3/8
+8FF	p	8B-	p	16d	p	4bb-)	p	I\\	1.5	=128	B-	M3/8
+8FF	p	8B-	p	16e-	p	4bb-)	p	I\\	1.75	=128	B-	M3/8
+8BB-J)	p	8FJ)	p	16d	p	4bb-)	p	I\\	2	=128	B-	M3/8
+8BB-J)	p	8FJ)	p	16b-JJ)	p	4bb-)	p	I\\	2.25	=128	B-	M3/8
+=129	=129	=129	=129	=129	=129	=129	=129	=129	=129	=129	=129	=129
+(8a	p	4.r	p	4.r	p	4.r	p	I	1	=129	B-	M3/8
+4b-)	p	4.r	p	4.r	p	4.r	p	I	1.5	=129	B-	M3/8
+=130	=130	=130	=130	=130	=130	=130	=130	=130	=130	=130	=130	=130
+4.r	p	(16ccLL	<	4.r	p	4.r	p	viio	1	=130	B-	M3/8
+4.r	p	16ddJ	<	4.r	p	4.r	p	viio	1.25	=130	B-	M3/8
+4.r	p	8ee-	<	4.r	p	4.r	p	viio	1.5	=130	B-	M3/8
+4.r	p	16aJk)	<	4.r	p	4.r	p	viio	2	=130	B-	M3/8
+4.r	p	16r	[[	4.r	p	4.r	p	viio	.	=130	B-	M3/8
+=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131
+4.r	p	4.r	[[	4.bb-	p	4.r	p	I	1	=131	B-	M3/8
+=132	=132	=132	=132	=132	=132	=132	=132	=132	=132	=132	=132	=132
+4.r	p	4.r	[[	4.r	p	(8fffL	<	I	1	=132	B-	M3/8
+4.r	p	4.r	[[	4.r	p	8ddd	>	I	1.5	=132	B-	M3/8
+4.r	p	4.r	[[	4.r	p	16fffJk)	>	I	2	=132	B-	M3/8
+4.r	p	4.r	[[	4.r	p	16r	] ]]	I	.	=132	B-	M3/8
+=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133
+4.r	p	4.r	[[	(8ffL	<	4.r	] ]]	I	1	=133	B-	M3/8
+4.r	p	4.r	[[	8dd	>	4.r	] ]]	I	1.5	=133	B-	M3/8
+4.r	p	4.r	[[	16ffJk)	>	4.r	] ]]	I	2	=133	B-	M3/8
+4.r	p	4.r	[[	16r	] ]]	4.r	] ]]	I	.	=133	B-	M3/8
+=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134
+4.r	p	4.r	[[	4.r	] ]]	4.b-	p	I	1	=134	B-	M3/8
+=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135
+4.r	p	(16cLL	<	4.r	] ]]	4.r	p	ii	1	=135	B-	M3/8
+4.r	p	16dJ	<	4.r	] ]]	4.r	p	ii	1.25	=135	B-	M3/8
+4.r	p	8e-	[ >	4.r	] ]]	4.r	p	ii	1.5	=135	B-	M3/8
+4.r	p	16gJk)	[ >	4.r	] ]]	4.r	p	ii	2	=135	B-	M3/8
+4.r	p	16r	]	4.r	] ]]	4.r	p	ii	.	=135	B-	M3/8
+=136	=136	=136	=136	=136	=136	=136	=136	=136	=136	=136	=136	=136
+(8B-	p	4.r	]	4.r	] ]]	4.r	p	V	1	=136	B-	M3/8
+4A	p	4.r	]	4.r	] ]]	4.r	p	V	1.5	=136	B-	M3/8
+=137	=137	=137	=137	=137	=137	=137	=137	=137	=137	=137	=137	=137
+8A-L	<	(16cLL	<	4.r	] ]]	4.r	p	I	1	=137	B-	M3/8
+8A-L	<	16dJ	<	4.r	] ]]	4.r	p	I	1.25	=137	B-	M3/8
+8G	<	8e-	<	4.r	] ]]	4.r	p	I	1.5	=137	B-	M3/8
+8E-J	[[	16gJk)	<	4.r	] ]]	4.r	p	I	2	=137	B-	M3/8
+8E-J	[[	16r	[[	4.r	] ]]	4.r	p	I	.	=137	B-	M3/8
+=138	=138	=138	=138	=138	=138	=138	=138	=138	=138	=138	=138	=138
+8DL	p	(8B-L	p	4.r	] ]]	4.r	p	iv6	1	=138	B-	M3/8
+8C	p	8A	p	4.r	] ]]	4.r	p	iv6	1.5	=138	B-	M3/8
+[8C-XJ)	p	[8A-J)	p	4.r	] ]]	4.r	p	iv6	2	=138	B-	M3/8
+=139	=139	=139	=139	=139	=139	=139	=139	=139	=139	=139	=139	=139
+(8C-L]	<	(8A-L]	<	(16fLL	<	4.r	p	V7	1	=139	B-	M3/8
+(8C-L]	<	(8A-L]	<	16gJ	<	4.r	p	V7	1.25	=139	B-	M3/8
+8BB-	<	16FL	<	8a-	<	4.r	p	V7	1.5	=139	B-	M3/8
+8BB-	<	16G	<	8a-	<	4.r	p	V7	1.75	=139	B-	M3/8
+8BB-J)	[[	16A-JJ)	<	16ccJk)	<	4.r	p	V7	2	=139	B-	M3/8
+8BB-J)	[[	16r	[[	16r	[[	4.r	p	V7	.	=139	B-	M3/8
+=140	=140	=140	=140	=140	=140	=140	=140	=140	=140	=140	=140	=140
+8BB-L	p	(8G	p p	(8e-	[[	(16ffLL	<	V(64)	1	=140	B-	M3/8
+8BB-L	p	(8G	p p	(8e-	[[	16ggJ	<	V(64)	1.25	=140	B-	M3/8
+8BB-	p	4F;)	p p	4d;)	[[	8aa-	<	V7	1.5	=140	B-	M3/8
+8BB-;J	p	4F;)	p p	4d;)	[[	16bb-Jk)	<	V7	2	=140	B-	M3/8
+8BB-;J	p	4F;)	p p	4d;)	[[	16r;	[[	V7	.	=140	B-	M3/8
+=141	=141	=141	=141	=141	=141	=141	=141	=141	=141	=141	=141	=141
+4.r	p	(8B-L	<	(8b-L	<	4.r	[[	I	1	=141	B-	M3/8
+4.r	p	8G	[ >	8g	[ >	4.r	[[	I	1.5	=141	B-	M3/8
+4.r	p	16B-Jk)	[ >	16b-Jk)	[ >	4.r	[[	I	2	=141	B-	M3/8
+4.r	p	16r	]	16r	]	4.r	[[	I	.	=141	B-	M3/8
+=142	=142	=142	=142	=142	=142	=142	=142	=142	=142	=142	=142	=142
+4.EE- 4.E-	p	4.r	]	4.r	]	(8bb-L	p <	I	1	=142	B-	M3/8
+4.EE- 4.E-	p	4.r	]	4.r	]	8gg	>	I	1.5	=142	B-	M3/8
+4.EE- 4.E-	p	4.r	]	4.r	]	16bb-Jk)	>	I	2	=142	B-	M3/8
+4.EE- 4.E-	p	4.r	]	4.r	]	16r	] ]]	I	.	=142	B-	M3/8
+=143	=143	=143	=143	=143	=143	=143	=143	=143	=143	=143	=143	=143
+(8BB-L	<	(16FLL	p <	(8ffL	p <	(8fffL	<	I.I	1	=143	B-	M3/8
+(8BB-L	<	16dJJ	p <	(8ffL	p <	(8fffL	<	I.I	1.25	=143	B-	M3/8
+8D	[ >	16b-LL	[ >	8dd	[ >	8ddd	[ >	I6	1.5	=143	B-	M3/8
+8D	[ >	16a	[ >	8dd	[ >	8ddd	[ >	I6	1.75	=143	B-	M3/8
+8BB-J)	]]	16b-	[ >	16ffJk)	[ >	16fffJk)	[ >	I	2	=143	B-	M3/8
+8BB-J)	]]	16dJJ)	]]	16r	]]	16r	]	I	2.25	=143	B-	M3/8
+=144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144
+(8DL	p p	(16GLL	]]	4.b-	p	4.bb-	p	vi64	1	=144	B-	M3/8
+(8DL	p p	16dJJ	]]	4.b-	p	4.bb-	p	vi64	1.25	=144	B-	M3/8
+8GG	p p	16b-LL	]]	4.b-	p	4.bb-	p	vi64	1.5	=144	B-	M3/8
+8GG	p p	16A	]]	4.b-	p	4.bb-	p	vi64	1.75	=144	B-	M3/8
+8DJ)	p p	16B-	]]	4.b-	p	4.bb-	p	vi64	2	=144	B-	M3/8
+8DJ)	p p	16gJJ)	]]	4.b-	p	4.bb-	p	vi64	2.25	=144	B-	M3/8
+=145	=145	=145	=145	=145	=145	=145	=145	=145	=145	=145	=145	=145
+(8EE-L	<	(16E-LL	<	(16ccLL	<	(16cccLL	<	ii6	1	=145	B-	M3/8
+(8EE-L	<	16g	<	16ddJ	<	16dddJ	<	ii6	1.25	=145	B-	M3/8
+8C	<	16f	<	8ee-	<	8eee-	<	ii	1.5	=145	B-	M3/8
+8C	<	16e-	<	8ee-	<	8eee-	<	ii	1.75	=145	B-	M3/8
+8FFJ)	[[	16e-	<	16aJk)	<	16aaJk)	<	V7	2	=145	B-	M3/8
+8FFJ)	[[	16cJJ)	[[	16r	[[	16r	[[	V7	2.25	=145	B-	M3/8
+=146	=146	=146	=146	=146	=146	=146	=146	=146	=146	=146	=146	=146
+(8FL	p	(16cLL	p	(8a	p	(8aa	p	V7	1	=146	B-	M3/8
+(8FL	p	16e-	p	(8a	p	(8aa	p	V7	1.25	=146	B-	M3/8
+8FF	p	16d	p	4b-)	p	4bb-)	p	I\\	1.5	=146	B-	M3/8
+8FF	p	16c	p	4b-)	p	4bb-)	p	I\\	1.75	=146	B-	M3/8
+8BB-J)	p	16d	p	4b-)	p	4bb-)	p	I\\	2	=146	B-	M3/8
+8BB-J)	p	16B-JJ)	p	4b-)	p	4bb-)	p	I\\	2.25	=146	B-	M3/8
+=147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147
+(8FFL	p	(16cLL	p	(16ee-LL	p	(16eee-LL	p	V7(9)	1	=147	B-	M3/8
+(8FFL	p	16b-	p	16ffJ	p	16fffJ	p	V7(9)	1.25	=147	B-	M3/8
+8C	p	16a	p	8gg	p	8ggg	p	V7(9)	1.5	=147	B-	M3/8
+8C	p	16g	p	8gg	p	8ggg	p	V7(9)	1.75	=147	B-	M3/8
+8FFJ)	p	16a	p	16ccJk)	p	16cccJk)	p	V7	2	=147	B-	M3/8
+8FFJ)	p	16e-JJ)	p	16r	p	16r	p	V7	2.25	=147	B-	M3/8
+=148	=148	=148	=148	=148	=148	=148	=148	=148	=148	=148	=148	=148
+(8DL	p p	(16B-LL	p	(8cc	p	(8ccc	p	I6(9)	1	=148	B-	M3/8
+(8DL	p p	16cc	p	(8cc	p	(8ccc	p	I6(9)	1.25	=148	B-	M3/8
+8FF	p p	16b-	p	4dd)	p	4ddd)	p	V(64)	1.5	=148	B-	M3/8
+8FF	p p	16a	p	4dd)	p	4ddd)	p	V(64)	1.75	=148	B-	M3/8
+8DJ)	p p	16b-	p	4dd)	p	4ddd)	p	V(64)	2	=148	B-	M3/8
+8DJ)	p p	16B-JJ)	p	4dd)	p	4ddd)	p	V(64)	2.25	=148	B-	M3/8
+=149	=149	=149	=149	=149	=149	=149	=149	=149	=149	=149	=149	=149
+(8FFL	p p	(16cLL	p	(16ee-LL	p	(16eee-LL	p	V7(9)	1	=149	B-	M3/8
+(8FFL	p p	16b-	p	16ffJ	p	16fffJ	p	V7(9)	1.25	=149	B-	M3/8
+8C	p p	16a	p	8gg	p	8ggg	p	V7(9)	1.5	=149	B-	M3/8
+8C	p p	16g	p	8gg	p	8ggg	p	V7(9)	1.75	=149	B-	M3/8
+8FFJ)	p p	16f	p	16aaJk)	p	16aaaJk)	p	V7	2	=149	B-	M3/8
+8FFJ)	p p	16e-JJ)	p	16r	p	16r	p	V7	2.25	=149	B-	M3/8
+=150	=150	=150	=150	=150	=150	=150	=150	=150	=150	=150	=150	=150
+(8FL	f f	(16e-LL	p	(8aa	f	(8aaa	f	V7	1	=150	B-	M3/8
+(8FL	f f	16ee-	p	(8aa	f	(8aaa	f	V7	1.25	=150	B-	M3/8
+8FF	f f	16dd	p	4bb-)	f	4bbb-)	f	I\\	1.5	=150	B-	M3/8
+8FF	f f	16ccJ	p	4bb-)	f	4bbb-)	f	I\\	1.75	=150	B-	M3/8
+8BB-J)	f f	8ddJ)	p	4bb-)	f	4bbb-)	f	I\\	2	=150	B-	M3/8
+==	==	==	==	==	==	==	==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
