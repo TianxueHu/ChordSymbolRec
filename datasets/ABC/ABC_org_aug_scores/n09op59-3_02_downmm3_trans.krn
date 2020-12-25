@@ -6,10 +6,11 @@
 *I"Cello	*	*I"Viola	*	*I"2nd Violin	*	*I"1st Violin	*	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*
 *k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*
+*f#:	*	*f#:	*	*f#:	*	*f#:	*	*
 *M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 !LO:TX:a:t=pizz.	!	!	!	!	!	!LO:TX:a:B:t=Andante con moto quasi Allegretto.	!	!
-4CC#	f	2.r	.	2.r	.	8r	.	.a.i64
+4CC#	f	2.r	.	2.r	.	8r	.	i64
 .	.	.	.	.	.	8r	.	.
 8r	.	.	.	.	.	(8c#	p	.
 4CC#	p	.	.	.	.	8f#L	.	.

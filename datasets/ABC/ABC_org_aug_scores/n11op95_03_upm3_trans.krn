@@ -4,10 +4,11 @@
 *I"Cello	*	*I"Viola	*	*I"2nd Violin	*	*I"1st Violin	*	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*
+*a:	*	*a:	*	*a:	*	*a:	*	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!LO:DY:a	!LO:TX:a:B:t=Allegro assai vivace ma serioso	!	!
-8d#L	f	8aL	f	8ccL	f f	8ff#L	.	.f.#viio7/V
+8d#L	f	8aL	f	8ccL	f f	8ff#L	.	#viio7/V
 16r	.	16r	.	16r	.	16r	.	.
 16d#Jk	.	16aJk	.	16ccJk	.	16ff#Jk	.	.
 (4e	.	4a	.	4cc	.	(4ee	.	i64
@@ -494,8 +495,9 @@
 *clefF4	*	*	*	*	*	*	*	*
 =66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||
 *k[f#c#g#d#a#e#]	*	*k[f#c#g#d#a#e#]	*	*k[f#c#g#d#a#e#]	*	*k[f#c#g#d#a#e#]	*	*
+*F#:	*	*F#:	*	*F#:	*	*F#:	*	*
 !	!LO:DY:a	!	!	!	!	!	!	!
-2.FF#	p p	2.F#	.	2.f#	p	8cc#'L	.	.#VI.I
+2.FF#	p p	2.F#	.	2.f#	p	8cc#'L	.	I
 .	.	.	.	.	.	8cc#'J	.	.
 .	.	.	.	.	.	(8cc#L	.	.
 .	.	.	.	.	.	8a#J	.	.
@@ -804,6 +806,7 @@
 16FF#Jk	.	.	.	.	.	.	.	.
 =112||	=112||	=112||	=112||	=112||	=112||	=112||	=112||	=112||
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*
+*C:	*	*C:	*	*C:	*	*C:	*	*
 !	!LO:DY:a	!	!	!	!	!	!	!
 8EEL	f f	8EL	.	2.r	.	2.r	.	iv
 16r	.	16r	.	.	.	.	.	.
@@ -1071,8 +1074,9 @@
 2GG;	.	2G;	.	2bb-X;	.	2cc#; 2bbb-X	.	.
 =146||	=146||	=146||	=146||	=146||	=146||	=146||	=146||	=146||
 *k[f#c#g#d#a#e#]	*	*k[f#c#g#d#a#e#]	*	*k[f#c#g#d#a#e#]	*	*k[f#c#g#d#a#e#]	*	*
+*F#:	*	*F#:	*	*F#:	*	*F#:	*	*
 !LO:TX:a:i:t=espress.	!LO:DY:a	!LO:TX:a:i:t=espress.	!LO:DY:a	!LO:TX:a:i:t=espress.	!LO:DY:a	!	!	!
-2.FF#	p p	2.F#	p	2.f#	p	8f#'L	.	.#VI.I
+2.FF#	p p	2.F#	p	2.f#	p	8f#'L	.	I
 .	.	.	.	.	.	8cc#'J	.	.
 .	.	.	.	.	.	(8cc#L	.	.
 .	.	.	.	.	.	8a#J	.	.
@@ -1213,6 +1217,7 @@
 .	.	.	.	.	.	8bJ)	]]	.
 =166||	=166||	=166||	=166||	=166||	=166||	=166||	=166||	=166||
 *k[f#]	*	*k[f#]	*	*k[f#]	*	*k[f#]	*	*
+*e:	*	*e:	*	*e:	*	*e:	*	*
 4E	]	4B	]	4gg	]	4b	.	.
 4r	.	4r	.	4r	.	(8bbL	.	.
 .	.	.	.	.	.	8ggJ	.	.
@@ -1346,6 +1351,7 @@
 16EJk	.	16g#Jk	.	16bJk	.	.	.	.
 =184||	=184||	=184||	=184||	=184||	=184||	=184||	=184||	=184||
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*
+*a:	*	*a:	*	*a:	*	*a:	*	*
 !	!	!	!	!	!LO:DY:a	!LO:TX:a:B:t=Più Allegro	!	!
 4AA 4E	f	8aL	f	8ccL	f f	8eeeL	.	i[i64
 .	.	16r	.	16r	.	16r	.	.

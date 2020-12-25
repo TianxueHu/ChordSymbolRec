@@ -4,10 +4,11 @@
 *I"Cello	*	*I"Viola	*	*I"2nd Violin	*	*I"1st Violin	*	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*	*
+*d:	*	*d:	*	*d:	*	*d:	*	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!LO:DY:a	!LO:TX:a:B:t=Allegro assai vivace ma serioso	!	!
-8G#L	f	8dL	f	8fL	f f	8bL	.	.f.#viio7/V
+8G#L	f	8dL	f	8fL	f f	8bL	.	#viio7/V
 16r	.	16r	.	16r	.	16r	.	.
 16G#Jk	.	16dJk	.	16fJk	.	16bJk	.	.
 (4A	.	4d	.	4f	.	(4a	.	i64
@@ -494,8 +495,9 @@
 *clefF4	*	*	*	*	*	*	*	*
 =66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||
 *k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*
+*B:	*	*B:	*	*B:	*	*B:	*	*
 !	!LO:DY:a	!	!	!	!	!	!	!
-2.BBB	p p	2.BB	.	2.B	p	8f#'L	.	.#VI.I
+2.BBB	p p	2.BB	.	2.B	p	8f#'L	.	I
 .	.	.	.	.	.	8f#'J	.	.
 .	.	.	.	.	.	(8f#L	.	.
 .	.	.	.	.	.	8d#J	.	.
@@ -804,6 +806,7 @@
 16BBBJk	.	.	.	.	.	.	.	.
 =112||	=112||	=112||	=112||	=112||	=112||	=112||	=112||	=112||
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*	*
+*F:	*	*F:	*	*F:	*	*F:	*	*
 !	!LO:DY:a	!	!	!	!	!	!	!
 8AAAL	f f	8AAL	.	2.r	.	2.r	.	iv
 16r	.	16r	.	.	.	.	.	.
@@ -1071,8 +1074,9 @@
 2CC;	.	2C;	.	2ee-X;	.	2f#; 2eee-X	.	.
 =146||	=146||	=146||	=146||	=146||	=146||	=146||	=146||	=146||
 *k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*
+*B:	*	*B:	*	*B:	*	*B:	*	*
 !LO:TX:a:i:t=espress.	!LO:DY:a	!LO:TX:a:i:t=espress.	!LO:DY:a	!LO:TX:a:i:t=espress.	!LO:DY:a	!	!	!
-2.BBB	p p	2.BB	p	2.B	p	8B'L	.	.#VI.I
+2.BBB	p p	2.BB	p	2.B	p	8B'L	.	I
 .	.	.	.	.	.	8f#'J	.	.
 .	.	.	.	.	.	(8f#L	.	.
 .	.	.	.	.	.	8d#J	.	.
@@ -1213,6 +1217,7 @@
 .	.	.	.	.	.	8eJ)	]]	.
 =166||	=166||	=166||	=166||	=166||	=166||	=166||	=166||	=166||
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*
+*a:	*	*a:	*	*a:	*	*a:	*	*
 4AA	]	4E	]	4cc	]	4e	.	.
 4r	.	4r	.	4r	.	(8eeL	.	.
 .	.	.	.	.	.	8ccJ	.	.
@@ -1346,6 +1351,7 @@
 16AAJk	.	16c#Jk	.	16eJk	.	.	.	.
 =184||	=184||	=184||	=184||	=184||	=184||	=184||	=184||	=184||
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*	*
+*d:	*	*d:	*	*d:	*	*d:	*	*
 !	!	!	!	!	!LO:DY:a	!LO:TX:a:B:t=Più Allegro	!	!
 4DD 4AA	f	8dL	f	8fL	f f	8aaL	.	i[i64
 .	.	16r	.	16r	.	16r	.	.

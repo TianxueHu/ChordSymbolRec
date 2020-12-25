@@ -5,8 +5,9 @@
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*
 *k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*
+*b:	*	*b:	*	*b:	*	*b:	*	*
 !	!	!	!	!	!	!LO:TX:a:B:t=Larghetto espressivo	!	!
-(8A#	<	([8f#	<	(8c#	<	(16.f#LL	<	.f.V6
+(8A#	<	([8f#	<	(8c#	<	(16.f#LL	<	V6
 .	.	.	.	.	.	32ff#JJk	.	.
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 8BL	.	16.f#LL]	.	8dL	.	8ddL	.	i
@@ -1347,11 +1348,12 @@
 2.BB 2.F#	ppp	2.f#	ppp	2.d#	ppp	2.b	ppp	I]\\
 =133||	=133||	=133||	=133||	=133||	=133||	=133||	=133||	=133||
 *k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*	*
+*B:	*	*B:	*	*B:	*	*B:	*	*
 *M2/2	*	*M2/2	*	*M2/2	*	*M2/2	*	*
 *met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*	*
 !	!	!	!	!	!	!LO:TX:b:i:t=sempre piano	!	!
 !LO:TX:b:i:t=sempre piano	!	!LO:TX:a:i:t=sempre piano	!	!LO:TX:b:i:t=sempre piano	!	!LO:TX:a:B:t=Allegro.	!	!
-8F#L	.	2d#	.	2g##X	.	2b#X	.	I.V[viio64/vii
+8F#L	.	2d#	.	2g##X	.	2b#X	.	V[viio64/vii
 8f#	.	.	.	.	.	.	.	.
 8f#	.	.	.	.	.	.	.	.
 8f#J	.	.	.	.	.	.	.	.

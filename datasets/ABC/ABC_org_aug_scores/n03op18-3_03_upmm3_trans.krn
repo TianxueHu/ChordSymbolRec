@@ -6,11 +6,12 @@
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*	*
+*F:	*	*F:	*	*F:	*	*F:	*	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*
 !LO:TX:a:B:t=Allegro	!	!LO:TX:a:B:t=Allegro	!	!LO:TX:a:B:t=Allegro	!	!LO:TX:a:B:t=Allegro	!	!
 *MM145	*	*MM145	*	*MM145	*	*MM145	*	*
 !	!	!	!	!	!	!LO:TX:a:t=[quarter]=145	!	!
-4r	.	4r	.	4r	.	4a	p	.D.I
+4r	.	4r	.	4r	.	4a	p	I
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!LO:DY:a	!	!	!	!	!
 (2.F	p	(2.F	p p	(2c	.	[2.a	.	I+
