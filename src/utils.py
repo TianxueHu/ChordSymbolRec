@@ -12,7 +12,7 @@ def define_beat_from_meter(meter):
         if meter == '2/4':
             strong, weak = [1], [2]
         elif meter == '3/4':
-            strong, weak = [1,3], [2]
+            strong, weak = [1], [2,3]
         elif meter == '4/4':
             strong, weak = [1,3], [2,4]
         elif meter == '3/8': # krn beat pos in 1, 1.5, 2
