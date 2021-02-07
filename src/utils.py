@@ -15,10 +15,18 @@ def define_beat_from_meter(meter):
             strong, weak = [1], [2,3]
         elif meter == '4/4':
             strong, weak = [1,3], [2,4]
+        elif meter == '6/4':
+            strong, weak = [1], [4]
+        elif meter == '2/2':
+            strong, weak = [1], [3]
+        elif meter == '3/2':
+            strong, weak = [1], [3,5]
         elif meter == '3/8': # krn beat pos in 1, 1.5, 2
             strong, weak = [1], [1.5,2]
         elif meter == '6/8': # krn beat pos in 1, 2, 3
             strong, weak = [1], [2.5]
+        elif meter == '9/8': 
+            strong, weak = [1], [2.5, 4]
         else:
             raise ValueError("meter not classified, current meter is: ", meter)
         return strong, weak
