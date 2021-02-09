@@ -85,6 +85,7 @@ class KRN2VEC(object):
             harm = re.sub('[();]', '', harm) # process string
             #print(harm)
             harm = specialChords(harm)
+            harm = specialChordsABC(harm)
             key = ''.join(row[["key"]].values)
             key_harm = key + ":" + harm
             try:

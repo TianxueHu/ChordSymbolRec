@@ -159,5 +159,24 @@ def specialChords(chord):
         output = chord
     return output
 
+def specialChordsABC(chord):
+    if "]" in chord:
+        chord = chord.replace("]", "")
+    if "Ger6" in chord:
+        chord  = chord.replace("Ger6", "Gn")
+    if "\\" in chord:
+        chord  = chord.replace("\\", "")
+    if "." in chord:
+        if chord.index('.') == 0:
+            chord = chord[1:]
+        chord  = chord.replace(".", "/")
+    if "/" in chord:
+        sp = chord.split("/", maxsplit=1)
+        sp1 = re.sub(pattern=r"\d", repl=r"", string=sp[1])
+        sp[1] = sp1
+        chord = "/".join(sp)
+    return chord
+
 #print(to_21d_vec(['A', 'e', 'c#', 'a']))
+print(specialChordsABC(".bII6"))
         
