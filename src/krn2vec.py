@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import numpy as np
-from utils import to_21d_vec, get_beat_vector, specialChords
+from utils import to_21d_vec, get_beat_vector, specialChords, specialChordsABC
 import re
 from harmalysis import inputRN2Chord
 import pickle
@@ -15,6 +15,7 @@ class KRN2VEC(object):
         # read song to dataframe
         self.df = pd.read_csv(fp_song, sep="\t", header=None)
         self.piece_output = []
+        self.invalid = set()
     
     
     def add_header(self, collection):
@@ -35,6 +36,12 @@ class KRN2VEC(object):
 
         elif collection == "Sears_REDUCE":
             self.df.columns = ["voice4", "voice3", "voice2", "voice1", "harm", "index", "beat", "measure", "key", "meter" ]
+        
+        elif collection == "ABC_ORG":
+            self.df.columns = ["voice4", "dy4", "voice3", "dy3", "voice2", "dy2", "voice1", "dy1", "harm", "beat", "measure", "key", "meter" ]
+        
+        elif collection == "ABC_REDUCE":
+            self.df.columns = ["voice4", "dy4", "voice3", "dy3", "voice2", "dy2", "voice1", "dy1", "harm", "index", "beat", "measure", "key", "meter" ]
 
         # process dataframe
         self.df = self.df[~self.df['beat'].astype(str).str.startswith(('=','.','*'))]
@@ -180,11 +187,14 @@ class KRN2VEC(object):
             harm = ''.join(row[["harm"]].values)
             harm = re.sub('[();]', '', harm) # process string
             harm = specialChords(harm)
+            harm = specialChordsABC(harm)
             key = ''.join(row[["key"]].values)
             key_harm = key + ":" + harm
             try:
                 chord_label = inputRN2Chord.inputRN(key_harm)["Chord label"]
             except:
+                if key_harm not in self.invalid:
+                    self.invalid.add(key_harm)
                 continue # pass this onset slice if RN is not recognizable
             this_onset_vec.append(str(chord_label))
             this_onset_vec.append(''.join(row[['measure']].values))
@@ -209,23 +219,22 @@ class KRN2VEC(object):
                 this_window_vec = self.get_window_vecs(all_vecs, idx, this_mea, mea_window_size)
                 self.piece_output.append(this_window_vec)
                 #print(this_mea, this_window_vec)
-                pre_mea = this_mea
-                
-            
+                pre_mea = this_mea            
 
         #self.piece_output.append(all_windows_vec)
 
 
 if __name__ == "__main__":
     script_dir = os.getcwd()
-    SCORE_COLLECTION_REL_PATH = "datasets/haydn_op20_harm/haydn_reduced_score_for_vec/"
-    COLLECTION = "Haydn_REDUCE"
+    SCORE_COLLECTION_REL_PATH = "datasets/ABC/ABC_reduced_score_for_vec/"
+    COLLECTION = "ABC_REDUCE"
     WINDOW_SIZE = 4
 
     collection_path = os.path.join(script_dir, SCORE_COLLECTION_REL_PATH)
 
     collection_list = []
     bad_files = []
+    invalid = []
     for subdir, dirs, files in os.walk(collection_path):
         num_files = len(files)
         for idx, file in enumerate(files):
@@ -239,6 +248,7 @@ if __name__ == "__main__":
                     #vec.krn2vec_ffnn_21(COLLECTION)
                     vec.krn2vec_s2s_21(COLLECTION, WINDOW_SIZE)
                     collection_list.append(vec.piece_output)
+                    invalid.append([file, vec.invalid])
                 except:
                     bad_files.append(file)
                     pass
@@ -248,3 +258,11 @@ if __name__ == "__main__":
     with open('haydn_reduce_vectors_s2s_21enc_4meaWindow_ditto.pkl', 'wb') as f:
         pickle.dump(collection_list, f)
     print("Pickle vector list saved!")
+
+    with open('badfile_{COLLECTION}.txt', 'w') as filehandle:
+        for listitem in bad_files:
+            filehandle.write('%s\n' % listitem)
+
+    with open('invalid_chord_{COLLECTION}.txt', 'w') as filehandle:
+        for listitem in invalid:
+            filehandle.write('%s\n' % listitem)
