@@ -5,6 +5,8 @@ from utils import to_21d_vec, get_beat_vector, specialChords, specialChordsABC
 import re
 from harmalysis import inputRN2Chord
 import pickle
+import psutil
+import h5py
 #import sys
 #sys.path.insert(0, './harmalysis')
 #from inputRN2Chord import inputRN
@@ -107,7 +109,7 @@ class KRN2VEC(object):
         if measure == '.':
             measure = 1
         else:
-            measure = int(re.findall("\d+", measure)[0])
+            measure = int(re.findall(r"\d+", measure)[0])
         return measure
 
 
@@ -185,9 +187,9 @@ class KRN2VEC(object):
             
             ######################################### Process chord label ########################################
             harm = ''.join(row[["harm"]].values)
-            harm = re.sub('[();]', '', harm) # process string
+            harm = re.sub('[();]', '', harm) 
             harm = specialChords(harm)
-            harm = specialChordsABC(harm)
+            #harm = specialChordsABC(harm) # !! ABC !!
             key = ''.join(row[["key"]].values)
             key_harm = key + ":" + harm
             try:
@@ -226,15 +228,15 @@ class KRN2VEC(object):
 
 if __name__ == "__main__":
     script_dir = os.getcwd()
-    SCORE_COLLECTION_REL_PATH = "datasets/ABC/ABC_reduced_score_for_vec/"
-    COLLECTION = "ABC_REDUCE"
+    SCORE_COLLECTION_REL_PATH = "datasets/bhchorale/bach_org_score_for_vec"
+    COLLECTION = "Bach_ORG"
     WINDOW_SIZE = 4
 
     collection_path = os.path.join(script_dir, SCORE_COLLECTION_REL_PATH)
 
     collection_list = []
     bad_files = []
-    invalid = []
+    # invalid = [] # !! ABC !!
     for subdir, dirs, files in os.walk(collection_path):
         num_files = len(files)
         for idx, file in enumerate(files):
@@ -245,24 +247,27 @@ if __name__ == "__main__":
                 print (os.path.join(subdir, file))
                 try:
                     vec = KRN2VEC(scorepath)
-                    #vec.krn2vec_ffnn_21(COLLECTION)
-                    vec.krn2vec_s2s_21(COLLECTION, WINDOW_SIZE)
+                    vec.krn2vec_ffnn_21(COLLECTION)
+                    #vec.krn2vec_s2s_21(COLLECTION, WINDOW_SIZE)
                     collection_list.append(vec.piece_output)
-                    invalid.append([file, vec.invalid])
+                    # invalid.append([file, vec.invalid]) # !! ABC !!
                 except:
                     bad_files.append(file)
                     pass
-    
-    print("Bad files:", bad_files)
 
-    with open('haydn_reduce_vectors_s2s_21enc_4meaWindow_ditto.pkl', 'wb') as f:
+        
+    collection_list = np.asarray(collection_list)
+    print("Bad files:", bad_files)
+    with h5py.File('Bach_org_vectors_ffnn_21enc.h5', 'w') as hf:
+        hf.create_dataset("name-of-dataset",  data=collection_list)
+
+        
+    '''
+    with open('ABC_reduce_vectors_ffnn_21enc.pkl', 'wb') as f:
         pickle.dump(collection_list, f)
     print("Pickle vector list saved!")
+    '''
 
-    with open('badfile_{COLLECTION}.txt', 'w') as filehandle:
-        for listitem in bad_files:
-            filehandle.write('%s\n' % listitem)
 
-    with open('invalid_chord_{COLLECTION}.txt', 'w') as filehandle:
-        for listitem in invalid:
-            filehandle.write('%s\n' % listitem)
+
+

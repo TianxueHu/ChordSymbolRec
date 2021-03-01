@@ -70,6 +70,7 @@ def inputRN (RN):
             }
         main_key = roman.main_key
     except lark.exceptions.UnexpectedCharacters:
+        #pass
         print('Invalid entry. Try again.', RN)
     
     
