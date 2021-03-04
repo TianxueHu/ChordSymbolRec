@@ -17,18 +17,22 @@ class PrintSize(nn.Module):
         return x
 
 class LitBaseline(pl.LightningModule):
-    def __init__(self, configs):
+    def __init__(self, vec_dim, vocab_size, configs):
         super().__init__()
+        
+        self.vec_dim = vec_dim
+        self.vocab_size = vocab_size
+
         self._init_configs(configs)
         self._init_model()
+
         self.save_hyperparameters()
 
     def _init_configs(self, configs):
         self.dataset_name = configs.dataset.name
-        self.backbone = configs.training.backbone
-        self.ways = configs.dataset.ways
-        self.hidden_size = configs.training.hidden_dim
+        self.hidden_dim = configs.training.hidden_dim
         self.lr = configs.training.lr
+        self.dropout = configs.training.dropout
         self.momentum = configs.training.momentum
         self.optimizer_type = configs.training.optimizer_type
         self.criterion = nn.CrossEntropyLoss()
@@ -37,11 +41,21 @@ class LitBaseline(pl.LightningModule):
         self.test_acc = pl.metrics.Accuracy()
     
     def _init_model(self):
-        self.model = None
+        
+        self.fc = nn.Sequential(
+            nn.Linear(self.vec_dim, 2*self.hidden_dim),
+            nn.ReLU(),
+            nn.Linear(self.hidden_dim*2, self.hidden_dim),
+            nn.ReLU(),
+            nn.Dropout(self.dropout),
+            nn.Linear(self.hidden_dim, self.hidden_dim//2),
+            nn.ReLU(),
+            nn.Linear(self.hidden_dim//2, vocab_size))
 
     def forward(self, data):
         
-        return self.model(data)
+        out = self.fc(data)
+        return out
 
     def configure_optimizers(self):
         if self.optimizer_type == "Adam":
@@ -98,12 +112,12 @@ class LitBaseline(pl.LightningModule):
     def __init__(self, video_size, audio_size, configs):
         super().__init__()
         self._init_configs(configs)
-        self._init_model(video_size, audio_size, self.hidden_size)
+        self._init_model(video_size, audio_size, self.hidden_dim)
         self.save_hyperparameters()
 
     def _init_configs(self, configs):
 
-        self.hidden_size = configs.training.hidden_dim
+        self.hidden_dim = configs.training.hidden_dim
         self.lr = configs.training.lr
         self.momentum = configs.training.momentum
         self.optimizer_type = configs.training.optimizer_type
