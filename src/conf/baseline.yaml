@@ -1,0 +1,26 @@
+experiment:
+  objective: ChordRec
+  seed: 0
+  gpu_num: 1
+  device: gpu
+dataset:
+  name: mini-imagenet
+  directory: D:\Documents\2021Spring\MetaActiveLearn\src\notebooks\data
+  meta_batch_size: 16
+  subset: full
+  shuffle_train: True
+  shuffle_val: False
+training:
+  model: baseline
+  hidden_dim: 128
+  lr: 1e-3
+  momentum: 0.9
+  optimizer_type: AdamW
+  epochs: 1
+  dropout: 0.5
+validation:
+  check_interval: 1.0
+  check_ratio: 1.0
+logging:
+  output_dir: logs/
+  progress_bar_refresh_rate: 1
