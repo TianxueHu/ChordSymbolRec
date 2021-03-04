@@ -12,14 +12,7 @@ from torch.utils.data import DataLoader, Dataset, SubsetRandomSampler, Subset
 import pytorch_lightning as pl
 from pytorch_lightning import loggers as pl_loggers
 
-from src.models.lit_baseline import LitMAML
-
-import learn2learn as l2l
-from learn2learn.data.transforms import (NWays,
-                                         KShots,
-                                         LoadData,
-                                         RemapLabels,
-                                         ConsecutiveLabels)
+from src.models.lit_baseline import LitBaseline
 
 if __name__ == "__main__":
     
@@ -39,21 +32,13 @@ if __name__ == "__main__":
     data_root = conf.dataset.directory
     dataset_name = conf.dataset.name
 
-    if dataset_name == "mini-imagenet":
-        pass
-    elif dataset_name == "FC100":
-        raise NotImplementedError
-
-    else:
-        raise NotImplementedError
-
     if data_conf.subset == "full":
         pass
 
     elif data_conf.subset == "toy":
         pass
 
-    model = LitMAML(conf)
+    model = LitBaseline(conf)
     train_loader = DataLoader(tasksets.train, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
     val_loader = DataLoader(tasksets.validation, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
     test_loader = DataLoader(tasksets.test, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
