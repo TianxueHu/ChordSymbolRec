@@ -39,9 +39,10 @@ if __name__ == "__main__":
         pass
 
     model = LitBaseline(conf)
-    train_loader = DataLoader(tasksets.train, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
-    val_loader = DataLoader(tasksets.validation, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
-    test_loader = DataLoader(tasksets.test, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
+
+    # train_loader = DataLoader(tasksets.train, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
+    # val_loader = DataLoader(tasksets.validation, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
+    # test_loader = DataLoader(tasksets.test, batch_size = data_conf.meta_batch_size, shuffle = data_conf.shuffle_train,  num_workers = data_conf.num_workers)
 
 
     tb_logger = pl_loggers.TensorBoardLogger(os.path.join(conf.logging.output_dir,conf.experiment.objective))
