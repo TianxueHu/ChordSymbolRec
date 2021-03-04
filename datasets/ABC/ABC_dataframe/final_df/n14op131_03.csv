@@ -1,0 +1,31 @@
+chord	measure	beat	label	mn	globalkey	localkey	globalkey_is_minor	localkey_is_minor	numeral	chord_type	relativeroot	new_key
+.b.i	1	2.0	.b.i	0	b	i	1	1	i	m		b
+V6	1	3.0	V6	0	b	i	1	1	V	M		b
+V	1	1.5	V	1	b	i	1	1	V	M		b
+V65	1	3.0	V65	1	b	i	1	1	V	Mm7		b
+iio	2	1.0	iio	2	b	i	1	1	ii	o		b
+iio65	2	3.0	iio65	2	b	i	1	1	ii	o7		b
+i6	3	1.0	i6	3	b	i	1	1	i	m		b
+i	3	2.0	i	3	b	i	1	1	i	m		b
+i\\\\	3	3.0	i\\	3	b	i	1	1	i	m		b
+V6	3	4.0	V6	3	b	i	1	1	V	M		b
+i	4	1.0	i	4	b	i	1	1	i	m		b
+V	4	3.0	V	4	b	i	1	1	V	M		b
+i6	5	1.0	i6	5	b	i	1	1	i	m		b
+#vio65	5	3.0	#vio65	5	b	i	1	1	#vi	o7		b
+V	6	1.0	V	6	b	i	1	1	V	M		b
+V65	6	2.0	V65	6	b	i	1	1	V	Mm7		b
+i\\\\	6	3.0	i\\	6	b	i	1	1	i	m		b
+VII.ii65	6	4.0	VII.ii65	6	b	VII	1	0	ii	mm7		A
+V7(4)	7	1.0	V7(4)	7	b	VII	1	0	V	Mm7		A
+V7	7	1.5	V7	7	b	VII	1	0	V	Mm7		A
+V43	7	3.0	V43	7	b	VII	1	0	V	Mm7		A
+V2	8	3.5	V2	8	b	VII	1	0	V	Mm7		A
+I6	8	4.0	I6	8	b	VII	1	0	I	M		A
+IV	9	1.0	IV	9	b	VII	1	0	IV	M		A
+V65/V	9	1.5	V65/V	9	b	VII	1	0	V	Mm7	V	A
+V(64)	9	3.5	V(64)	9	b	VII	1	0	V	M		A
+V7	9	4.0	V7	9	b	VII	1	0	V	Mm7		A
+V7/IV	10	1.0	V7/IV	10	b	VII	1	0	V	Mm7	IV	A
+iiio2	10	2.0	iiio2	10	b	VII	1	0	iii	o7		A
+I	10	4.0	I	10	b	VII	1	0	I	M		A

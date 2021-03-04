@@ -1,0 +1,375 @@
+chord	measure	beat	label	mn	globalkey	localkey	globalkey_is_minor	localkey_is_minor	numeral	chord_type	relativeroot	new_key
+.Bb.I	1	1.0	.Bb.I	1	Bb	I	0	0	I	M		B-
+V7	6	1.0	V7	6	Bb	I	0	0	V	Mm7		B-
+I6	7	1.0	I6	7	Bb	I	0	0	I	M		B-
+I	7	3.0	I	7	Bb	I	0	0	I	M		B-
+V65	8	1.0	V65	8	Bb	I	0	0	V	Mm7		B-
+I	9	1.0	I	9	Bb	I	0	0	I	M		B-
+V7	10	1.0	V7	10	Bb	I	0	0	V	Mm7		B-
+I6	11	1.0	I6	11	Bb	I	0	0	I	M		B-
+I	11	3.0	I	11	Bb	I	0	0	I	M		B-
+vi	12	1.0	vi	12	Bb	I	0	0	vi	m		B-
+V7/V	12	3.0	V7/V	12	Bb	I	0	0	V	Mm7	V	B-
+V\\\\	13	1.0	V\\	13	Bb	I	0	0	V	M		B-
+V65/V	13	3.0	V65/V	13	Bb	I	0	0	V	Mm7	V	B-
+V	14	1.0	V	14	Bb	I	0	0	V	M		B-
+V65/V	14	3.0	V65/V	14	Bb	I	0	0	V	Mm7	V	B-
+V	15	1.0	V	15	Bb	I	0	0	V	M		B-
+V65/V	15	3.0	V65/V	15	Bb	I	0	0	V	Mm7	V	B-
+V	16	1.0	V	16	Bb	I	0	0	V	M		B-
+V65/V	16	3.0	V65/V	16	Bb	I	0	0	V	Mm7	V	B-
+V	17	1.0	V	17	Bb	I	0	0	V	M		B-
+V/V	17	2.0	V/V	17	Bb	I	0	0	V	M	V	B-
+V	17	3.0	V	17	Bb	I	0	0	V	M		B-
+V/V	17	4.0	V/V	17	Bb	I	0	0	V	M	V	B-
+V\\\\	18	1.0	V\\	18	Bb	I	0	0	V	M		B-
+I	19	1.0	I	19	Bb	I	0	0	I	M		B-
+V65	24	1.0	V65	24	Bb	I	0	0	V	Mm7		B-
+I	25	1.0	I	25	Bb	I	0	0	I	M		B-
+V65	26	1.0	V65	26	Bb	I	0	0	V	Mm7		B-
+I	27	1.0	I	27	Bb	I	0	0	I	M		B-
+V65	28	1.0	V65	28	Bb	I	0	0	V	Mm7		B-
+I	29	1.0	I	29	Bb	I	0	0	I	M		B-
+I6	29	3.0	I6	29	Bb	I	0	0	I	M		B-
+vi6	30	1.0	vi6	30	Bb	I	0	0	vi	m		B-
+#viio6/V	30	3.0	#viio6/V	30	Bb	I	0	0	#vii	o	V	B-
+#viio65/iii	31	1.0	#viio65/iii	31	Bb	I	0	0	#vii	o7	iii	B-
+iii6	31	3.0	iii6	31	Bb	I	0	0	iii	m		B-
+II.ii	32	1.0	II.ii	32	Bb	II	0	0	ii	m		C
+ii%7	32	2.0	ii%7	32	Bb	II	0	0	ii	%7		C
+V7	32	3.0	V7	32	Bb	II	0	0	V	Mm7		C
+I	33	1.0	I	33	Bb	II	0	0	I	M		C
+I[I	33	2.0	I[I	33	Bb	II	0	0	I	M		C
+V2	34	1.0	V2	34	Bb	II	0	0	V	Mm7		C
+I6	35	1.0	I6	35	Bb	II	0	0	I	M		C
+V43	36	1.0	V43	36	Bb	II	0	0	V	Mm7		C
+V65	36	2.0	V65	36	Bb	II	0	0	V	Mm7		C
+V7	36	3.0	V7	36	Bb	II	0	0	V	Mm7		C
+V43	36	4.0	V43	36	Bb	II	0	0	V	Mm7		C
+I64	37	1.0	I64	37	Bb	II	0	0	I	M		C
+V7	38	1.0	V7	38	Bb	II	0	0	V	Mm7		C
+I64]	39	1.0	I64]	39	Bb	II	0	0	I	M		C
+V65	40	1.0	V65	40	Bb	II	0	0	V	Mm7		C
+I	41	1.0	I	41	Bb	II	0	0	I	M		C
+V7	41	2.0	V7	41	Bb	II	0	0	V	Mm7		C
+I	41	3.0	I	41	Bb	II	0	0	I	M		C
+V7	41	4.0	V7	41	Bb	II	0	0	V	Mm7		C
+I	42	1.0	I	42	Bb	II	0	0	I	M		C
+V7	42	2.0	V7	42	Bb	II	0	0	V	Mm7		C
+I	42	3.0	I	42	Bb	II	0	0	I	M		C
+V7	42	4.0	V7	42	Bb	II	0	0	V	Mm7		C
+I	43	1.0	I	43	Bb	II	0	0	I	M		C
+I\\\\	44	1.0	I\\	44	Bb	II	0	0	I	M		C
+V.V	44	4.0	V.V	44	Bb	V	0	0	V	M		F
+I	45	1.0	I	45	Bb	V	0	0	I	M		F
+V65	47	1.0	V65	47	Bb	V	0	0	V	Mm7		F
+I	47	3.0	I	47	Bb	V	0	0	I	M		F
+V65	47	3.5	V65	47	Bb	V	0	0	V	Mm7		F
+I	47	5.5	I	47	Bb	V	0	0	I	M		F
+V	48	1.0	V	48	Bb	V	0	0	V	M		F
+v.i	49	1.0	v.i	49	Bb	v	0	1	i	m		f
+#viio6	51	1.0	#viio6	51	Bb	v	0	1	#vii	o		f
+i	51	2.5	i	51	Bb	v	0	1	i	m		f
+#viio6	51	3.0	#viio6	51	Bb	v	0	1	#vii	o		f
+i	51	4.5	i	51	Bb	v	0	1	i	m		f
+V	52	1.0	V	52	Bb	v	0	1	V	M		f
+V7	52	3.0	V7	52	Bb	v	0	1	V	Mm7		f
+i	53	1.0	i	53	Bb	v	0	1	i	m		f
+V2/iv	53	3.0	V2/iv	53	Bb	v	0	1	V	Mm7	iv	f
+iv6	54	1.0	iv6	54	Bb	v	0	1	iv	m		f
+III64	55	1.0	III64	55	Bb	v	0	1	III	M		f
+V2/III	55	3.0	V2/III	55	Bb	v	0	1	V	Mm7	III	f
+III6	56	1.0	III6	56	Bb	v	0	1	III	M		f
+VI	57	1.0	VI	57	Bb	v	0	1	VI	M		f
+.bII6	58	1.0	.bII6	58	Bb	v	0	1	bII	M		f
+V(64)	59	1.0	V(64)	59	Bb	v	0	1	V	M		f
+V2	59	3.0	V2	59	Bb	v	0	1	V	Mm7		f
+i6	60	1.0	i6	60	Bb	v	0	1	i	m		f
+iio6	60	4.5	iio6	60	Bb	v	0	1	ii	o		f
+i64	61	1.0	i64	61	Bb	v	0	1	i	m		f
+V2	61	3.0	V2	61	Bb	v	0	1	V	Mm7		f
+V.I6	62	1.0	V.I6	62	Bb	V	0	0	I	M		F
+ii6	62	4.5	ii6	62	Bb	V	0	0	ii	m		F
+V(64)	63	1.0	V(64)	63	Bb	V	0	0	V	M		F
+V2	63	3.0	V2	63	Bb	V	0	0	V	Mm7		F
+I6	64	1.0	I6	64	Bb	V	0	0	I	M		F
+V65	65	1.0	V65	65	Bb	V	0	0	V	Mm7		F
+I	66	1.0	I	66	Bb	V	0	0	I	M		F
+vi	66	4.0	vi	66	Bb	V	0	0	vi	m		F
+ii6	67	1.0	ii6	67	Bb	V	0	0	ii	m		F
+V7	67	3.0	V7	67	Bb	V	0	0	V	Mm7		F
+I6	68	1.0	I6	68	Bb	V	0	0	I	M		F
+V65	69	1.0	V65	69	Bb	V	0	0	V	Mm7		F
+I	70	1.0	I	70	Bb	V	0	0	I	M		F
+V43/vi	70	3.0	V43/vi	70	Bb	V	0	0	V	Mm7	vi	F
+vi	70	4.0	vi	70	Bb	V	0	0	vi	m		F
+V65/vi	71	1.0	V65/vi	71	Bb	V	0	0	V	Mm7	vi	F
+vi	71	3.0	vi	71	Bb	V	0	0	vi	m		F
+V65/IV	72	1.0	V65/IV	72	Bb	V	0	0	V	Mm7	IV	F
+IV	72	3.0	IV	72	Bb	V	0	0	IV	M		F
+V65/II	73	1.0	V65/II	73	Bb	V	0	0	V	Mm7	II	F
+V/V	73	3.0	V/V	73	Bb	V	0	0	V	M	V	F
+#viio7/vi	74	1.0	#viio7/vi	74	Bb	V	0	0	#vii	o7	vi	F
+vi	75	1.0	vi	75	Bb	V	0	0	vi	m		F
+ii6	76	1.0	ii6	76	Bb	V	0	0	ii	m		F
+#viio7/V	77	1.0	#viio7/V	77	Bb	V	0	0	#vii	o7	V	F
+V(64)	78	1.0	V(64)	78	Bb	V	0	0	V	M		F
+V7	79	1.0	V7	79	Bb	V	0	0	V	Mm7		F
+I\\\\	80	1.0	I\\	80	Bb	V	0	0	I	M		F
+V43	81	1.0	V43	81	Bb	V	0	0	V	Mm7		F
+V7	81	2.0	V7	81	Bb	V	0	0	V	Mm7		F
+V43	81	3.0	V43	81	Bb	V	0	0	V	Mm7		F
+V7	81	4.0	V7	81	Bb	V	0	0	V	Mm7		F
+I	82	1.0	I	82	Bb	V	0	0	I	M		F
+I6	82	3.0	I6	82	Bb	V	0	0	I	M		F
+V2	83	1.0	V2	83	Bb	V	0	0	V	Mm7		F
+I6	84	1.0	I6	84	Bb	V	0	0	I	M		F
+I	84	4.0	I	84	Bb	V	0	0	I	M		F
+V43	85	1.0	V43	85	Bb	V	0	0	V	Mm7		F
+I6	86	1.0	I6	86	Bb	V	0	0	I	M		F
+I	86	3.0	I	86	Bb	V	0	0	I	M		F
+V7	87	1.0	V7	87	Bb	V	0	0	V	Mm7		F
+I	88	1.0	I	88	Bb	V	0	0	I	M		F
+V7	90	3.0	V7	90	Bb	V	0	0	V	Mm7		F
+I\\\\	91	1.0	I\\	91	Bb	V	0	0	I	M		F
+I\\\\	92	1.0	I\\	92	Bb	V	0	0	I	M		F
+V	92	4.0	V	92	Bb	V	0	0	V	M		F
+I6	93	1.0	I6	93	Bb	V	0	0	I	M		F
+I64	93	3.0	I64	93	Bb	V	0	0	I	M		F
+I	94	1.0	I	94	Bb	V	0	0	I	M		F
+V	94	4.0	V	94	Bb	V	0	0	V	M		F
+I6	95	1.0	I6	95	Bb	V	0	0	I	M		F
+I64	95	3.0	I64	95	Bb	V	0	0	I	M		F
+I	96	1.0	I	96	Bb	V	0	0	I	M		F
+V	96	4.0	V	96	Bb	V	0	0	V	M		F
+I	97	1.0	I	97	Bb	V	0	0	I	M		F
+III.V43	102	1.0	III.V43	102	Bb	III	0	0	V	Mm7		D
+I	103	1.0	I	103	Bb	III	0	0	I	M		D
+vi.#viio43	107	1.0	vi.#viio43	107	Bb	vi	0	1	#vii	o7		g
+i6	111	1.0	i6	111	Bb	vi	0	1	i	m		g
+V65	112	1.0	V65	112	Bb	vi	0	1	V	Mm7		g
+i6	118	1.0	i6	118	Bb	vi	0	1	i	m		g
+i	118	3.0	i	118	Bb	vi	0	1	i	m		g
+V65	119	1.0	V65	119	Bb	vi	0	1	V	Mm7		g
+i6	120	1.0	i6	120	Bb	vi	0	1	i	m		g
+i\\\\	120	3.5	i\\	120	Bb	vi	0	1	i	m		g
+V.V43	120	4.5	V.V43	120	Bb	V	0	0	V	Mm7		F
+V65	121	1.0	V65	121	Bb	V	0	0	V	Mm7		F
+I	122	1.0	I	122	Bb	V	0	0	I	M		F
+I64	122	3.0	I64	122	Bb	V	0	0	I	M		F
+V43	122	4.0	V43	122	Bb	V	0	0	V	Mm7		F
+V65	123	1.0	V65	123	Bb	V	0	0	V	Mm7		F
+I6	124	1.0	I6	124	Bb	V	0	0	I	M		F
+I	124	3.0	I	124	Bb	V	0	0	I	M		F
+V43	124	4.0	V43	124	Bb	V	0	0	V	Mm7		F
+V65	125	1.0	V65	125	Bb	V	0	0	V	Mm7		F
+i6	126	1.0	i6	126	Bb	V	0	0	i	m		F
+i	126	3.5	i	126	Bb	V	0	0	i	m		F
+IV.V43	126	4.5	IV.V43	126	Bb	IV	0	0	V	Mm7		E-
+V65	127	1.0	V65	127	Bb	IV	0	0	V	Mm7		E-
+I	128	1.0	I	128	Bb	IV	0	0	I	M		E-
+V(64)	128	3.0	V(64)	128	Bb	IV	0	0	V	M		E-
+V65	129	1.0	V65	129	Bb	IV	0	0	V	Mm7		E-
+I6	130	1.0	I6	130	Bb	IV	0	0	I	M		E-
+I	130	3.0	I	130	Bb	IV	0	0	I	M		E-
+V43	130	4.0	V43	130	Bb	IV	0	0	V	Mm7		E-
+V65	131	1.0	V65	131	Bb	IV	0	0	V	Mm7		E-
+i6	132	1.0	i6	132	Bb	IV	0	0	i	m		E-
+i	132	3.5	i	132	Bb	IV	0	0	i	m		E-
+.bIII.V	132	4.5	.bIII.V	132	Bb	bIII	0	0	V	M		D-
+V	133	1.0	V	133	Bb	bIII	0	0	V	M		D-
+V7	133	3.0	V7	133	Bb	bIII	0	0	V	Mm7		D-
+I6	134	1.0	I6	134	Bb	bIII	0	0	I	M		D-
+I	134	3.0	I	134	Bb	bIII	0	0	I	M		D-
+V2	134	4.0	V2	134	Bb	bIII	0	0	V	Mm7		D-
+V43	136	1.0	V43	136	Bb	bIII	0	0	V	Mm7		D-
+V6	136	3.0	V6	136	Bb	bIII	0	0	V	M		D-
+i.V43	136	4.0	i.V43	136	Bb	i	0	1	V	Mm7		b-
+V65	137	1.0	V65	137	Bb	i	0	1	V	Mm7		b-
+i	138	1.0	i	138	Bb	i	0	1	i	m		b-
+V/V	139	4.0	V/V	139	Bb	i	0	1	V	M	V	b-
+V\\\\	140	1.0	V\\	140	Bb	i	0	1	V	M		b-
+V.I	140	4.0	V.I	140	Bb	V	0	0	I	M		F
+V	141	1.0	V	141	Bb	V	0	0	V	M		F
+I	142	1.0	I	142	Bb	V	0	0	I	M		F
+V7	143	1.0	V7	143	Bb	V	0	0	V	Mm7		F
+I	144	1.0	I	144	Bb	V	0	0	I	M		F
+V7	145	1.0	V7	145	Bb	V	0	0	V	Mm7		F
+I	146	1.0	I	146	Bb	V	0	0	I	M		F
+iv64	147	1.0	iv64	147	Bb	V	0	0	iv	m		F
+#viio64/V	147	3.0	#viio64/V	147	Bb	V	0	0	#vii	o	V	F
+I.V43	148	1.0	I.V43	148	Bb	I	0	0	V	Mm7		B-
+V2	149	1.0	V2	149	Bb	I	0	0	V	Mm7		B-
+V43	150	1.0	V43	150	Bb	I	0	0	V	Mm7		B-
+V2	151	1.0	V2	151	Bb	I	0	0	V	Mm7		B-
+V43	152	1.0	V43	152	Bb	I	0	0	V	Mm7		B-
+V7	152	3.0	V7	152	Bb	I	0	0	V	Mm7		B-
+V6	155	1.0	V6	155	Bb	I	0	0	V	M		B-
+viio6	156	1.0	viio6	156	Bb	I	0	0	vii	o		B-
+vii%7	157	3.0	vii%7	157	Bb	I	0	0	vii	%7		B-
+V	161	1.0	V	161	Bb	I	0	0	V	M		B-
+vii%7(42)	162	1.0	vii%7(42)	162	Bb	I	0	0	vii	%7		B-
+vii%7	162	3.0	vii%7	162	Bb	I	0	0	vii	%7		B-
+V65	163	1.0	V65	163	Bb	I	0	0	V	Mm7		B-
+vii%43(42)	164	1.0	vii%43(42)	164	Bb	I	0	0	vii	%7		B-
+vii%43	164	3.0	vii%43	164	Bb	I	0	0	vii	%7		B-
+vii%43	165	1.0	vii%43	165	Bb	I	0	0	vii	%7		B-
+vii%7(42)	166	1.0	vii%7(42)	166	Bb	I	0	0	vii	%7		B-
+vii%7	166	3.0	vii%7	166	Bb	I	0	0	vii	%7		B-
+vii%7	167	1.0	vii%7	167	Bb	I	0	0	vii	%7		B-
+@none	168	1.0	@none	168	Bb	I	0	0	@none	m		B-
+viio6	172	1.0	viio6	172	Bb	I	0	0	vii	o		B-
+V	174	1.0	V	174	Bb	I	0	0	V	M		B-
+I	176	1.0	I	176	Bb	I	0	0	I	M		B-
+V7	181	1.0	V7	181	Bb	I	0	0	V	Mm7		B-
+I6	182	1.0	I6	182	Bb	I	0	0	I	M		B-
+I	182	3.0	I	182	Bb	I	0	0	I	M		B-
+V65	183	1.0	V65	183	Bb	I	0	0	V	Mm7		B-
+I	184	1.0	I	184	Bb	I	0	0	I	M		B-
+V7	185	1.0	V7	185	Bb	I	0	0	V	Mm7		B-
+I6	186	1.0	I6	186	Bb	I	0	0	I	M		B-
+vi7	186	3.0	vi7	186	Bb	I	0	0	vi	mm7		B-
+vi	187	1.0	vi	187	Bb	I	0	0	vi	m		B-
+V7/V	187	3.0	V7/V	187	Bb	I	0	0	V	Mm7	V	B-
+V\\\\	188	1.0	V\\	188	Bb	I	0	0	V	M		B-
+V65/V	188	3.0	V65/V	188	Bb	I	0	0	V	Mm7	V	B-
+V	189	1.0	V	189	Bb	I	0	0	V	M		B-
+V65/V	189	3.0	V65/V	189	Bb	I	0	0	V	Mm7	V	B-
+V	190	1.0	V	190	Bb	I	0	0	V	M		B-
+V65/V	190	3.0	V65/V	190	Bb	I	0	0	V	Mm7	V	B-
+V	191	1.0	V	191	Bb	I	0	0	V	M		B-
+V6/V	191	3.0	V6/V	191	Bb	I	0	0	V	M	V	B-
+V	192	1.0	V	192	Bb	I	0	0	V	M		B-
+V/V	192	2.0	V/V	192	Bb	I	0	0	V	M	V	B-
+V	192	3.0	V	192	Bb	I	0	0	V	M		B-
+V6/V	192	4.0	V6/V	192	Bb	I	0	0	V	M	V	B-
+V\\\\	193	1.0	V\\	193	Bb	I	0	0	V	M		B-
+V43	193	3.0	V43	193	Bb	I	0	0	V	Mm7		B-
+I6	194	1.0	I6	194	Bb	I	0	0	I	M		B-
+V2	194	2.0	V2	194	Bb	I	0	0	V	Mm7		B-
+I6	194	3.0	I6	194	Bb	I	0	0	I	M		B-
+V2	194	4.0	V2	194	Bb	I	0	0	V	Mm7		B-
+I6	195	1.0	I6	195	Bb	I	0	0	I	M		B-
+V65/IV	195	3.0	V65/IV	195	Bb	I	0	0	V	Mm7	IV	B-
+IV.I[I	196	1.0	IV.I[I	196	Bb	IV	0	0	I	M		E-
+viio6	196	2.0	viio6	196	Bb	IV	0	0	vii	o		E-
+I	196	3.25	I	196	Bb	IV	0	0	I	M		E-
+viio6	196	4.5	viio6	196	Bb	IV	0	0	vii	o		E-
+I	197	1.0	I	197	Bb	IV	0	0	I	M		E-
+viio6	197	4.0	viio6	197	Bb	IV	0	0	vii	o		E-
+I	198	1.0	I	198	Bb	IV	0	0	I	M		E-
+viio6	198	2.0	viio6	198	Bb	IV	0	0	vii	o		E-
+I	198	3.5	I	198	Bb	IV	0	0	I	M		E-
+viio6	198	4.5	viio6	198	Bb	IV	0	0	vii	o		E-
+I]\\\\	199	1.0	I]\\	199	Bb	IV	0	0	I	M		E-
+V	200	1.0	V	200	Bb	IV	0	0	V	M		E-
+I	201	1.0	I	201	Bb	IV	0	0	I	M		E-
+ii6	202	1.0	ii6	202	Bb	IV	0	0	ii	m		E-
+V7	202	3.0	V7	202	Bb	IV	0	0	V	Mm7		E-
+i\\\\	203	1.0	i\\	203	Bb	IV	0	0	i	m		E-
+V	204	1.0	V	204	Bb	IV	0	0	V	M		E-
+i	205	1.0	i	205	Bb	IV	0	0	i	m		E-
+I.iv6	206	1.0	I.iv6	206	Bb	I	0	0	iv	m		B-
+.Ger6	206	3.0	.Ger6	206	Bb	I	0	0	vii	M	V	B-
+V[V6	207	1.0	V[V6	207	Bb	I	0	0	V	M		B-
+V2/V	208	1.0	V2/V	208	Bb	I	0	0	V	Mm7	V	B-
+V6	209	1.0	V6	209	Bb	I	0	0	V	M		B-
+V6/V	209	4.0	V6/V	209	Bb	I	0	0	V	M	V	B-
+V7/V	210	1.0	V7/V	210	Bb	I	0	0	V	Mm7	V	B-
+V	211	1.0	V	211	Bb	I	0	0	V	M		B-
+V64	211	2.0	V64	211	Bb	I	0	0	V	M		B-
+V7/V	212	1.0	V7/V	212	Bb	I	0	0	V	Mm7	V	B-
+V64	213	1.0	V64	213	Bb	I	0	0	V	M		B-
+V]	213	3.0	V]	213	Bb	I	0	0	V	M		B-
+V65/V	214	1.0	V65/V	214	Bb	I	0	0	V	Mm7	V	B-
+V	215	1.0	V	215	Bb	I	0	0	V	M		B-
+V65/V	215	2.0	V65/V	215	Bb	I	0	0	V	Mm7	V	B-
+V	215	3.0	V	215	Bb	I	0	0	V	M		B-
+V7/V	215	4.0	V7/V	215	Bb	I	0	0	V	Mm7	V	B-
+V	216	1.0	V	216	Bb	I	0	0	V	M		B-
+V7/V	216	2.0	V7/V	216	Bb	I	0	0	V	Mm7	V	B-
+V	216	3.0	V	216	Bb	I	0	0	V	M		B-
+V7/V	216	4.0	V7/V	216	Bb	I	0	0	V	Mm7	V	B-
+V	217	1.0	V	217	Bb	I	0	0	V	M		B-
+V\\\\	218	1.0	V\\	218	Bb	I	0	0	V	M		B-
+I	219	1.0	I	219	Bb	I	0	0	I	M		B-
+V65	221	1.0	V65	221	Bb	I	0	0	V	Mm7		B-
+I	221	3.0	I	221	Bb	I	0	0	I	M		B-
+V65	221	3.5	V65	221	Bb	I	0	0	V	Mm7		B-
+I	221	5.5	I	221	Bb	I	0	0	I	M		B-
+V	222	1.0	V	222	Bb	I	0	0	V	M		B-
+i.i	223	1.0	i.i	223	Bb	i	0	1	i	m		b-
+#viio6	225	1.0	#viio6	225	Bb	i	0	1	#vii	o		b-
+i	225	2.5	i	225	Bb	i	0	1	i	m		b-
+#viio6	225	3.0	#viio6	225	Bb	i	0	1	#vii	o		b-
+i	225	4.5	i	225	Bb	i	0	1	i	m		b-
+V	226	1.0	V	226	Bb	i	0	1	V	M		b-
+V7	226	3.0	V7	226	Bb	i	0	1	V	Mm7		b-
+i	227	1.0	i	227	Bb	i	0	1	i	m		b-
+V2/iv	227	3.0	V2/iv	227	Bb	i	0	1	V	Mm7	iv	b-
+iv6	228	1.0	iv6	228	Bb	i	0	1	iv	m		b-
+iv	228	4.5	iv	228	Bb	i	0	1	iv	m		b-
+III64	229	1.0	III64	229	Bb	i	0	1	III	M		b-
+V2/III	229	3.0	V2/III	229	Bb	i	0	1	V	Mm7	III	b-
+III6	230	1.0	III6	230	Bb	i	0	1	III	M		b-
+VI	231	1.0	VI	231	Bb	i	0	1	VI	M		b-
+iio6	232	1.0	iio6	232	Bb	i	0	1	ii	o		b-
+.bII6	232	4.5	.bII6	232	Bb	i	0	1	bII	M		b-
+V(64)	233	1.0	V(64)	233	Bb	i	0	1	V	M		b-
+V2	233	3.0	V2	233	Bb	i	0	1	V	Mm7		b-
+i6	234	1.0	i6	234	Bb	i	0	1	i	m		b-
+.bII6	234	4.5	.bII6	234	Bb	i	0	1	bII	M		b-
+V(64)	235	1.0	V(64)	235	Bb	i	0	1	V	M		b-
+V2	235	3.0	V2	235	Bb	i	0	1	V	Mm7		b-
+I.I6	236	1.0	I.I6	236	Bb	I	0	0	I	M		B-
+ii6	236	4.5	ii6	236	Bb	I	0	0	ii	m		B-
+V(64)	237	1.0	V(64)	237	Bb	I	0	0	V	M		B-
+V2	237	3.0	V2	237	Bb	I	0	0	V	Mm7		B-
+I6	238	1.0	I6	238	Bb	I	0	0	I	M		B-
+V65	239	1.0	V65	239	Bb	I	0	0	V	Mm7		B-
+I	240	1.0	I	240	Bb	I	0	0	I	M		B-
+vi	240	4.0	vi	240	Bb	I	0	0	vi	m		B-
+ii6	241	1.0	ii6	241	Bb	I	0	0	ii	m		B-
+V7	241	3.0	V7	241	Bb	I	0	0	V	Mm7		B-
+I6	242	1.0	I6	242	Bb	I	0	0	I	M		B-
+V65	243	1.0	V65	243	Bb	I	0	0	V	Mm7		B-
+I	244	1.0	I	244	Bb	I	0	0	I	M		B-
+V43/vi	244	3.0	V43/vi	244	Bb	I	0	0	V	Mm7	vi	B-
+vi	244	4.0	vi	244	Bb	I	0	0	vi	m		B-
+V65/vi	245	1.0	V65/vi	245	Bb	I	0	0	V	Mm7	vi	B-
+vi	245	3.0	vi	245	Bb	I	0	0	vi	m		B-
+V65/IV	246	1.0	V65/IV	246	Bb	I	0	0	V	Mm7	IV	B-
+IV	246	3.0	IV	246	Bb	I	0	0	IV	M		B-
+V65/II	247	1.0	V65/II	247	Bb	I	0	0	V	Mm7	II	B-
+V7/V	247	3.0	V7/V	247	Bb	I	0	0	V	Mm7	V	B-
+#viio7/vi	248	1.0	#viio7/vi	248	Bb	I	0	0	#vii	o7	vi	B-
+vi	249	1.0	vi	249	Bb	I	0	0	vi	m		B-
+ii6	250	1.0	ii6	250	Bb	I	0	0	ii	m		B-
+#viio7/V	251	1.0	#viio7/V	251	Bb	I	0	0	#vii	o7	V	B-
+V(64)	252	1.0	V(64)	252	Bb	I	0	0	V	M		B-
+V7	253	1.0	V7	253	Bb	I	0	0	V	Mm7		B-
+I\\\\	254	1.0	I\\	254	Bb	I	0	0	I	M		B-
+I6	254	3.0	I6	254	Bb	I	0	0	I	M		B-
+I	254	4.0	I	254	Bb	I	0	0	I	M		B-
+V43	255	1.0	V43	255	Bb	I	0	0	V	Mm7		B-
+V7	255	2.0	V7	255	Bb	I	0	0	V	Mm7		B-
+V43	255	3.0	V43	255	Bb	I	0	0	V	Mm7		B-
+V7	255	4.0	V7	255	Bb	I	0	0	V	Mm7		B-
+I	256	1.0	I	256	Bb	I	0	0	I	M		B-
+I6	256	3.0	I6	256	Bb	I	0	0	I	M		B-
+V2	257	1.0	V2	257	Bb	I	0	0	V	Mm7		B-
+V65	257	3.0	V65	257	Bb	I	0	0	V	Mm7		B-
+V7	257	4.0	V7	257	Bb	I	0	0	V	Mm7		B-
+I6	258	1.0	I6	258	Bb	I	0	0	I	M		B-
+I	258	3.0	I	258	Bb	I	0	0	I	M		B-
+V43	259	1.0	V43	259	Bb	I	0	0	V	Mm7		B-
+V7	259	2.0	V7	259	Bb	I	0	0	V	Mm7		B-
+V43	259	3.0	V43	259	Bb	I	0	0	V	Mm7		B-
+V7	259	4.0	V7	259	Bb	I	0	0	V	Mm7		B-
+I6	260	1.0	I6	260	Bb	I	0	0	I	M		B-
+I	260	3.0	I	260	Bb	I	0	0	I	M		B-
+V7	261	1.0	V7	261	Bb	I	0	0	V	Mm7		B-
+I	262	1.0	I	262	Bb	I	0	0	I	M		B-
+V7	264	3.0	V7	264	Bb	I	0	0	V	Mm7		B-
+I\\\\	265	1.0	I\\	265	Bb	I	0	0	I	M		B-
+I\\\\	266	1.0	I\\	266	Bb	I	0	0	I	M		B-

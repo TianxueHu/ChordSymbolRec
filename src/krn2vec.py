@@ -230,7 +230,7 @@ if __name__ == "__main__":
     script_dir = os.getcwd()
     SCORE_COLLECTION_REL_PATH = "datasets/bhchorale/bach_org_score_for_vec"
     COLLECTION = "Bach_ORG"
-    WINDOW_SIZE = 4
+    WINDOW_SIZE = 1
 
     collection_path = os.path.join(script_dir, SCORE_COLLECTION_REL_PATH)
 
@@ -247,8 +247,8 @@ if __name__ == "__main__":
                 print (os.path.join(subdir, file))
                 try:
                     vec = KRN2VEC(scorepath)
-                    vec.krn2vec_ffnn_21(COLLECTION)
-                    #vec.krn2vec_s2s_21(COLLECTION, WINDOW_SIZE)
+                    #vec.krn2vec_ffnn_21(COLLECTION)
+                    vec.krn2vec_s2s_21(COLLECTION, WINDOW_SIZE)
                     collection_list.append(vec.piece_output)
                     # invalid.append([file, vec.invalid]) # !! ABC !!
                 except:
@@ -261,7 +261,7 @@ if __name__ == "__main__":
     with h5py.File('Bach_org_vectors_ffnn_21enc.h5', 'w') as hf:
         hf.create_dataset("name-of-dataset",  data=collection_list)
 
-        
+
     '''
     with open('ABC_reduce_vectors_ffnn_21enc.pkl', 'wb') as f:
         pickle.dump(collection_list, f)

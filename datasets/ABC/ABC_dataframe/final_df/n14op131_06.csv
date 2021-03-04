@@ -1,0 +1,69 @@
+chord	measure	beat	label	mn	globalkey	localkey	globalkey_is_minor	localkey_is_minor	numeral	chord_type	relativeroot	new_key
+.g#.i	1	2.0	.g#.i	0	g#	i	1	1	i	m		g#
+V43	2	1.0	V43	2	g#	i	1	1	V	Mm7		g#
+i	2	3.0	i	2	g#	i	1	1	i	m		g#
+V65	3	1.0	V65	3	g#	i	1	1	V	Mm7		g#
+i	3	2.0	i	3	g#	i	1	1	i	m		g#
+VI	3	3.0	VI	3	g#	i	1	1	VI	M		g#
+iv7	4	1.0	iv7	4	g#	i	1	1	iv	mm7		g#
+iio6	4	1.75	iio6	4	g#	i	1	1	ii	o		g#
+V(64)	4	2.0	V(64)	4	g#	i	1	1	V	M		g#
+V7	4	3.0	V7	4	g#	i	1	1	V	Mm7		g#
+i	5	1.0	i	5	g#	i	1	1	i	m		g#
+V43	6	1.0	V43	6	g#	i	1	1	V	Mm7		g#
+i	6	3.0	i	6	g#	i	1	1	i	m		g#
+V65	7	1.0	V65	7	g#	i	1	1	V	Mm7		g#
+i	7	2.0	i	7	g#	i	1	1	i	m		g#
+VI	7	3.0	VI	7	g#	i	1	1	VI	M		g#
+iv7	8	1.0	iv7	8	g#	i	1	1	iv	mm7		g#
+.bII6	8	1.75	.bII6	8	g#	i	1	1	bII	M		g#
+V(64)	8	2.0	V(64)	8	g#	i	1	1	V	M		g#
+V7	8	3.0	V7	8	g#	i	1	1	V	Mm7		g#
+i64	9	1.0	i64	9	g#	i	1	1	i	m		g#
+i	9	2.0	i	9	g#	i	1	1	i	m		g#
+V6/III	9	3.0	V6/III	9	g#	i	1	1	V	M	III	g#
+V65/III	10	1.0	V65/III	10	g#	i	1	1	V	Mm7	III	g#
+III(4)	10	3.0	III(4)	10	g#	i	1	1	III	M		g#
+III	11	1.0	III	11	g#	i	1	1	III	M		g#
+V6	11	3.0	V6	11	g#	i	1	1	V	M		g#
+V65	12	1.0	V65	12	g#	i	1	1	V	Mm7		g#
+i(4)	12	3.0	i(4)	12	g#	i	1	1	i	m		g#
+i	13	1.0	i	13	g#	i	1	1	i	m		g#
+V43	14	1.0	V43	14	g#	i	1	1	V	Mm7		g#
+i	14	3.0	i	14	g#	i	1	1	i	m		g#
+V65	15	1.0	V65	15	g#	i	1	1	V	Mm7		g#
+i	15	2.0	i	15	g#	i	1	1	i	m		g#
+VI	15	3.0	VI	15	g#	i	1	1	VI	M		g#
+.bII6(9)	16	1.0	.bII6(9)	16	g#	i	1	1	bII	M		g#
+.bII6	16	1.75	.bII6	16	g#	i	1	1	bII	M		g#
+V(64)	16	2.0	V(64)	16	g#	i	1	1	V	M		g#
+V7	16	3.0	V7	16	g#	i	1	1	V	Mm7		g#
+i64	17	1.0	i64	17	g#	i	1	1	i	m		g#
+V6/III	17	3.0	V6/III	17	g#	i	1	1	V	M	III	g#
+V65/III	18	1.0	V65/III	18	g#	i	1	1	V	Mm7	III	g#
+III(4)	18	3.0	III(4)	18	g#	i	1	1	III	M		g#
+III	19	1.0	III	19	g#	i	1	1	III	M		g#
+V6	19	3.0	V6	19	g#	i	1	1	V	M		g#
+V65	20	1.0	V65	20	g#	i	1	1	V	Mm7		g#
+i(4)	20	3.0	i(4)	20	g#	i	1	1	i	m		g#
+i	21	1.0	i	21	g#	i	1	1	i	m		g#
+V43	22	1.0	V43	22	g#	i	1	1	V	Mm7		g#
+i	22	3.0	i	22	g#	i	1	1	i	m		g#
+V7/III	23	1.0	V7/III	23	g#	i	1	1	V	Mm7	III	g#
+III	23	2.0	III	23	g#	i	1	1	III	M		g#
+VI	23	3.0	VI	23	g#	i	1	1	VI	M		g#
+.bII6(9)	24	1.0	.bII6(9)	24	g#	i	1	1	bII	M		g#
+.bII6	24	1.75	.bII6	24	g#	i	1	1	bII	M		g#
+V(64)	24	2.0	V(64)	24	g#	i	1	1	V	M		g#
+V7	24	3.0	V7	24	g#	i	1	1	V	Mm7		g#
+iv.V7(+9)	25	1.0	iv.V7(+9)	25	g#	iv	1	1	V	Mm7		c#
+V7	25	2.0	V7	25	g#	iv	1	1	V	Mm7		c#
+V(64)	25	3.0	V(64)	25	g#	iv	1	1	V	M		c#
+V7	26	1.0	V7	26	g#	iv	1	1	V	Mm7		c#
+VI	26	3.0	VI	26	g#	iv	1	1	VI	M		c#
+iv7	26	3.5	iv7	26	g#	iv	1	1	iv	mm7		c#
+.Ger6	27	1.0	.Ger6	27	g#	iv	1	1	vii	M	V	c#
+V(64)	27	1.5	V(64)	27	g#	iv	1	1	V	M		c#
+iv	27	2.0	iv	27	g#	iv	1	1	iv	m		c#
+V(64)	27	2.5	V(64)	27	g#	iv	1	1	V	M		c#
+V7	27	3.0	V7	27	g#	iv	1	1	V	Mm7		c#

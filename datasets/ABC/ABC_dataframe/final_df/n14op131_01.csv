@@ -1,0 +1,335 @@
+chord	measure	beat	label	mn	globalkey	localkey	globalkey_is_minor	localkey_is_minor	numeral	chord_type	relativeroot	new_key
+.c#.i64	0	1.0	.c#.i64	0	c#	i	1	1	i	m		c#
+V6	1	1.0	V6	1	c#	i	1	1	V	M		c#
+i	1	3.0	i	1	c#	i	1	1	i	m		c#
+iv6	2	1.0	iv6	2	c#	i	1	1	iv	m		c#
+i64	2	4.0	i64	2	c#	i	1	1	i	m		c#
+iv	3	1.0	iv	3	c#	i	1	1	iv	m		c#
+V7	3	3.0	V7	3	c#	i	1	1	V	Mm7		c#
+i6	4	1.0	i6	4	c#	i	1	1	i	m		c#
+i	4	3.0	i	4	c#	i	1	1	i	m		c#
+#viio/iv	5	1.0	#viio/iv	5	c#	i	1	1	#vii	o	iv	c#
+iv(4)	5	3.0	iv(4)	5	c#	i	1	1	iv	m		c#
+iv	5	4.0	iv	5	c#	i	1	1	iv	m		c#
+.bII	6	1.0	.bII	6	c#	i	1	1	bII	M		c#
+.bII(#2)	6	2.0	.bII(#2)	6	c#	i	1	1	bII	M		c#
+.bII	6	3.0	.bII	6	c#	i	1	1	bII	M		c#
+iv64	6	4.0	iv64	6	c#	i	1	1	iv	m		c#
+.Ger6	7	1.0	.Ger6	7	c#	i	1	1	vii	M	V	c#
+V2/iv	7	4.0	V2/iv	7	c#	i	1	1	V	Mm7	iv	c#
+iv6	8	1.0	iv6	8	c#	i	1	1	iv	m		c#
+V(64)	8	3.0	V(64)	8	c#	i	1	1	V	M		c#
+V	8	4.0	V	8	c#	i	1	1	V	M		c#
+V6	9	1.0	V6	9	c#	i	1	1	V	M		c#
+V7	9	2.0	V7	9	c#	i	1	1	V	Mm7		c#
+i64	9	3.0	i64	9	c#	i	1	1	i	m		c#
+i	9	4.0	i	9	c#	i	1	1	i	m		c#
+#viio2(4)	10	1.0	#viio2(4)	10	c#	i	1	1	#vii	o7		c#
+#viio2	10	2.0	#viio2	10	c#	i	1	1	#vii	o7		c#
+iio43	10	3.0	iio43	10	c#	i	1	1	ii	o7		c#
+III6	10	4.0	III6	10	c#	i	1	1	III	M		c#
+V7/vii	11	1.0	V7/vii	11	c#	i	1	1	V	Mm7	vii	c#
+VI	11	2.0	VI	11	c#	i	1	1	VI	M		c#
+III6	11	3.0	III6	11	c#	i	1	1	III	M		c#
+.bII6	11	4.0	.bII6	11	c#	i	1	1	bII	M		c#
+V7/vi	12	1.0	V7/vi	12	c#	i	1	1	V	Mm7	vi	c#
+iv	12	2.0	iv	12	c#	i	1	1	iv	m		c#
+V	12	3.0	V	12	c#	i	1	1	V	M		c#
+V7/iv	12	4.0	V7/iv	12	c#	i	1	1	V	Mm7	iv	c#
+viio2/VI	13	1.0	viio2/VI	13	c#	i	1	1	vii	o7	VI	c#
+IV	13	3.0	IV	13	c#	i	1	1	IV	M		c#
+.bII+	14	1.0	.bII+	14	c#	i	1	1	bII	+		c#
+vii6(6)	14	2.0	vii6(6)	14	c#	i	1	1	vii	m		c#
+vii6	14	3.0	vii6	14	c#	i	1	1	vii	m		c#
+#viio6/vii	14	4.0	#viio6/vii	14	c#	i	1	1	#vii	o	vii	c#
+vii	15	1.0	vii	15	c#	i	1	1	vii	m		c#
+viio43/VI	15	2.0	viio43/VI	15	c#	i	1	1	vii	o7	VI	c#
+VI	15	3.0	VI	15	c#	i	1	1	VI	M		c#
+vii	15	4.0	vii	15	c#	i	1	1	vii	m		c#
+VI	16	1.0	VI	16	c#	i	1	1	VI	M		c#
+i[VI6	16	3.0	i[VI6	16	c#	i	1	1	VI	M		c#
+vii64	16	4.0	vii64	16	c#	i	1	1	vii	m		c#
+.bII+6]	17	1.0	.bII+6]	17	c#	i	1	1	bII	+		c#
+#viio43/vii	17	2.0	#viio43/vii	17	c#	i	1	1	#vii	o7	vii	c#
+vii6	17	3.0	vii6	17	c#	i	1	1	vii	m		c#
+i	17	4.0	i	17	c#	i	1	1	i	m		c#
+vii.i	18	1.0	vii.i	18	c#	vii	1	1	i	m		b
+V64	18	2.0	V64	18	c#	vii	1	1	V	M		b
+i6	18	3.0	i6	18	c#	vii	1	1	i	m		b
+#io6	18	4.0	#io6	18	c#	vii	1	1	#i	o		b
+#io65	19	1.0	#io65	19	c#	vii	1	1	#i	o7		b
+ii6	19	2.0	ii6	19	c#	vii	1	1	ii	m		b
+#viio6/iv	19	3.0	#viio6/iv	19	c#	vii	1	1	#vii	o	iv	b
+#vo7	19	4.0	#vo7	19	c#	vii	1	1	#v	o7		b
+i.V(64)	20	1.0	i.V(64)	20	c#	i	1	1	V	M		c#
+.Ger6	20	2.0	.Ger6	20	c#	i	1	1	vii	M	V	c#
+V	20	3.0	V	20	c#	i	1	1	V	M		c#
+V2	20	4.0	V2	20	c#	i	1	1	V	Mm7		c#
+V2	21	1.0	V2	21	c#	i	1	1	V	Mm7		c#
+I6(7)	21	2.0	I6(7)	21	c#	i	1	1	I	M		c#
+I6	21	3.0	I6	21	c#	i	1	1	I	M		c#
+V65/iv	22	1.0	V65/iv	22	c#	i	1	1	V	Mm7	iv	c#
+iv(7)	22	2.0	iv(7)	22	c#	i	1	1	iv	m		c#
+V/vii	22	4.0	V/vii	22	c#	i	1	1	V	M	vii	c#
+V2/vii	23	1.0	V2/vii	23	c#	i	1	1	V	Mm7	vii	c#
+vii64	23	3.0	vii64	23	c#	i	1	1	vii	m		c#
+V/III	23	4.0	V/III	23	c#	i	1	1	V	M	III	c#
+vo64(5)	24	1.0	vo64(5)	24	c#	i	1	1	v	o		c#
+vo64	24	2.0	vo64	24	c#	i	1	1	v	o		c#
+III.I(42)	24	3.0	III.I(42)	24	c#	III	1	0	I	M		E
+I64	24	4.0	I64	24	c#	III	1	0	I	M		E
+V65	25	1.0	V65	25	c#	III	1	0	V	Mm7		E
+iii64	25	2.0	iii64	25	c#	III	1	0	iii	m		E
+I[I(42)	25	3.0	I[I(42)	25	c#	III	1	0	I	M		E
+I	25	4.0	I	25	c#	III	1	0	I	M		E
+viio64	26	1.0	viio64	26	c#	III	1	0	vii	o		E
+I(7)	26	2.0	I(7)	26	c#	III	1	0	I	M		E
+iv]	26	3.0	iv]	26	c#	III	1	0	iv	m		E
+I	26	4.5	I	26	c#	III	1	0	I	M		E
+I+6	27	1.0	I+6	27	c#	III	1	0	I	+		E
+IV	27	3.0	IV	27	c#	III	1	0	IV	M		E
+.Fr6/V	27	4.0	.Fr6/V	27	c#	III	1	0	V	M	V/V	E
+V/V	28	1.0	V/V	28	c#	III	1	0	V	M	V	E
+V65/V	28	2.0	V65/V	28	c#	III	1	0	V	Mm7	V	E
+V	28	3.0	V	28	c#	III	1	0	V	M		E
+V65	28	4.0	V65	28	c#	III	1	0	V	Mm7		E
+I	29	1.0	I	29	c#	III	1	0	I	M		E
+V65/IV	29	2.0	V65/IV	29	c#	III	1	0	V	Mm7	IV	E
+IV	29	3.0	IV	29	c#	III	1	0	IV	M		E
+vi	29	4.0	vi	29	c#	III	1	0	vi	m		E
+viio	30	1.0	viio	30	c#	III	1	0	vii	o		E
+vii%65	30	2.0	vii%65	30	c#	III	1	0	vii	%7		E
+V/vi	30	3.0	V/vi	30	c#	III	1	0	V	M	vi	E
+V65/vi	30	4.0	V65/vi	30	c#	III	1	0	V	Mm7	vi	E
+vi\\\\	31	1.0	vi\\	31	c#	III	1	0	vi	m		E
+I6	31	2.0	I6	31	c#	III	1	0	I	M		E
+V64	31	3.0	V64	31	c#	III	1	0	V	M		E
+V2/V	31	4.0	V2/V	31	c#	III	1	0	V	Mm7	V	E
+V6	32	1.0	V6	32	c#	III	1	0	V	M		E
+iii	32	2.0	iii	32	c#	III	1	0	iii	m		E
+I	32	3.0	I	32	c#	III	1	0	I	M		E
+V6(+6)	32	4.0	V6(+6)	32	c#	III	1	0	V	M		E
+viio7/V	33	1.0	viio7/V	33	c#	III	1	0	vii	o7	V	E
+viio2/iii	33	2.0	viio2/iii	33	c#	III	1	0	vii	o7	iii	E
+V2/iii	33	4.0	V2/iii	33	c#	III	1	0	V	Mm7	iii	E
+iii.i64	34	1.0	iii.i64	34	c#	iii	1	1	i	m		e
+V	34	4.0	V	34	c#	iii	1	1	V	M		e
+V7	35	2.0	V7	35	c#	iii	1	1	V	Mm7		e
+VI(6)	35	3.0	VI(6)	35	c#	iii	1	1	VI	M		e
+VI	35	4.0	VI	35	c#	iii	1	1	VI	M		e
+VII.V[V7(4)	36	1.0	VII.V[V7(4)	36	c#	VII	1	0	V	Mm7		B
+V7(+b9)	36	2.0	V7(+b9)	36	c#	VII	1	0	V	Mm7		B
+I6	36	4.0	I6	36	c#	VII	1	0	I	M		B
+V	37	1.0	V	37	c#	VII	1	0	V	M		B
+V7	37	2.0	V7	37	c#	VII	1	0	V	Mm7		B
+I6	37	3.0	I6	37	c#	VII	1	0	I	M		B
+V43	37	4.0	V43	37	c#	VII	1	0	V	Mm7		B
+I6	38	1.0	I6	38	c#	VII	1	0	I	M		B
+I64	38	2.0	I64	38	c#	VII	1	0	I	M		B
+V2]	38	3.0	V2]	38	c#	VII	1	0	V	Mm7		B
+I64	38	4.0	I64	38	c#	VII	1	0	I	M		B
+V43	39	1.0	V43	39	c#	VII	1	0	V	Mm7		B
+I6	39	3.0	I6	39	c#	VII	1	0	I	M		B
+V7	39	4.0	V7	39	c#	VII	1	0	V	Mm7		B
+I6	40	1.0	I6	40	c#	VII	1	0	I	M		B
+V2	40	3.0	V2	40	c#	VII	1	0	V	Mm7		B
+I6	40	4.0	I6	40	c#	VII	1	0	I	M		B
+iii.V	41	1.0	iii.V	41	c#	iii	1	1	V	M		e
+V7	41	2.0	V7	41	c#	iii	1	1	V	Mm7		e
+V(64)	41	3.0	V(64)	41	c#	iii	1	1	V	M		e
+V	41	4.0	V	41	c#	iii	1	1	V	M		e
+i	42	1.0	i	42	c#	iii	1	1	i	m		e
+V	43	1.0	V	43	c#	iii	1	1	V	M		e
+.biii.i	43	4.0	.biii.i	43	c#	biii	1	1	i	m		e-
+V7	44	1.0	V7	44	c#	biii	1	1	V	Mm7		e-
+i	45	1.0	i	45	c#	biii	1	1	i	m		e-
+V64	46	1.0	V64	46	c#	biii	1	1	V	M		e-
+I(4)	46	3.0	I(4)	46	c#	biii	1	1	I	M		e-
+I	46	4.0	I	46	c#	biii	1	1	I	M		e-
+vi/I	47	1.0	vi/I	47	c#	biii	1	1	vi	m	I	e-
+IV6/I	47	3.0	IV6/I	47	c#	biii	1	1	IV	M	I	e-
+.bbII.iii	48	1.0	.bbII.iii	48	c#	bbII	1	0	iii	m		D-
+I(4)	48	3.0	I(4)	48	c#	bbII	1	0	I	M		D-
+I	48	4.0	I	48	c#	bbII	1	0	I	M		D-
+.bbV.iii64	49	1.0	.bbV.iii64	49	c#	bbV	1	0	iii	m		G-
+I(42)	49	3.0	I(42)	49	c#	bbV	1	0	I	M		G-
+I64	49	4.0	I64	49	c#	bbV	1	0	I	M		G-
+V6	50	1.0	V6	50	c#	bbV	1	0	V	M		G-
+I	50	3.0	I	50	c#	bbV	1	0	I	M		G-
+vi	50	4.0	vi	50	c#	bbV	1	0	vi	m		G-
+.bVI.V	50	4.5	.bVI.V	50	c#	bVI	1	0	V	M		A-
+V6	51	1.0	V6	51	c#	bVI	1	0	V	M		A-
+I	51	3.0	I	51	c#	bVI	1	0	I	M		A-
+vi	51	4.0	vi	51	c#	bVI	1	0	vi	m		A-
+.bvii.V	51	4.5	.bvii.V	51	c#	bvii	1	1	V	M		b-
+V6	52	1.0	V6	52	c#	bvii	1	1	V	M		b-
+i	52	3.0	i	52	c#	bvii	1	1	i	m		b-
+vi	52	4.0	vi	52	c#	bvii	1	1	vi	m		b-
+VII.V	52	4.5	VII.V	52	c#	VII	1	0	V	M		B
+V6	53	1.0	V6	53	c#	VII	1	0	V	M		B
+I(4)	53	3.0	I(4)	53	c#	VII	1	0	I	M		B
+I	53	4.5	I	53	c#	VII	1	0	I	M		B
+vi(2)	54	1.0	vi(2)	54	c#	VII	1	0	vi	m		B
+vi	54	3.0	vi	54	c#	VII	1	0	vi	m		B
+V/ii	54	4.0	V/ii	54	c#	VII	1	0	V	M	ii	B
+V2/ii	54	4.5	V2/ii	54	c#	VII	1	0	V	Mm7	ii	B
+ii6	55	1.0	ii6	55	c#	VII	1	0	ii	m		B
+ii64	55	2.0	ii64	55	c#	VII	1	0	ii	m		B
+V(64)	55	3.0	V(64)	55	c#	VII	1	0	V	M		B
+I6	56	1.0	I6	56	c#	VII	1	0	I	M		B
+V43/IV	56	2.0	V43/IV	56	c#	VII	1	0	V	Mm7	IV	B
+.bVII64	56	3.0	.bVII64	56	c#	VII	1	0	bVII	M		B
+ii6	56	4.0	ii6	56	c#	VII	1	0	ii	m		B
+ii	57	1.0	ii	57	c#	VII	1	0	ii	m		B
+ii6	57	2.0	ii6	57	c#	VII	1	0	ii	m		B
+iii	57	3.0	iii	57	c#	VII	1	0	iii	m		B
+V43/IV	57	4.0	V43/IV	57	c#	VII	1	0	V	Mm7	IV	B
+IV	58	1.0	IV	58	c#	VII	1	0	IV	M		B
+ii43	58	2.0	ii43	58	c#	VII	1	0	ii	mm7		B
+v	58	3.0	v	58	c#	VII	1	0	v	m		B
+v6	58	4.0	v6	58	c#	VII	1	0	v	m		B
+vi	59	1.0	vi	59	c#	VII	1	0	vi	m		B
+V43/bVII	59	2.0	V43/bVII	59	c#	VII	1	0	V	Mm7	bVII	B
+.bVII	59	3.0	.bVII	59	c#	VII	1	0	bVII	M		B
+.bVII6	59	4.0	.bVII6	59	c#	VII	1	0	bVII	M		B
+VI.ii	60	1.0	VI.ii	60	c#	VI	1	0	ii	m		A
+viio43	60	2.0	viio43	60	c#	VI	1	0	vii	o7		A
+V65/VI	60	3.0	V65/VI	60	c#	VI	1	0	V	Mm7	VI	A
+viio43/ii	60	4.0	viio43/ii	60	c#	VI	1	0	vii	o7	ii	A
+ii6	61	1.5	ii6	61	c#	VI	1	0	ii	m		A
+iii6	61	2.0	iii6	61	c#	VI	1	0	iii	m		A
+IV6	61	2.5	IV6	61	c#	VI	1	0	IV	M		A
+V65	61	3.0	V65	61	c#	VI	1	0	V	Mm7		A
+I	61	3.5	I	61	c#	VI	1	0	I	M		A
+IV	61	4.0	IV	61	c#	VI	1	0	IV	M		A
+V	61	4.5	V	61	c#	VI	1	0	V	M		A
+viio/ii	62	1.0	viio/ii	62	c#	VI	1	0	vii	o	ii	A
+iii64	62	2.0	iii64	62	c#	VI	1	0	iii	m		A
+V7	62	3.0	V7	62	c#	VI	1	0	V	Mm7		A
+V(64)	62	3.5	V(64)	62	c#	VI	1	0	V	M		A
+V7	62	4.0	V7	62	c#	VI	1	0	V	Mm7		A
+I[I	63	1.0	I[I	63	c#	VI	1	0	I	M		A
+viio7/iii	63	3.0	viio7/iii	63	c#	VI	1	0	vii	o7	iii	A
+IV(#2)	64	1.0	IV(#2)	64	c#	VI	1	0	IV	M		A
+IV	64	3.0	IV	64	c#	VI	1	0	IV	M		A
+I(6#4#2)	65	1.0	I(6#4#2)	65	c#	VI	1	0	I	M		A
+I	65	2.0	I	65	c#	VI	1	0	I	M		A
+viio7/iii]	65	3.0	viio7/iii]	65	c#	VI	1	0	vii	o7	iii	A
+V6	66	1.0	V6	66	c#	VI	1	0	V	M		A
+V65	66	2.0	V65	66	c#	VI	1	0	V	Mm7		A
+I	66	3.0	I	66	c#	VI	1	0	I	M		A
+I(42)	66	4.0	I(42)	66	c#	VI	1	0	I	M		A
+I	67	1.0	I	67	c#	VI	1	0	I	M		A
+V6	67	4.0	V6	67	c#	VI	1	0	V	M		A
+I(4)	68	1.0	I(4)	68	c#	VI	1	0	I	M		A
+I	68	2.0	I	68	c#	VI	1	0	I	M		A
+IV6	69	1.0	IV6	69	c#	VI	1	0	IV	M		A
+vii(4)	70	1.0	vii(4)	70	c#	VI	1	0	vii	m		A
+vii	70	2.0	vii	70	c#	VI	1	0	vii	m		A
+iii6	71	1.0	iii6	71	c#	VI	1	0	iii	m		A
+V2	71	4.0	V2	71	c#	VI	1	0	V	Mm7		A
+I	72	1.0	I	72	c#	VI	1	0	I	M		A
+ii7	72	2.0	ii7	72	c#	VI	1	0	ii	mm7		A
+ii2	72	3.0	ii2	72	c#	VI	1	0	ii	mm7		A
+V2/IV	72	4.0	V2/IV	72	c#	VI	1	0	V	Mm7	IV	A
+IV\\\\	73	1.0	IV\\	73	c#	VI	1	0	IV	M		A
+IV	74	1.0	IV	74	c#	VI	1	0	IV	M		A
+V65/IV	76	1.0	V65/IV	76	c#	VI	1	0	V	Mm7	IV	A
+vi6	77	1.0	vi6	77	c#	VI	1	0	vi	m		A
+ii	78	1.0	ii	78	c#	VI	1	0	ii	m		A
+V65/IV	78	3.0	V65/IV	78	c#	VI	1	0	V	Mm7	IV	A
+IV	79	1.0	IV	79	c#	VI	1	0	IV	M		A
+I6	80	1.0	I6	80	c#	VI	1	0	I	M		A
+V2	80	3.0	V2	80	c#	VI	1	0	V	Mm7		A
+I	81	1.0	I	81	c#	VI	1	0	I	M		A
+i.V7	81	4.0	i.V7	81	c#	i	1	1	V	Mm7		c#
+VI2	82	1.0	VI2	82	c#	i	1	1	VI	Mm7		c#
+i6	82	2.0	i6	82	c#	i	1	1	i	m		c#
+V65	82	4.0	V65	82	c#	i	1	1	V	Mm7		c#
+V7(4)	83	1.0	V7(4)	83	c#	i	1	1	V	Mm7		c#
+V43	83	2.0	V43	83	c#	i	1	1	V	Mm7		c#
+i	83	3.0	i	83	c#	i	1	1	i	m		c#
+V65	83	4.0	V65	83	c#	i	1	1	V	Mm7		c#
+i	84	1.0	i	84	c#	i	1	1	i	m		c#
+i6	84	2.0	i6	84	c#	i	1	1	i	m		c#
+V43	84	3.0	V43	84	c#	i	1	1	V	Mm7		c#
+i	84	4.0	i	84	c#	i	1	1	i	m		c#
+V43	85	1.0	V43	85	c#	i	1	1	V	Mm7		c#
+i6	86	1.0	i6	86	c#	i	1	1	i	m		c#
+V7	87	1.0	V7	87	c#	i	1	1	V	Mm7		c#
+i	88	1.0	i	88	c#	i	1	1	i	m		c#
+V43	88	3.0	V43	88	c#	i	1	1	V	Mm7		c#
+i6	88	4.0	i6	88	c#	i	1	1	i	m		c#
+V6/iv	89	1.0	V6/iv	89	c#	i	1	1	V	M	iv	c#
+V65/iv	89	2.0	V65/iv	89	c#	i	1	1	V	Mm7	iv	c#
+iv	89	3.0	iv	89	c#	i	1	1	iv	m		c#
+V43/iv	89	4.0	V43/iv	89	c#	i	1	1	V	Mm7	iv	c#
+iv6	90	1.0	iv6	90	c#	i	1	1	iv	m		c#
+.Ger6	90	2.0	.Ger6	90	c#	i	1	1	vii	M	V	c#
+V(64)	90	3.0	V(64)	90	c#	i	1	1	V	M		c#
+V7	90	4.5	V7	90	c#	i	1	1	V	Mm7		c#
+i	91	3.0	i	91	c#	i	1	1	i	m		c#
+i6	92	1.0	i6	92	c#	i	1	1	i	m		c#
+V	92	3.0	V	92	c#	i	1	1	V	M		c#
+V7	92	4.0	V7	92	c#	i	1	1	V	Mm7		c#
+V65	93	1.0	V65	93	c#	i	1	1	V	Mm7		c#
+iv.V	93	3.0	iv.V	93	c#	iv	1	1	V	M		f#
+III+	94	1.0	III+	94	c#	iv	1	1	III	+		f#
+i6	94	3.0	i6	94	c#	iv	1	1	i	m		f#
+VI6	95	1.0	VI6	95	c#	iv	1	1	VI	M		f#
+VI64	95	2.0	VI64	95	c#	iv	1	1	VI	M		f#
+iio	95	3.0	iio	95	c#	iv	1	1	ii	o		f#
+iv64	95	4.0	iv64	95	c#	iv	1	1	iv	m		f#
+viio65	96	1.0	viio65	96	c#	iv	1	1	vii	o7		f#
+III6	96	2.0	III6	96	c#	iv	1	1	III	M		f#
+V43	96	3.0	V43	96	c#	iv	1	1	V	Mm7		f#
+i(2)	97	1.0	i(2)	97	c#	iv	1	1	i	m		f#
+i	97	2.0	i	97	c#	iv	1	1	i	m		f#
+VI	97	3.0	VI	97	c#	iv	1	1	VI	M		f#
+VI6	97	4.0	VI6	97	c#	iv	1	1	VI	M		f#
+VI6	98	1.0	VI6	98	c#	iv	1	1	VI	M		f#
+V7	98	2.0	V7	98	c#	iv	1	1	V	Mm7		f#
+i	98	3.0	i	98	c#	iv	1	1	i	m		f#
+V6	98	4.0	V6	98	c#	iv	1	1	V	M		f#
+V43	99	1.0	V43	99	c#	iv	1	1	V	Mm7		f#
+i	99	3.0	i	99	c#	iv	1	1	i	m		f#
+i.#viio7	100	1.0	i.#viio7	100	c#	i	1	1	#vii	o7		c#
+i	101	1.0	i	101	c#	i	1	1	i	m		c#
+#viio2	102	1.0	#viio2	102	c#	i	1	1	#vii	o7		c#
+V(64)	103	3.0	V(64)	103	c#	i	1	1	V	M		c#
+V7	103	4.0	V7	103	c#	i	1	1	V	Mm7		c#
+#viio43	104	1.0	#viio43	104	c#	i	1	1	#vii	o7		c#
+iv6(7)	104	3.0	iv6(7)	104	c#	i	1	1	iv	m		c#
+iv6	104	4.0	iv6	104	c#	i	1	1	iv	m		c#
+V43(7)/iv	105	1.0	V43(7)/iv	105	c#	i	1	1	V	Mm7	iv	c#
+V43/iv	105	2.0	V43/iv	105	c#	i	1	1	V	Mm7	iv	c#
+iv	105	3.0	iv	105	c#	i	1	1	iv	m		c#
+V2	105	4.0	V2	105	c#	i	1	1	V	Mm7		c#
+i6	106	1.0	i6	106	c#	i	1	1	i	m		c#
+iv(4)	106	3.0	iv(4)	106	c#	i	1	1	iv	m		c#
+iv	106	4.0	iv	106	c#	i	1	1	iv	m		c#
+V2/bII	107	1.0	V2/bII	107	c#	i	1	1	V	Mm7	bII	c#
+.bII6	107	3.0	.bII6	107	c#	i	1	1	bII	M		c#
+V2	108	1.0	V2	108	c#	i	1	1	V	Mm7		c#
+i6	108	3.0	i6	108	c#	i	1	1	i	m		c#
+V2/vii	108	4.0	V2/vii	108	c#	i	1	1	V	Mm7	vii	c#
+V43	109	3.0	V43	109	c#	i	1	1	V	Mm7		c#
+V43	110	1.0	V43	110	c#	i	1	1	V	Mm7		c#
+i(4)	110	3.0	i(4)	110	c#	i	1	1	i	m		c#
+V/iv	110	4.0	V/iv	110	c#	i	1	1	V	M	iv	c#
+V6/iv	111	1.0	V6/iv	111	c#	i	1	1	V	M	iv	c#
+iv	111	3.0	iv	111	c#	i	1	1	iv	m		c#
+.bII(#2)	112	1.0	.bII(#2)	112	c#	i	1	1	bII	M		c#
+iv64	112	3.0	iv64	112	c#	i	1	1	iv	m		c#
+#viio7	112	4.0	#viio7	112	c#	i	1	1	#vii	o7		c#
+.Ger6	113	1.0	.Ger6	113	c#	i	1	1	vii	M	V	c#
+I	114	1.0	I	114	c#	i	1	1	I	M		c#
+.Ger6	114	4.0	.Ger6	114	c#	i	1	1	vii	M	V	c#
+I[I	116	1.0	I[I	116	c#	i	1	1	I	M		c#
+#viio43	116	4.0	#viio43	116	c#	i	1	1	#vii	o7		c#
+I	117	3.0	I	117	c#	i	1	1	I	M		c#
+#viio2	117	4.0	#viio2	117	c#	i	1	1	#vii	o7		c#
+I	118	1.0	I	118	c#	i	1	1	I	M		c#
+#viio2	118	2.0	#viio2	118	c#	i	1	1	#vii	o7		c#
+I	118	3.0	I	118	c#	i	1	1	I	M		c#
+I\\\\	121	1.0	I\\	120	c#	i	1	1	I	M		c#
