@@ -36,20 +36,11 @@ if __name__ == "__main__":
     else:
         device = torch.device("cpu")
 
-
-    ways = conf.dataset.ways
-    shots = conf.dataset.shots
     data_root = conf.dataset.directory
     dataset_name = conf.dataset.name
 
     if dataset_name == "mini-imagenet":
-        tasksets = l2l.vision.benchmarks.get_tasksets('mini-imagenet',
-                                                  train_samples=2*shots,
-                                                  train_ways=ways,
-                                                  test_samples=2*shots,
-                                                  test_ways=ways,
-                                                  num_tasks=conf.dataset.task_num,
-                                                  root=data_root)
+        pass
     elif dataset_name == "FC100":
         raise NotImplementedError
 
