@@ -16,7 +16,7 @@ class PrintSize(nn.Module):
         print(x.shape)
         return x
 
-class NNBaseline(pl.LightningModule):
+class LitBaseline(pl.LightningModule):
     def __init__(self, configs):
         super().__init__()
         self._init_configs(configs)
@@ -37,14 +37,7 @@ class NNBaseline(pl.LightningModule):
         self.test_acc = pl.metrics.Accuracy()
     
     def _init_model(self):
-        if self.backbone == "default":
-            if self.dataset_name == "mini-imagenet":
-                self.model = l2l.vision.models.MiniImagenetCNN(self.ways)
-            else:
-                raise NotImplementedError
-        
-        else:
-            raise NotImplementedError
+        self.model = None
 
     def forward(self, data):
         
