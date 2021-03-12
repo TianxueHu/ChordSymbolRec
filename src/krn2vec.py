@@ -17,36 +17,36 @@ class KRN2VEC(object):
         # read song to dataframe
         self.df = pd.read_csv(fp_song, sep="\t", header=None)
         self.piece_output = []
-        self.invalid = set()
     
     
     def add_header(self, collection):
-        if collection == "Haydn_REDUCE":
+        if collection == "haydn_reduced":
             self.df.columns = ["harm", "voice4", "voice3", "voice2", "voice1", "index", "beat", "measure", "key", "meter" ]
                 
-        elif collection == "Bach_REDUCE":
+        elif collection == "bach_reduced":
             self.df.columns = ["harm", "root", "voice4", "voice3", "voice2", "voice1", "index", "beat", "measure", "key", "meter" ]
 
-        elif collection == "Haydn_ORG":
+        elif collection == "haydn_org":
             self.df.columns = ["harm", "voice4", "voice3", "voice2", "voice1", "beat", "measure", "key", "meter" ]
         
-        elif collection == "Bach_ORG":
+        elif collection == "bach_org":
             self.df.columns = ["harm", "root", "voice4", "voice3", "voice2", "voice1", "beat", "measure", "key", "meter" ]
         
-        elif collection == "Sears_ORG":
+        elif collection == "sears_org":
             self.df.columns = ["voice4", "voice3", "voice2", "voice1", "harm", "beat", "measure", "key", "meter" ]
 
-        elif collection == "Sears_REDUCE":
+        elif collection == "sears_reduced":
             self.df.columns = ["voice4", "voice3", "voice2", "voice1", "harm", "index", "beat", "measure", "key", "meter" ]
         
-        elif collection == "ABC_ORG":
-            self.df.columns = ["voice4", "dy4", "voice3", "dy3", "voice2", "dy2", "voice1", "dy1", "harm", "beat", "measure", "key", "meter" ]
+        elif collection == "abc_org":
+            self.df.columns = ["voice4", "dy4", "voice3", "dy3", "voice2", "dy2", "voice1", "dy1", "beat", "measure", "meter", "key", "harm" ]
         
-        elif collection == "ABC_REDUCE":
-            self.df.columns = ["voice4", "dy4", "voice3", "dy3", "voice2", "dy2", "voice1", "dy1", "harm", "index", "beat", "measure", "key", "meter" ]
+        elif collection == "abc_reduced":
+            self.df.columns = ["voice4", "dy4", "voice3", "dy3", "voice2", "dy2", "voice1", "dy1", "index",  "beat", "measure", "meter", "key", "harm"  ]
 
         # process dataframe
         self.df = self.df[~self.df['beat'].astype(str).str.startswith(('=','.','*'))]
+        self.df = self.df[~self.df['beat'].astype(str).str.startswith(('beat'))]
     
 
     def krn2vec_ffnn_21(self, collection):
@@ -76,7 +76,6 @@ class KRN2VEC(object):
                     
             cur_onset_list = list(set(cur_note_list) - set(prev_note_list))
             prev_note_list = cur_note_list
-            
             note_vec = to_21d_vec(cur_note_list)
             onset_vec = to_21d_vec(cur_onset_list)
             this_onset_vec.extend(note_vec)
@@ -92,9 +91,7 @@ class KRN2VEC(object):
             ######################################### Process chord label ########################################
             harm = ''.join(row[["harm"]].values)
             harm = re.sub('[();]', '', harm) # process string
-            #print(harm)
             harm = specialChords(harm)
-            harm = specialChordsABC(harm)
             key = ''.join(row[["key"]].values)
             key_harm = key + ":" + harm
             try:
@@ -121,24 +118,15 @@ class KRN2VEC(object):
         next_tail_mea = this_mea
         tail_idx = head_idx
         while next_tail_mea <= this_mea + window_size - 1:
-            #this_tail_mea = self.get_mea_num(all_vecs[tail_idx][-1])
             this_onset = all_vecs[tail_idx][:-2]
             window_onsets_list.append(this_onset)
             
             this_chord = all_vecs[tail_idx][-2]
             window_chords_list.append(this_chord)
-            '''
-            if not window_chords_list:
-                window_chords_list.append(this_chord)
-            elif window_chords_list and this_chord != window_chords_list[-1]:
-                window_chords_list.append(this_chord)
-            '''
             
             if tail_idx+1 < len(all_vecs):
                 tail_idx += 1
-            #print(tail_idx)
             next_tail_mea = self.get_mea_num(all_vecs[tail_idx][-1])
-            #print(next_tail_mea)
         
         window_vec.append(window_onsets_list)
         window_vec.append(window_chords_list)
@@ -189,18 +177,14 @@ class KRN2VEC(object):
             harm = ''.join(row[["harm"]].values)
             harm = re.sub('[();]', '', harm) 
             harm = specialChords(harm)
-            #harm = specialChordsABC(harm) # !! ABC !!
             key = ''.join(row[["key"]].values)
             key_harm = key + ":" + harm
             try:
                 chord_label = inputRN2Chord.inputRN(key_harm)["Chord label"]
             except:
-                if key_harm not in self.invalid:
-                    self.invalid.add(key_harm)
                 continue # pass this onset slice if RN is not recognizable
             this_onset_vec.append(str(chord_label))
             this_onset_vec.append(''.join(row[['measure']].values))
-            #print(this_onset_vec)
             all_vecs.append(this_onset_vec)
         return all_vecs
 
@@ -209,7 +193,6 @@ class KRN2VEC(object):
         all_vecs = self.get_all_vec_with_mea(collection)
         max_mea = self.get_mea_num(''.join(self.df['measure'].iloc[-1]))
         pre_mea = 1
-        #all_windows_vec = []  # cur_window_list = [[window_onsets_list][window_chords_list]]
         for idx, vec in enumerate(all_vecs):
             this_mea = self.get_mea_num(vec[-1])
 
@@ -220,23 +203,33 @@ class KRN2VEC(object):
                 #new measure -> proceed to a new window
                 this_window_vec = self.get_window_vecs(all_vecs, idx, this_mea, mea_window_size)
                 self.piece_output.append(this_window_vec)
-                #print(this_mea, this_window_vec)
                 pre_mea = this_mea            
 
-        #self.piece_output.append(all_windows_vec)
 
 
 if __name__ == "__main__":
+
+    collection_to_score_path = {
+        "bach_org" : "datasets/bhchorale/bach_org_score_for_vec",
+        "bach_reduced" : "datasets/bhchorale/bach_reduced_score_for_vec",
+        "haydn_org" : "datasets/haydn_op20_harm/haydn_org_score_for_vec",
+        "haydn_reduced" : "datasets/haydn_op20_harm/haydn_reduced_score_for_vec",
+        "sears_org" : "datasets/Sears_Corpus/sears_org_score_for_vec",
+        "sears_reduced" : "datasets/Sears_Corpus/sears_reduced_aug_score",
+        "abc_org" : "datasets/ABC/ABC_org_score_for_vec_merged",
+        "abc_reduced" : "datasets/ABC/ABC_reduced_score_for_vec_merged"
+    }
+
+
     script_dir = os.getcwd()
-    SCORE_COLLECTION_REL_PATH = "datasets/bhchorale/bach_org_score_for_vec"
-    COLLECTION = "Bach_ORG"
+    COLLECTION = "abc_reduced"
+    SCORE_COLLECTION_REL_PATH = collection_to_score_path[COLLECTION]
     WINDOW_SIZE = 1
 
     collection_path = os.path.join(script_dir, SCORE_COLLECTION_REL_PATH)
 
     collection_list = []
     bad_files = []
-    # invalid = [] # !! ABC !!
     for subdir, dirs, files in os.walk(collection_path):
         num_files = len(files)
         for idx, file in enumerate(files):
@@ -245,28 +238,21 @@ if __name__ == "__main__":
             if ext == ".krn":
                 scorepath = os.path.join(subdir, file)
                 print (os.path.join(subdir, file))
-                try:
-                    vec = KRN2VEC(scorepath)
-                    #vec.krn2vec_ffnn_21(COLLECTION)
-                    vec.krn2vec_s2s_21(COLLECTION, WINDOW_SIZE)
-                    collection_list.append(vec.piece_output)
-                    # invalid.append([file, vec.invalid]) # !! ABC !!
-                except:
-                    bad_files.append(file)
-                    pass
+                #try:
+                vec = KRN2VEC(scorepath)
+                vec.krn2vec_ffnn_21(COLLECTION)
+                #vec.krn2vec_s2s_21(COLLECTION, WINDOW_SIZE)
+                collection_list.append(vec.piece_output)
+                #except:
+                #    bad_files.append(file)
+                #    pass
 
-        
+    # output
     collection_list = np.asarray(collection_list)
-    print("Bad files:", bad_files)
-    with h5py.File('Bach_org_vectors_ffnn_21enc.h5', 'w') as hf:
-        hf.create_dataset("name-of-dataset",  data=collection_list)
+    #print(collection_list)
+    #print(bad_files)
 
-
-    '''
-    with open('ABC_reduce_vectors_ffnn_21enc.pkl', 'wb') as f:
-        pickle.dump(collection_list, f)
-    print("Pickle vector list saved!")
-    '''
+ 
 
 
 
