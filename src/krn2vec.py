@@ -222,7 +222,7 @@ if __name__ == "__main__":
 
 
     script_dir = os.getcwd()
-    COLLECTION = "abc_reduced"
+    COLLECTION = "bach_reduced"
     SCORE_COLLECTION_REL_PATH = collection_to_score_path[COLLECTION]
     WINDOW_SIZE = 1
 

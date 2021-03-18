@@ -157,6 +157,8 @@ def specialChords(chord):
         output = "Gn"
     else:
         output = chord
+    if "#viio" in chord:
+        chord = chord.replace("#viio", "viio")
     return output
 
 def specialChordsABC(chord):
