@@ -1,9 +1,9 @@
 import os
 import pandas as pd
 import numpy as np
-from utils import to_21d_vec, get_beat_vector, specialChords, specialChordsABC
+from chord_rec.utils import to_21d_vec, get_beat_vector, specialChords, specialChordsABC
 import re
-from harmalysis import inputRN2Chord
+from chord_rec.harmalysis.inputRN2Chord import inputRN
 import pickle
 import psutil
 import h5py
@@ -95,7 +95,8 @@ class KRN2VEC(object):
             key = ''.join(row[["key"]].values)
             key_harm = key + ":" + harm
             try:
-                chord_label = inputRN2Chord.inputRN(key_harm)["Chord label"]
+                # chord_label = inputRN2Chord.inputRN(key_harm)["Chord label"]
+                chord_label = inputRN(key_harm)["Chord label"]
             except:
                 continue # pass this onset slice if RN is not recognizable
             this_onset_vec.append(str(chord_label))
@@ -180,7 +181,8 @@ class KRN2VEC(object):
             key = ''.join(row[["key"]].values)
             key_harm = key + ":" + harm
             try:
-                chord_label = inputRN2Chord.inputRN(key_harm)["Chord label"]
+                # chord_label = inputRN2Chord.inputRN(key_harm)["Chord label"]
+                chord_label = inputRN(key_harm)["Chord label"]
             except:
                 continue # pass this onset slice if RN is not recognizable
             this_onset_vec.append(str(chord_label))
