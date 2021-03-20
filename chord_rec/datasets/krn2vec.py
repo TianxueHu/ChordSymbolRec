@@ -11,6 +11,17 @@ import h5py
 #sys.path.insert(0, './harmalysis')
 #from inputRN2Chord import inputRN
 
+collection_to_score_path = {
+    "bach_org" : "datasets/bhchorale/bach_org_score_for_vec",
+    "bach_reduced" : "datasets/bhchorale/bach_reduced_score_for_vec",
+    "haydn_org" : "datasets/haydn_op20_harm/haydn_org_score_for_vec",
+    "haydn_reduced" : "datasets/haydn_op20_harm/haydn_reduced_score_for_vec",
+    "sears_org" : "datasets/Sears_Corpus/sears_org_score_for_vec",
+    "sears_reduced" : "datasets/Sears_Corpus/sears_reduced_aug_score",
+    "abc_org" : "datasets/ABC/ABC_org_score_for_vec_merged",
+    "abc_reduced" : "datasets/ABC/ABC_reduced_score_for_vec_merged"
+}
+
 
 class KRN2VEC(object): 
     def __init__(self, fp_song):
