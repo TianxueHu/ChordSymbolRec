@@ -4,10 +4,13 @@ import random
 import numpy as np
 import sys
 
+from collections import Counter
+
 from omegaconf import OmegaConf, DictConfig
 
 import torch
 from torch.utils.data import DataLoader, Dataset, SubsetRandomSampler, Subset
+from torchtext.vocab import Vocab
 
 import pytorch_lightning as pl
 from pytorch_lightning import loggers as pl_loggers
@@ -47,8 +50,12 @@ if __name__ == "__main__":
 
     elif data_conf.subset == "toy":
         pass
+
+    # Do we need to get vocab for train/val/test individually?
     
-    note_vec, chords = 
+    note_vec, chords = load_flatvec_data(data_root)
+    chord_vocab = Vocab(Counter(chords))
+    encoded_chords = [chord_vocab.stoi[ch] for ch in chords]
 
     model = LitBaseline(conf)
 
