@@ -14,12 +14,14 @@ from pytorch_lightning import loggers as pl_loggers
 
 from src.models.lit_baseline import LitBaseline
 
-def load_pkl_data(data_dir):
+def load_flatvec_data(data_dir):
     temp_data = pkl.load(open(data_dir,"rb"))
     np_data = [np.array(x) for x in temp_data]
     data = np.vstack(np_data)
+    note_vecs, chords = data[:, :-1], data[:,-1]
+    note_vecs = np.asarray(note_vecs, dtype = np.float32)
 
-    return data
+    return note_vecs, chords
 
 
 if __name__ == "__main__":
@@ -45,6 +47,8 @@ if __name__ == "__main__":
 
     elif data_conf.subset == "toy":
         pass
+    
+    note_vec, chords = 
 
     model = LitBaseline(conf)
 
