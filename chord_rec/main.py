@@ -14,6 +14,14 @@ from pytorch_lightning import loggers as pl_loggers
 
 from src.models.lit_baseline import LitBaseline
 
+def load_pkl_data(data_dir):
+    temp_data = pkl.load(open(data_dir,"rb"))
+    np_data = [np.array(x) for x in temp_data]
+    data = np.vstack(np_data)
+
+    return data
+
+
 if __name__ == "__main__":
     
     config_path = sys.argv[1]
