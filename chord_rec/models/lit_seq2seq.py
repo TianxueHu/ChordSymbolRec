@@ -63,11 +63,16 @@ class LitSeq2Seq(pl.LightningModule):
     def _init_model(self):
         
         if configs.model.attn:
+            # Use Attention
             self.encoder = BaseEncoder(self.input_size, self.emb_size, self.hidden_size, self.hidden_size, self.n_layers, dropout = self.encoder_dropout)        
-            self.decoder = AttnDecoder(self.emb_size, self.hidden_size, self.output_size, self.n_layers, MAX_LEN, dropout = self.decoder_dropout)
+            self.decoder = AttnDecoder(self.emb_size, self.hidden_size, self.output_size, self.n_layers, self.max_len , dropout = self.decoder_dropout)
             self.model = AttnSeq2Seq(self.encoder, self.decoder, self.device)
         
         else:
+            # Don't use Attention
+            self.encoder = BaseEncoder(self.input_size, self.emb_size, self.hidden_size, self.hidden_size, self.n_layers, dropout = self.encoder_dropout)        
+            self.decoder = BaseDecoder(self.emb_size, self.hidden_size, self.output_size, self.n_layers, dropout = self.decoder_dropout)
+            self.model = AttnSeq2Seq(self.encoder, self.decoder, self.device)
             pass
     
     def forward(self, data): 
