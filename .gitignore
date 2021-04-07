@@ -130,3 +130,6 @@ dmypy.json
 
 # # notebooks
 # src/notebooks/
+chord_rec/notebooks/*.pkl
+chord_rec/notebooks/*.sdict
+chord_rec/pickle_vector_lists/
