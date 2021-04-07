@@ -26,6 +26,18 @@ def load_flatvec_data(data_dir):
 
     return note_vecs, chords
 
+class CheckpointEveryEpoch(pl.Callback):
+    def __init__(self, start_epoc):
+        self.start_epoc = start_epoc
+
+    def on_epoch_end(self, trainer: pl.Trainer, _):
+        """ Check if we should save a checkpoint after every train epoch """
+        # file_path = f"{trainer.logger.log_dir}/checkpoints/epoch={trainer.current_epoch}.pt"
+        epoch = trainer.current_epoch
+        if epoch >= self.start_epoc:
+            ckpt_path = f"{trainer.logger.log_dir}/checkpoints/epoch={epoch}.ckpt"
+            trainer.save_checkpoint(ckpt_path)
+
 
 if __name__ == "__main__":
     
