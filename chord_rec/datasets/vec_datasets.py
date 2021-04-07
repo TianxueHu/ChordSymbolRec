@@ -1,6 +1,6 @@
 from torch.utils.data import Dataset
 
-class Vec21Dataset(Dataset):
+class Vec45Dataset(Dataset):
     def __init__(self, note_vec_seq, chord_seq, vocab):
         'Initialization'
         self.note_vec_seq = note_vec_seq
