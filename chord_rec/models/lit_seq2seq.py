@@ -7,6 +7,10 @@ import torch
 import torch.nn as nn
 import pytorch_lightning as pl
 
+from chord_rec.models.seq2seq.Seq2Seq import BaseSeq2Seq, AttnSeq2Seq
+from chord_rec.models.seq2seq.Encoder import BaseEncoder
+from chord_rec.models.seq2seq.Decoder import BaseDecoder, AttnDecoder
+
 
 class PrintSize(nn.Module):
     def __init__(self):
@@ -16,18 +20,38 @@ class PrintSize(nn.Module):
         print(x.shape)
         return x
 
-class NNBaseline(pl.LightningModule):
-    def __init__(self, configs):
+class LitSeq2Seq(pl.LightningModule):
+    def __init__(self, vec_size, vocab_size, max_len, pad_idx, device, configs):
         super().__init__()
+        
+        self.input_size = vec_size
+
+        # TODO: In the future if the inputs are tokens, need to specify this differently
+        self.emb_size = vec_size # For already vectorized input
+        self.output_size = vocab_size
+        self.max_len = max_len
+        self.device = device
+        self.pad_idx = pad_idx
+
         self._init_configs(configs)
         self._init_model()
         self.save_hyperparameters()
 
     def _init_configs(self, configs):
+        ### Configs to add ###
+        self.n_layers = configs.model.n_layers
+        self.encoder_dropout = configs.model.encoder_dropout
+        self.decoder_dropout = configs.model.decoder_dropout
+
+        self.warm_up = configs.training.warm_up
+        self.decay_run = configs.training.decay_run
+        self.post_run = configs.training.post_run
+
+        self.tf_ratios = np.hstack((np.full(self.warm_up, 1), np.flip(np.linspace(0, 0.75, self.decay_run)), np.zeros(self.post_run)))
+
         self.dataset_name = configs.dataset.name
         self.backbone = configs.training.backbone
-        self.ways = configs.dataset.ways
-        self.hidden_size = configs.training.hidden_dim
+        self.hidden_size = configs.model.hidden_dim
         self.lr = configs.training.lr
         self.momentum = configs.training.momentum
         self.optimizer_type = configs.training.optimizer_type
@@ -37,17 +61,16 @@ class NNBaseline(pl.LightningModule):
         self.test_acc = pl.metrics.Accuracy()
     
     def _init_model(self):
-        if self.backbone == "default":
-            if self.dataset_name == "mini-imagenet":
-                self.model = l2l.vision.models.MiniImagenetCNN(self.ways)
-            else:
-                raise NotImplementedError
+        
+        if configs.model.attn:
+            self.encoder = BaseEncoder(self.input_size, self.emb_size, self.hidden_size, self.hidden_size, self.n_layers, dropout = self.encoder_dropout)        
+            self.decoder = AttnDecoder(self.emb_size, self.hidden_size, self.output_size, self.n_layers, MAX_LEN, dropout = self.decoder_dropout)
+            self.model = AttnSeq2Seq(self.encoder, self.decoder, self.device)
         
         else:
-            raise NotImplementedError
-
-    def forward(self, data):
-        
+            pass
+    
+    def forward(self, data): 
         return self.model(data)
 
     def configure_optimizers(self):
