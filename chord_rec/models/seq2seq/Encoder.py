@@ -4,23 +4,21 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-class Encoder(nn.Module):
+class BaseEncoder(nn.Module):
     """ The Encoder module of the Seq2Seq model """
-    def __init__(self, input_size, emb_size, encoder_hidden_size, decoder_hidden_size, dropout = 0.2, model_type = "RNN"):
-        super(Encoder, self).__init__()
+    def __init__(self, input_size, emb_size, encoder_hidden_size, decoder_hidden_size, n_layers, dropout = 0.5):
+        super().__init__()
 
         self.input_size = input_size
         self.emb_size = emb_size
         self.encoder_hidden_size = encoder_hidden_size
         self.decoder_hidden_size = decoder_hidden_size
-        self.model_type = model_type
+        self.n_layers = n_layers
         
-        self.embedding = nn.Embedding(input_size, emb_size)
-        
-        if model_type == "RNN":
-            self.recurrent = nn.RNN(emb_size, encoder_hidden_size, batch_first=True)
-        elif model_type == "LSTM":
-            self.recurrent = nn.LSTM(emb_size, encoder_hidden_size, batch_first=True)
+        # # self.embedding = nn.Embedding(input_size, emb_size)
+        # self.embedding = nn.Linear(input_size, emb_size)
+
+        self.recurrent = nn.LSTM(emb_size, encoder_hidden_size, n_layers, dropout = dropout, batch_first=True)
         
         self.linear1 = nn.Linear(encoder_hidden_size, encoder_hidden_size)
         self.relu = nn.ReLU()
@@ -38,18 +36,16 @@ class Encoder(nn.Module):
         """
 
         output, hidden = None, None
+        
+        # x = self.embedding(input)
+        # x = self.dropout(x)
 
-        x = self.embedding(input)
-        x = self.dropout(x)
-
-        if self.model_type == "RNN":
-            output, hidden = self.recurrent(x)
-        else:
-            output, (hidden, cell) = self.recurrent(x)
-        hidden = torch.tanh(self.linear2(self.relu(self.linear1(hidden))))
+        x = input
+        output, (hidden, cell) = self.recurrent(x)
+        # hidden = torch.tanh(self.linear2(self.relu(self.linear1(hidden))))
 
         #############################################################################
         #                              END OF YOUR CODE                             #
         #############################################################################
 
-        return output, hidden
+        return output, (hidden, cell)
