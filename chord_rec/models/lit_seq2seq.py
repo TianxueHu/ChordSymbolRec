@@ -95,9 +95,8 @@ class LitSeq2Seq(pl.LightningModule):
         prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
         prob  = prob.permute(0,2,1)
         loss = criterion(pred, chord)
-        predictions = torch.argmax(prob, axis = -1)
+        
         self.log("loss", loss, on_epoch = True)
-        self.log("train_acc", self.train_acc(predictions, labels), prog_bar = True, on_epoch = True)
         return loss
     
     def validation_step(self, batch, batch_idx):
@@ -107,9 +106,60 @@ class LitSeq2Seq(pl.LightningModule):
         prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
         prob  = prob .permute(0,2,1)
         loss = criterion(pred, chord)
-        predictions = torch.argmax(prob, axis = -1)
+
         self.log("val_loss", loss, on_epoch = True, prog_bar = True)
-        self.log("val_acc", self.valid_acc(predictions, labels), on_epoch = True, prog_bar = True)
+
+        preds = prob.detach().cpu().numpy().argmax(axis = -1)
+        label = chord.detach().cpu().numpy()
+        pred[:,0] = np.full(len(pred), chord_vocab.stoi["<sos>"])
+
+        return self.vec_decode(preds), self.vec_decode(labels)
+
+    def validation_epoch_end(self, validation_step_outputs):
+        preds, labels = zip(*validation_step_outputs)
+        preds = np.vstack(preds)
+        labels = np.vstack(labels)
+
+        ### Get chord name accuracy ###
+        mask = (preds != "<sos>") & (preds != "<eos>") & (preds != "<pad>")
+        masked_preds = preds[mask]
+        masked_labels = labels[mask]
+
+        chord_name_acc = np.sum(masked_preds == masked_labels) / len(masked_labels))
+
+
+        ### Get root and quality acc ###
+        root_preds = preds.copy()
+        quality_preds = preds.copy()
+        for r_id in range(preds.shape[0]):
+            for c_id in range(preds.shape[1]):
+                sp = preds[r_id, c_id].split(' ')
+                root_preds[r_id, c_id] = sp[0]
+                quality_preds[r_id, c_id] = ' '.join(sp[1:])
+            
+        root_labels = labels.copy()
+        quality_labels = labels.copy()
+        for r_id in range(labels.shape[0]):
+            for c_id in range(labels.shape[1]):
+                sp = labels[r_id, c_id].split(' ')
+                root_labels[r_id, c_id] = sp[0]
+                quality_labels[r_id, c_id] = ' '.join(sp[1:])
+        
+        mask = (root_preds != "<sos>") & (root_preds != "<eos>") & (root_preds != "<pad>")
+        root_preds = root_preds[mask]
+        quality_preds = quality_preds[mask]
+        root_label = root_labels[mask]
+        quality_labels = quality_labels[mask]
+
+        root_acc = np.sum(root_preds == root_label) / len(root_preds)
+        quality_acc = np.sum(quality_preds == quality_labels) / len(quality_preds)
+
+        self.log("val_name_acc", loss, on_epoch = True, prog_bar = True)
+        self.log("val_root_acc", loss, on_epoch = True)
+        self.log("val_quality_acc", loss, on_epoch = True)
+
+
+
 
     def test_step(self, batch, batch_idx):
         chord = chord.long()
@@ -122,5 +172,9 @@ class LitSeq2Seq(pl.LightningModule):
         self.log("test_acc", self.test_acc(predictions, labels), on_epoch = True, prog_bar = True)
         return test_loss
 
+    def decode(self, x):
+        return self.chord_vocab.itos[x]
 
+    def vec_decode(self, x):
+        return np.vectorize(self.decode)(x)
     
