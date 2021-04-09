@@ -17,9 +17,7 @@ from pytorch_lightning import loggers as pl_loggers
 
 from sklearn.model_selection import train_test_split
 
-from chord_rec.models.seq2seq.Seq2Seq import BaseSeq2Seq, AttnSeq2Seq
-from chord_rec.models.seq2seq.Encoder import BaseEncoder
-from chord_rec.models.seq2seq.Decoder import BaseDecoder, AttnDecoder
+from chord_rec.models.lit_seq2seq import LitSeq2Seq
 
 from chord_rec.datasets.vec_datasets import Vec45Dataset
 
@@ -140,16 +138,10 @@ if __name__ == "__main__":
         val_loader = DataLoader(val_dataset, batch_size = data_conf.batch_size, shuffle = data_conf.shuffle_val, num_workers = data_conf.num_workers, drop_last = True)
         test_loader =  DataLoader(test_dataset, batch_size = data_conf.batch_size, shuffle = data_conf.shuffle_val, num_workers = data_conf.num_workers, drop_last = True)
 
-
-        input_size = vec_size
-        emb_size = vec_size
-        output_size = vocab_size
         MAX_LEN = max_seq_len + 2
 
         if conf.model.type == "attn_s2s":
-            encoder = BaseEncoder(input_size, emb_size, conf.model.hidden_dim, conf.model.hidden_dim, conf.model.n_layers, dropout = conf.model.encoder_dropout)
-            decoder = AttnDecoder(emb_size, conf.model.hidden_dim, output_size, conf.model.n_layers, MAX_LEN, dropout = conf.model.decoder_dropout)
-            model = AttnSeq2Seq(encoder, decoder, device)
+            model = LitSeq2Seq(vec_size, MAX_LEN, chord_vocab, device, configs)
 
     epochs = conf.training.warm_up + conf.training.decay_run + conf.training.post_run
 

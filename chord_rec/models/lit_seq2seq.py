@@ -21,17 +21,18 @@ class PrintSize(nn.Module):
         return x
 
 class LitSeq2Seq(pl.LightningModule):
-    def __init__(self, vec_size, vocab_size, max_len, pad_idx, device, configs):
+    def __init__(self, vec_size, chord_vocab, max_len, device, configs):
         super().__init__()
         
         self.input_size = vec_size
 
         # TODO: In the future if the inputs are tokens, need to specify this differently
         self.emb_size = vec_size # For already vectorized input
-        self.output_size = vocab_size
+        
         self.max_len = max_len
         self.device = device
-        self.pad_idx = pad_idx
+        self.chord_vocab = chord_vocab
+        self.output_size = len(chord_vocab.stoi)
 
         self._init_configs(configs)
         self._init_model()
@@ -79,6 +80,7 @@ class LitSeq2Seq(pl.LightningModule):
         return self.model(data)
 
     def configure_optimizers(self):
+
         if self.optimizer_type == "Adam":
             return torch.optim.Adam(self.parameters(), lr = self.lr)
         elif self.optimizer_type == "AdamW":
