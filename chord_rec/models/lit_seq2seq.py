@@ -76,8 +76,8 @@ class LitSeq2Seq(pl.LightningModule):
             self.model = AttnSeq2Seq(self.encoder, self.decoder, self.device)
             pass
     
-    def forward(self, data): 
-        return self.model(data)
+    def forward(self, note, chord, teacher_forcing, start_idx): 
+        return self.model(note, chord, teacher_forcing = teacher_forcing, start_idx = start_idx)
 
     def configure_optimizers(self):
 
@@ -89,19 +89,24 @@ class LitSeq2Seq(pl.LightningModule):
             return torch.optim.SGD(self.parameters(), lr = self.lr, momentum = self.momentum)
     
     def training_step(self, batch, batch_idx):
-        data, labels = batch
-
-        prob = self(data)
-        loss = self.criterion(prob, labels) # need to be named loss?
+        
+        chord = chord.long()
+        tf = np.random.random()< self.tf_ratios[self.current_epoch() - 1]
+        prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
+        prob  = prob.permute(0,2,1)
+        loss = criterion(pred, chord)
         predictions = torch.argmax(prob, axis = -1)
         self.log("loss", loss, on_epoch = True)
         self.log("train_acc", self.train_acc(predictions, labels), prog_bar = True, on_epoch = True)
         return loss
     
     def validation_step(self, batch, batch_idx):
-        data, labels = batch
-        prob = self(data)
-        loss = self.criterion(prob, labels) # need to be named loss?
+        
+        chord = chord.long()
+        tf = False # Don't use tf for evaluation
+        prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
+        prob  = prob .permute(0,2,1)
+        loss = criterion(pred, chord)
         predictions = torch.argmax(prob, axis = -1)
         self.log("val_loss", loss, on_epoch = True, prog_bar = True)
         self.log("val_acc", self.valid_acc(predictions, labels), on_epoch = True, prog_bar = True)
