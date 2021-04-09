@@ -21,7 +21,7 @@ class PrintSize(nn.Module):
         return x
 
 class LitSeq2Seq(pl.LightningModule):
-    def __init__(self, vec_size, chord_vocab, max_len, device, configs):
+    def __init__(self, vec_size, max_len, chord_vocab, device, configs):
         super().__init__()
         
         self.input_size = vec_size
@@ -56,7 +56,7 @@ class LitSeq2Seq(pl.LightningModule):
         self.lr = configs.training.lr
         self.momentum = configs.training.momentum
         self.optimizer_type = configs.training.optimizer_type
-        self.criterion = nn.CrossEntropyLoss()
+        self.criterion = nn.CrossEntropyLoss(ignore_index = self.chord_vocab.stoi["<pad>"])
         self.train_acc = pl.metrics.Accuracy()
         self.valid_acc = pl.metrics.Accuracy()
         self.test_acc = pl.metrics.Accuracy()
