@@ -7,12 +7,11 @@ import torch.optim as optim
 class BaseSeq2Seq(nn.Module):
     """ The Sequence to Sequence model. """
 
-    def __init__(self, encoder, decoder, device):
+    def __init__(self, encoder, decoder):
         super().__init__()
-        self.device = device
 
-        self.encoder = encoder.to(device)
-        self.decoder = decoder.to(device)
+        self.encoder = encoder
+        self.decoder = decoder
 
         
         assert self.encoder.encoder_hidden_size == self.decoder.decoder_hidden_size, \
@@ -34,7 +33,7 @@ class BaseSeq2Seq(nn.Module):
         
         if start_idx is None:
             start_idx = 0
-        outputs = torch.full((batch_size, seq_len, self.decoder.output_size), start_idx, dtype = torch.float).to(self.device) # problem???
+        outputs = torch.full((batch_size, seq_len, self.decoder.output_size), start_idx, dtype = torch.float)
         # outputs = torch.zeros(batch_size, seq_len, self.decoder.output_size).to(self.device)
         encoder_outputs, hidden = self.encoder(source)
 
@@ -62,12 +61,11 @@ class BaseSeq2Seq(nn.Module):
 class AttnSeq2Seq(nn.Module):
     """ The Sequence to Sequence model. """
 
-    def __init__(self, encoder, decoder, device):
+    def __init__(self, encoder, decoder):
         super().__init__()
-        self.device = device
 
-        self.encoder = encoder.to(device)
-        self.decoder = decoder.to(device)
+        self.encoder = encoder
+        self.decoder = decoder
 
         
         assert self.encoder.encoder_hidden_size == self.decoder.decoder_hidden_size, \
