@@ -87,7 +87,7 @@ class AttnSeq2Seq(nn.Module):
         
         if start_idx is None:
             start_idx = 0
-        outputs = torch.full((batch_size, seq_len, self.decoder.output_size), start_idx, dtype = torch.float).to(self.device) # problem???
+        outputs = torch.full((batch_size, seq_len, self.decoder.output_size), start_idx, dtype = torch.float)
         # outputs = torch.zeros(batch_size, seq_len, self.decoder.output_size).to(self.device)
         encoder_outputs, hidden = self.encoder(source)
 

@@ -3,6 +3,7 @@ import h5py
 import random
 import numpy as np
 import sys
+import pickle as pkl
 
 from collections import Counter
 
@@ -39,7 +40,7 @@ class CheckpointEveryNEpoch(pl.Callback):
         """ Check if we should save a checkpoint after every train epoch """
         # file_path = f"{trainer.logger.log_dir}/checkpoints/epoch={trainer.current_epoch}.pt"
         epoch = trainer.current_epoch
-        if epoch >= self.start_epoc:
+        if epoch >= self.start_epoc and epoch % self.ckpt_every_n == 0:
             ckpt_path = f"{trainer.logger.log_dir}/checkpoints/epoch={epoch}.ckpt"
             trainer.save_checkpoint(ckpt_path)
 
@@ -141,7 +142,9 @@ if __name__ == "__main__":
         MAX_LEN = max_seq_len + 2
 
         if conf.model.type == "attn_s2s":
-            model = LitSeq2Seq(vec_size, MAX_LEN, chord_vocab, device, configs)
+            model = LitSeq2Seq(vec_size, MAX_LEN, chord_vocab, conf)
+        else:
+            raise NotImplementedError
 
     epochs = conf.training.warm_up + conf.training.decay_run + conf.training.post_run
 

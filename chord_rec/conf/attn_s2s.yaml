@@ -1,19 +1,20 @@
 experiment:
-  objective: ChordRec
+  objective: Bach_org_new
   seed: 0
   gpu_num: 1
   device: gpu
 dataset:
-  name: mini-imagenet
-  fpath: haydn_reduced_seq2seq_4mm_new.pkl
+  name: bach
+  fpath: D:\\Documents\\2021Spring\\ChordSymbolRec\\chord_rec\\notebooks\\bach_org_seq2seq_4mm_new.pkl
   batch_size: 32
   subset: full
   shuffle_train: True
   shuffle_val: False
   val_ratio: 0.2
   test_ratio: 0.2
+  num_workers: 1
 model:
-  type: seq2seq
+  type: attn_s2s
   attn: True
   hidden_dim: 128
   n_layers: 2
@@ -27,7 +28,7 @@ training:
   warm_up: 10
   decay_run: 80
   post_run: 50
-  save_every_n: 5
+  save_every_n: 10
 validation:
   check_interval: 1.0
   check_ratio: 1.0

@@ -1,5 +1,5 @@
 from torch.utils.data import Dataset
-
+import numpy as np
 class Vec45Dataset(Dataset):
     def __init__(self, note_vec_seq, chord_seq, vocab):
         'Initialization'
