@@ -321,8 +321,8 @@ class LitSeq2Seq(pl.LightningModule):
         quality_acc = np.sum(quality_preds == quality_labels) / len(quality_preds)
 
         self.log("val_name_acc", chord_name_acc, on_epoch = True, prog_bar = True)
-        self.log("val_root_acc", root_acc, on_epoch = True)
-        self.log("val_quality_acc", quality_acc, on_epoch = True)
+        self.log("val_root_acc", root_acc, on_epoch = True, prog_bar = True)
+        self.log("val_quality_acc", quality_acc, on_epoch = True, prog_bar = True)
 
 
 
