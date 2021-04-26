@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
     epochs = conf.training.warm_up + conf.training.decay_run + conf.training.post_run
 
-    tb_logger = pl_loggers.TensorBoardLogger(os.path.join(conf.logging.output_dir,conf.experiment.objective))
+    tb_logger = pl_loggers.TensorBoardLogger(conf.logging.output_dir, name = conf.experiment.objective)
     trainer = pl.Trainer(
         gpus= conf.experiment.gpu_num,
 	    # accelerator='ddp',
@@ -157,7 +157,7 @@ if __name__ == "__main__":
         progress_bar_refresh_rate=conf.logging.progress_bar_refresh_rate, 
         logger=tb_logger, 
         val_check_interval=conf.validation.check_interval, 
-        gradient_clip_val=0.5,
+        gradient_clip_val= 0.5,
         callbacks=[CheckpointEveryNEpoch(0, conf.training.save_every_n)]
         # limit_val_batches=conf.validation.check_ratio # remember to shuffle val to enable val with different subset
     )
