@@ -136,3 +136,7 @@ chord_rec/pickle_vector_lists/
 chord_rec/notebooks/*/*.sdict
 chord_rec/logs/*
 chord_rec/notebooks/confusion_bachhaydn_baseline.pdf
+all_new_pickle.zip
+*/.DS_Store
+all_new_pickle/
+chord_rec/notebooks/logs/
