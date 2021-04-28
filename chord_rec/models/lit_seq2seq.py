@@ -6,6 +6,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 import pytorch_lightning as pl
 
 # from chord_rec.models.seq2seq.Seq2Seq import BaseSeq2Seq, AttnSeq2Seq
@@ -249,11 +250,17 @@ class LitSeq2Seq(pl.LightningModule):
     def configure_optimizers(self):
 
         if self.optimizer_type == "Adam":
-            return torch.optim.Adam(self.parameters(), lr = self.lr)
+            optimizer = torch.optim.Adam(self.parameters(), lr = self.lr)
         elif self.optimizer_type == "AdamW":
-            return torch.optim.AdamW(self.parameters(), lr = self.lr)
+            optimizer = torch.optim.AdamW(self.parameters(), lr = self.lr)
         elif self.optimizer_type == "SGD":
-            return torch.optim.SGD(self.parameters(), lr = self.lr, momentum = self.momentum)
+            optimizer = torch.optim.SGD(self.parameters(), lr = self.lr, momentum = self.momentum)
+        
+        return {
+            'optimizer': optimizer,
+            'lr_scheduler': ReduceLROnPlateau(optimizer),
+            'monitor': 'val_loss',
+        }
     
     def training_step(self, batch, batch_idx):
         note, chord = batch
