@@ -158,6 +158,7 @@ if __name__ == "__main__":
         logger=tb_logger, 
         val_check_interval=conf.validation.check_interval, 
         gradient_clip_val= 0.5,
+        stochastic_weight_avg=True,
         callbacks=[CheckpointEveryNEpoch(0, conf.training.save_every_n)]
         # limit_val_batches=conf.validation.check_ratio # remember to shuffle val to enable val with different subset
     )
