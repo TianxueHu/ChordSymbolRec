@@ -133,8 +133,8 @@ if __name__ == "__main__":
 
         dataset = Vec45Dataset(note_vec, stacked_chord_seq, eval_masks, chord_vocab)
 
-
-        train_ratio = 1 - data_conf.val_ratio + data_conf.test_ratio
+        
+        train_ratio = 1 - data_conf.val_ratio - data_conf.test_ratio
 
         train_len = int(len(dataset)*train_ratio)
         val_len = int(len(dataset)*data_conf.val_ratio)
@@ -143,9 +143,7 @@ if __name__ == "__main__":
         train_dataset, val_dataset, test_dataset = random_split(dataset, [train_len, val_len, test_len], 
                                                         generator=torch.Generator().manual_seed(seed)
                                                        )
-        print(len(train_dataset))
-        print(len(val_dataset))
-        print(len(test_dataset))
+
 
         train_loader = DataLoader(train_dataset, batch_size =data_conf.batch_size, shuffle = data_conf.shuffle_train, num_workers = data_conf.num_workers, drop_last = True)
         val_loader = DataLoader(val_dataset, batch_size = data_conf.batch_size, shuffle = data_conf.shuffle_val, num_workers = data_conf.num_workers, drop_last = True)
