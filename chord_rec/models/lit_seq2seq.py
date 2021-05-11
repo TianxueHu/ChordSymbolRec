@@ -9,9 +9,7 @@ import torch.nn.functional as F
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 import pytorch_lightning as pl
 
-# from chord_rec.models.seq2seq.Seq2Seq import BaseSeq2Seq, AttnSeq2Seq
-# from chord_rec.models.seq2seq.Encoder import BaseEncoder
-# from chord_rec.models.seq2seq.Decoder import BaseDecoder, AttnDecoder
+# from chord_rec.chord_similarity import chord_similarity
 
 class BaseEncoder(pl.LightningModule):
     """ The Encoder module of the Seq2Seq model """
@@ -301,6 +299,8 @@ class LitSeq2Seq(pl.LightningModule):
         masked_labels = labels[mask]
         chord_name_acc = np.sum(masked_preds == masked_labels) / len(masked_labels)
 
+        # avg_similarity = np.mean([chord_similarity(masked_preds[i], masked_labels[i]) for i in range(len(masked_preds))])
+
         ### Get root and quality acc ###
         root_preds = preds.copy()
         quality_preds = preds.copy()
@@ -329,7 +329,7 @@ class LitSeq2Seq(pl.LightningModule):
         self.log("val_name_acc", chord_name_acc, on_epoch = True, prog_bar = True)
         self.log("val_root_acc", root_acc, on_epoch = True, prog_bar = True)
         self.log("val_quality_acc", quality_acc, on_epoch = True, prog_bar = True)
-
+        # self.log("val_similarity", similarity, on_epoch = True, prog_bar = True)
 
 
 
