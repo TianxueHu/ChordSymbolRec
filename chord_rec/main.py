@@ -10,7 +10,7 @@ from collections import Counter
 from omegaconf import OmegaConf, DictConfig
 
 import torch
-from torch.utils.data import DataLoader, Dataset, SubsetRandomSampler, Subset
+from torch.utils.data import DataLoader, Dataset, SubsetRandomSampler, Subset, random_split
 from torchtext.vocab import Vocab
 
 import pytorch_lightning as pl
@@ -106,15 +106,20 @@ if __name__ == "__main__":
 
         padded_note_seq = []
         padded_chord_seq = []
+
+        eval_masks = []
+
         for i in range(len(note_seq)):
             len_diff = max_seq_len - len(note_seq[i])
 
             temp_note_vec = np.vstack((note_starting_vec, np.array(note_seq[i]), note_ending_vec, np.repeat(note_padding_vec, len_diff , axis = 0)))
             padded_note_seq.append(temp_note_vec)
             
+            eval_masks.append([False] + [True for _ in range(len(note_seq[i]))] + [False for _ in range(len_diff+1)])
             temp_chord_vec = np.hstack((chord_start, np.array(chord_seq[i]), chord_end, np.repeat(chord_padding, len_diff , axis = 0)))
             padded_chord_seq.append(temp_chord_vec)
         
+        eval_masks = np.array(eval_masks)
         stacked_note_seq = np.stack(padded_note_seq, axis = 0)
         stacked_chord_seq = np.vstack(padded_chord_seq)
 
@@ -125,29 +130,22 @@ if __name__ == "__main__":
         vocab_size = len(chord_vocab.stoi)
 
         assert data_conf.val_ratio + data_conf.test_ratio <= 0.6, "At least 40 percent of the data needed for training"
-        # note_train, note_test, chord_train, chord_test \
-        #     = train_test_split(note_vec, stacked_chord_seq, test_size = data_conf.val_ratio, random_state=seed)
 
-        # note_train, note_val, chord_train, chord_val \
-        #     = train_test_split(note_vec, stacked_chord_seq, test_size= data_conf.val_ratio/ (1-data_conf.test_ratio), random_state=seed)
-
-        dataset = Vec45Dataset(note_vec, chord_train)
+        dataset = Vec45Dataset(note_vec, stacked_chord_seq, eval_masks, chord_vocab)
 
 
         train_ratio = 1 - data_conf.val_ratio + data_conf.test_ratio
 
-        train_len = int(len(dt)*train_ratio)
-        val_len = int(len(dt)*data_conf.val_ratio)
-        test_len = len(dt) - train_len - val_len
+        train_len = int(len(dataset)*train_ratio)
+        val_len = int(len(dataset)*data_conf.val_ratio)
+        test_len = len(dataset) - train_len - val_len
 
-        train_dataset, val_dataset, test_dataset = random_split(dt, [train_len, val_len, test_len], 
+        train_dataset, val_dataset, test_dataset = random_split(dataset, [train_len, val_len, test_len], 
                                                         generator=torch.Generator().manual_seed(seed)
                                                        )
-
-
-        # train_dataset = Vec45Dataset(note_train, chord_train, chord_vocab)
-        # val_dataset = Vec45Dataset(note_val, chord_val, chord_vocab)
-        # test_dataset = Vec45Dataset(note_test, chord_test, chord_vocab)
+        print(len(train_dataset))
+        print(len(val_dataset))
+        print(len(test_dataset))
 
         train_loader = DataLoader(train_dataset, batch_size =data_conf.batch_size, shuffle = data_conf.shuffle_train, num_workers = data_conf.num_workers, drop_last = True)
         val_loader = DataLoader(val_dataset, batch_size = data_conf.batch_size, shuffle = data_conf.shuffle_val, num_workers = data_conf.num_workers, drop_last = True)

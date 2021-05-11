@@ -263,7 +263,7 @@ class LitSeq2Seq(pl.LightningModule):
         }
     
     def training_step(self, batch, batch_idx):
-        note, chord = batch
+        note, chord, _ = batch
         chord = chord.long()
         tf = np.random.random()< self.tf_ratios[self.current_epoch - 1]
         prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
@@ -274,7 +274,7 @@ class LitSeq2Seq(pl.LightningModule):
         return loss
     
     def validation_step(self, batch, batch_idx):
-        note, chord = batch
+        note, chord, masks = batch
         chord = chord.long()
         tf = False # Don't use tf for evaluation
         prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
@@ -286,20 +286,20 @@ class LitSeq2Seq(pl.LightningModule):
         preds = prob.detach().cpu().numpy().argmax(axis = 1)
         labels = chord.detach().cpu().numpy()
         preds[:,0] = np.full(len(preds), self.chord_vocab.stoi["<sos>"])
+        masks = masks.detach().cpu().numpy()
+
         return self.vec_decode(preds), self.vec_decode(labels)
 
     def validation_epoch_end(self, validation_step_outputs):
-        preds, labels = zip(*validation_step_outputs)
+        preds, labels, masks = zip(*validation_step_outputs)
         preds = np.vstack(preds)
         labels = np.vstack(labels)
+        masks = np.vstack(masks)
 
         ### Get chord name accuracy ###
-        mask = (preds != "<sos>") & (preds != "<eos>") & (preds != "<pad>")
         masked_preds = preds[mask]
         masked_labels = labels[mask]
-
         chord_name_acc = np.sum(masked_preds == masked_labels) / len(masked_labels)
-
 
         ### Get root and quality acc ###
         root_preds = preds.copy()
@@ -318,7 +318,6 @@ class LitSeq2Seq(pl.LightningModule):
                 root_labels[r_id, c_id] = sp[0]
                 quality_labels[r_id, c_id] = ' '.join(sp[1:])
         
-        mask = (root_preds != "<sos>") & (root_preds != "<eos>") & (root_preds != "<pad>")
         root_preds = root_preds[mask]
         quality_preds = quality_preds[mask]
         root_label = root_labels[mask]
