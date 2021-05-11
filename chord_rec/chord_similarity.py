@@ -33,7 +33,7 @@ def convert_chord(chord):
     return new_chord
 
 
-def chord_distance(label, pred):
+def chord_similarity(label, pred):
     label = convert_chord(label)
     pred = convert_chord(pred)
     label_notes = None
