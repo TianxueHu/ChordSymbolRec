@@ -20,8 +20,9 @@ quality_transfer = {
 
 
 def convert_chord(chord):
-    root = str(chord.split(' ')[0])
-    quality = ' '. join(chord.split(' ')[1:])
+    splitted = chord.split(' ')
+    root = str(splitted[0])
+    quality = ' '. join(splitted[1:])
     
     if 'x' in root:
         root = re.sub(r'x', '##', root)
