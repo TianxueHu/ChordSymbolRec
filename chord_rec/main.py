@@ -125,15 +125,29 @@ if __name__ == "__main__":
         vocab_size = len(chord_vocab.stoi)
 
         assert data_conf.val_ratio + data_conf.test_ratio <= 0.6, "At least 40 percent of the data needed for training"
-        note_train, note_test, chord_train, chord_test \
-            = train_test_split(note_vec, stacked_chord_seq, test_size = data_conf.val_ratio, random_state=seed)
+        # note_train, note_test, chord_train, chord_test \
+        #     = train_test_split(note_vec, stacked_chord_seq, test_size = data_conf.val_ratio, random_state=seed)
 
-        note_train, note_val, chord_train, chord_val \
-            = train_test_split(note_vec, stacked_chord_seq, test_size= data_conf.val_ratio/ (1-data_conf.test_ratio), random_state=seed)
+        # note_train, note_val, chord_train, chord_val \
+        #     = train_test_split(note_vec, stacked_chord_seq, test_size= data_conf.val_ratio/ (1-data_conf.test_ratio), random_state=seed)
 
-        train_dataset = Vec45Dataset(note_train, chord_train, chord_vocab)
-        val_dataset = Vec45Dataset(note_val, chord_val, chord_vocab)
-        test_dataset = Vec45Dataset(note_test, chord_test, chord_vocab)
+        dataset = Vec45Dataset(note_vec, chord_train)
+
+
+        train_ratio = 1 - data_conf.val_ratio + data_conf.test_ratio
+
+        train_len = int(len(dt)*train_ratio)
+        val_len = int(len(dt)*data_conf.val_ratio)
+        test_len = len(dt) - train_len - val_len
+
+        train_dataset, val_dataset, test_dataset = random_split(dt, [train_len, val_len, test_len], 
+                                                        generator=torch.Generator().manual_seed(seed)
+                                                       )
+
+
+        # train_dataset = Vec45Dataset(note_train, chord_train, chord_vocab)
+        # val_dataset = Vec45Dataset(note_val, chord_val, chord_vocab)
+        # test_dataset = Vec45Dataset(note_test, chord_test, chord_vocab)
 
         train_loader = DataLoader(train_dataset, batch_size =data_conf.batch_size, shuffle = data_conf.shuffle_train, num_workers = data_conf.num_workers, drop_last = True)
         val_loader = DataLoader(val_dataset, batch_size = data_conf.batch_size, shuffle = data_conf.shuffle_val, num_workers = data_conf.num_workers, drop_last = True)
