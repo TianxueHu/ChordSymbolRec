@@ -1,18 +1,18 @@
 experiment:
-  objective: bach_org
+  objective: Sears_reduced
   seed: 0
   gpu_num: 1
   device: gpu
 dataset:
-  name: bach
-  fpath: D:\\Documents\\2021Spring\\ChordSymbolRec\\all_new_pickle\\s2s\\bach_org_seq2seq_4mm_new.pkl
+  name: Sears
+  fpath: /srv/share4/ychen3237/all_new_pickle/s2s/sears_reduced_seq2seq_4mm_new.pkl
   batch_size: 32
   subset: full
   shuffle_train: False
   shuffle_val: False
   val_ratio: 0.2
   test_ratio: 0.2
-  num_workers: 1
+  num_workers: 8
 model:
   type: attn_s2s
   attn: True
