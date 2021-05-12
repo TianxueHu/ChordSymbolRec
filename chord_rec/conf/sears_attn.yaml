@@ -1,14 +1,14 @@
 experiment:
-  objective: Sears_org
+  objective: final_run
   seed: 0
   gpu_num: 1
   device: gpu
 dataset:
-  name: Sears
-  fpath: D:\\Documents\\2021Spring\\ChordSymbolRec\\all_new_pickle\\s2s\\sears_org_seq2seq_4mm_new.pkl
+  name: Sears_reduced
+  fpath: D:\\Documents\\2021Spring\\ChordSymbolRec\\all_new_pickle\\s2s\\sears_reduced_seq2seq_4mm_new.pkl
   batch_size: 32
   subset: full
-  shuffle_train: False
+  shuffle_train: True
   shuffle_val: False
   val_ratio: 0.2
   test_ratio: 0.2
