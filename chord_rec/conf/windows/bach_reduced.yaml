@@ -4,8 +4,8 @@ experiment:
   gpu_num: 1
   device: gpu
 dataset:
-  name: bach_org
-  fpath: D:\\Documents\\2021Spring\\ChordSymbolRec\\all_new_pickle\\s2s\\bach_org_seq2seq_4mm_new.pkl
+  name: bach_reduced
+  fpath: D:\\Documents\\2021Spring\\ChordSymbolRec\\all_new_pickle\\s2s\\bach_reduced_seq2seq_4mm_new.pkl
   batch_size: 32
   subset: full
   shuffle_train: True
