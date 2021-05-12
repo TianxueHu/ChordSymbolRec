@@ -1,14 +1,14 @@
 experiment:
-  objective: bach_org
+  objective: final_run
   seed: 0
   gpu_num: 1
   device: gpu
 dataset:
-  name: bach
+  name: bach_org
   fpath: /srv/share4/ychen3237/all_new_pickle/s2s/bach_org_seq2seq_4mm_new.pkl
   batch_size: 32
   subset: full
-  shuffle_train: False
+  shuffle_train: True
   shuffle_val: False
   val_ratio: 0.2
   test_ratio: 0.2

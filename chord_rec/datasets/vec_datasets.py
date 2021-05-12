@@ -1,11 +1,12 @@
 from torch.utils.data import Dataset
 import numpy as np
 class Vec45Dataset(Dataset):
-    def __init__(self, note_vec_seq, chord_seq, vocab):
+    def __init__(self, note_vec_seq, chord_seq, eval_mask, vocab):
         'Initialization'
         self.note_vec_seq = note_vec_seq
         self.chord_seq = chord_seq
         self.vocab = vocab
+        self.eval_mask = eval_mask
 
     def __len__(self):
         'Get the total length of the dataset'
@@ -16,7 +17,7 @@ class Vec45Dataset(Dataset):
         # Select sample
         
         
-        return self.note_vec_seq[index], self.vec_encode(self.chord_seq[index])
+        return self.note_vec_seq[index], self.vec_encode(self.chord_seq[index]), self.eval_mask[index]
     
     def encode(self, x):
         return self.vocab.stoi[x]

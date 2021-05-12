@@ -8,10 +8,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 import pytorch_lightning as pl
+from tqdm import tqdm
 
-# from chord_rec.models.seq2seq.Seq2Seq import BaseSeq2Seq, AttnSeq2Seq
-# from chord_rec.models.seq2seq.Encoder import BaseEncoder
-# from chord_rec.models.seq2seq.Decoder import BaseDecoder, AttnDecoder
+
+from chord_rec.chord_similarity import chord_similarity
 
 class BaseEncoder(pl.LightningModule):
     """ The Encoder module of the Seq2Seq model """
@@ -263,7 +263,7 @@ class LitSeq2Seq(pl.LightningModule):
         }
     
     def training_step(self, batch, batch_idx):
-        note, chord = batch
+        note, chord, _ = batch
         chord = chord.long()
         tf = np.random.random()< self.tf_ratios[self.current_epoch - 1]
         prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
@@ -274,7 +274,7 @@ class LitSeq2Seq(pl.LightningModule):
         return loss
     
     def validation_step(self, batch, batch_idx):
-        note, chord = batch
+        note, chord, masks = batch
         chord = chord.long()
         tf = False # Don't use tf for evaluation
         prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
@@ -286,20 +286,22 @@ class LitSeq2Seq(pl.LightningModule):
         preds = prob.detach().cpu().numpy().argmax(axis = 1)
         labels = chord.detach().cpu().numpy()
         preds[:,0] = np.full(len(preds), self.chord_vocab.stoi["<sos>"])
-        return self.vec_decode(preds), self.vec_decode(labels)
+        masks = masks.detach().cpu().numpy()
+
+        return self.vec_decode(preds), self.vec_decode(labels), masks
 
     def validation_epoch_end(self, validation_step_outputs):
-        preds, labels = zip(*validation_step_outputs)
+        preds, labels, masks = zip(*validation_step_outputs)
         preds = np.vstack(preds)
         labels = np.vstack(labels)
+        masks = np.vstack(masks)
 
         ### Get chord name accuracy ###
-        mask = (preds != "<sos>") & (preds != "<eos>") & (preds != "<pad>")
-        masked_preds = preds[mask]
-        masked_labels = labels[mask]
-
+        masked_preds = preds[masks]
+        masked_labels = labels[masks]
         chord_name_acc = np.sum(masked_preds == masked_labels) / len(masked_labels)
 
+        # avg_similarity = np.mean([chord_similarity(masked_preds[i], masked_labels[i]) for i in range(len(masked_preds))])
 
         ### Get root and quality acc ###
         root_preds = preds.copy()
@@ -318,11 +320,10 @@ class LitSeq2Seq(pl.LightningModule):
                 root_labels[r_id, c_id] = sp[0]
                 quality_labels[r_id, c_id] = ' '.join(sp[1:])
         
-        mask = (root_preds != "<sos>") & (root_preds != "<eos>") & (root_preds != "<pad>")
-        root_preds = root_preds[mask]
-        quality_preds = quality_preds[mask]
-        root_label = root_labels[mask]
-        quality_labels = quality_labels[mask]
+        root_preds = root_preds[masks]
+        quality_preds = quality_preds[masks]
+        root_label = root_labels[masks]
+        quality_labels = quality_labels[masks]
 
         root_acc = np.sum(root_preds == root_label) / len(root_preds)
         quality_acc = np.sum(quality_preds == quality_labels) / len(quality_preds)
@@ -330,21 +331,72 @@ class LitSeq2Seq(pl.LightningModule):
         self.log("val_name_acc", chord_name_acc, on_epoch = True, prog_bar = True)
         self.log("val_root_acc", root_acc, on_epoch = True, prog_bar = True)
         self.log("val_quality_acc", quality_acc, on_epoch = True, prog_bar = True)
-
+        # self.log("val_similarity", similarity, on_epoch = True, prog_bar = True)
 
 
 
     def test_step(self, batch, batch_idx):
-        note, chord = batch
+        note, chord, masks = batch
         chord = chord.long()
         tf = False # Don't use tf for evaluation
         prob = self(note, chord, teacher_forcing = tf, start_idx = self.chord_vocab.stoi["<sos>"])
-        prob  = prob .permute(0,2,1)
+        prob = prob.permute(0,2,1)
         loss = self.criterion(prob, chord)
-        predictions = torch.argmax(prob, axis = 1)
+
         self.log("test_loss", loss, on_epoch = True, prog_bar = True)
-        self.log("test_acc", self.test_acc(predictions, labels), on_epoch = True, prog_bar = True)
-        return test_loss
+
+        preds = prob.detach().cpu().numpy().argmax(axis = 1)
+        labels = chord.detach().cpu().numpy()
+        preds[:,0] = np.full(len(preds), self.chord_vocab.stoi["<sos>"])
+        masks = masks.detach().cpu().numpy()
+
+        return self.vec_decode(preds), self.vec_decode(labels), masks
+
+    def test_epoch_end(self, test_step_outputs):
+        preds, labels, masks = zip(*test_step_outputs)
+        preds = np.vstack(preds)
+        labels = np.vstack(labels)
+        masks = np.vstack(masks)
+
+        ### Get chord name accuracy ###
+        masked_preds = preds[masks]
+        masked_labels = labels[masks]
+        chord_name_acc = np.sum(masked_preds == masked_labels) / len(masked_labels)
+
+        similarities = []
+        for i in tqdm(range(len(masked_preds))):
+            similarities.append(chord_similarity(masked_preds[i], masked_labels[i]))
+        avg_similarity = np.mean(similarities)
+
+        ### Get root and quality acc ###
+        root_preds = preds.copy()
+        quality_preds = preds.copy()
+        for r_id in range(preds.shape[0]):
+            for c_id in range(preds.shape[1]):
+                sp = preds[r_id, c_id].split(' ')
+                root_preds[r_id, c_id] = sp[0]
+                quality_preds[r_id, c_id] = ' '.join(sp[1:])
+            
+        root_labels = labels.copy()
+        quality_labels = labels.copy()
+        for r_id in range(labels.shape[0]):
+            for c_id in range(labels.shape[1]):
+                sp = labels[r_id, c_id].split(' ')
+                root_labels[r_id, c_id] = sp[0]
+                quality_labels[r_id, c_id] = ' '.join(sp[1:])
+        
+        root_preds = root_preds[masks]
+        quality_preds = quality_preds[masks]
+        root_label = root_labels[masks]
+        quality_labels = quality_labels[masks]
+
+        root_acc = np.sum(root_preds == root_label) / len(root_preds)
+        quality_acc = np.sum(quality_preds == quality_labels) / len(quality_preds)
+
+        self.log("test_name_acc", chord_name_acc, on_epoch = True, prog_bar = True)
+        self.log("test_root_acc", root_acc, on_epoch = True, prog_bar = True)
+        self.log("test_quality_acc", quality_acc, on_epoch = True, prog_bar = True)
+        self.log("test_similarity", avg_similarity, on_epoch = True, prog_bar = True)
 
     def decode(self, x):
         return self.chord_vocab.itos[x]
