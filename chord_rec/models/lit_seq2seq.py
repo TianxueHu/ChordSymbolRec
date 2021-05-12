@@ -254,7 +254,7 @@ class LitSeq2Seq(pl.LightningModule):
         elif self.optimizer_type == "AdamW":
             optimizer = torch.optim.AdamW(self.parameters(), lr = self.lr)
         elif self.optimizer_type == "SGD":
-            optimizer = torch.optim.SGD(self.parameters(), lr = self.lr, momentum = self.momentum)
+            optimizer = torch.optim.SGD(self.parameters(), lr = self.lr, momentum = self.momentum, weight_decay = 5e-4)
         
         return {
             'optimizer': optimizer,
