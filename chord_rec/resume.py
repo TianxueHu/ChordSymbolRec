@@ -145,10 +145,10 @@ if __name__ == "__main__":
         val_len = int(len(dataset)*data_conf.val_ratio)
         test_len = len(dataset) - train_len - val_len
 
-        train_dataset, val_dataset, test_dataset = random_split(dataset, [train_len, val_len, test_len], 
-                                                        generator=torch.Generator().manual_seed(seed)
-                                                       )
-
+        # train_dataset, val_dataset, test_dataset = random_split(dataset, [train_len, val_len, test_len], 
+        #                                                 generator=torch.Generator().manual_seed(seed)
+        #                                                )
+        train_dataset, val_dataset, test_dataset = Subset(dataset, range(train_len)), Subset(dataset, range(train_len, train_len+val_len)), Subset(dataset, range(train_len+val_len, len(dataset)))
 
         train_loader = DataLoader(train_dataset, batch_size =data_conf.batch_size, shuffle = data_conf.shuffle_train, num_workers = data_conf.num_workers, drop_last = True)
         val_loader = DataLoader(val_dataset, batch_size = data_conf.batch_size, shuffle = data_conf.shuffle_val, num_workers = data_conf.num_workers, drop_last = True)
