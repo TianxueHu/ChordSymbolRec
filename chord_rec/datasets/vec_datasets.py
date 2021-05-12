@@ -17,7 +17,7 @@ class Vec45Dataset(Dataset):
         # Select sample
         
         
-        return self.note_vec_seq[index], self.vec_encode(self.chord_seq[index]), self.eval_mask
+        return self.note_vec_seq[index], self.vec_encode(self.chord_seq[index]), self.eval_mask[index]
     
     def encode(self, x):
         return self.vocab.stoi[x]
