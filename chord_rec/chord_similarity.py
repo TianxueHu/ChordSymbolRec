@@ -18,8 +18,10 @@ quality_transfer = {
     'major' : ''
 }
 
+func_token = ["<sos>", "<eos>", "<pad>"]
 
 def convert_chord(chord):
+
     splitted = chord.split(' ')
     root = str(splitted[0])
     quality = ' '. join(splitted[1:])
@@ -35,6 +37,10 @@ def convert_chord(chord):
 
 
 def chord_similarity(label, pred):
+    if (label in func_token and pred not in func_token) or (label not in func_token and pred in func_token):
+        return 0
+
+
     label = convert_chord(label)
     pred = convert_chord(pred)
     label_notes = None
