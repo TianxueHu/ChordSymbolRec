@@ -8,6 +8,8 @@ import torch.nn as nn
 import pytorch_lightning as pl
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
+from chord_rec.chord_similarity import chord_similarity
+from tqdm import tqdm
 
 class PrintSize(nn.Module):
     def __init__(self):
@@ -132,12 +134,56 @@ class LitBaseline(pl.LightningModule):
     def test_step(self, batch, batch_idx):
         data, labels = batch
         prob = self(data)
-        test_loss = self.criterion(prob, labels) # need to be named loss?
+        loss = self.criterion(prob, labels) # need to be named loss?
         predictions = torch.argmax(prob, axis = -1)
-        self.log("test_loss", test_loss, on_epoch = True, prog_bar = True)
+        self.log("test_loss", loss, on_epoch = True, prog_bar = True)
         self.log("test_acc", self.test_acc(predictions, labels), on_epoch = True, prog_bar = True)
 
-        return test_loss
+        preds = predictions.detach().cpu().numpy()
+        labels = labels.detach().cpu().numpy()
+
+        return self.vec_decode(preds), self.vec_decode(labels)
+
+    def test_epoch_end(self, validation_step_outputs):
+        preds, labels = zip(*validation_step_outputs)
+        preds = np.vstack(preds)
+        labels = np.vstack(labels)
+
+        ### Get chord name accuracy ###
+        chord_name_acc = np.sum(preds == labels) / np.product(labels.shape)
+
+        fl_preds = preds.flatten()
+        fl_labels = labels.flatten()
+        similarities = []
+        for i in tqdm(range(len(fl_preds))):
+            similarities.append(chord_similarity(fl_preds[i], fl_labels[i]))
+        avg_similarity = np.mean(similarities)
+
+        ### Get root and quality acc ###
+        root_preds = preds.copy()
+        quality_preds = preds.copy()
+        for r_id in range(preds.shape[0]):
+            for c_id in range(preds.shape[1]):
+                sp = preds[r_id, c_id].split(' ')
+                root_preds[r_id, c_id] = sp[0]
+                quality_preds[r_id, c_id] = ' '.join(sp[1:])
+            
+        root_labels = labels.copy()
+        quality_labels = labels.copy()
+        for r_id in range(labels.shape[0]):
+            for c_id in range(labels.shape[1]):
+                sp = labels[r_id, c_id].split(' ')
+                root_labels[r_id, c_id] = sp[0]
+                quality_labels[r_id, c_id] = ' '.join(sp[1:])
+
+
+        root_acc = np.sum(root_preds == root_labels) / np.product(root_preds.shape)
+        quality_acc = np.sum(quality_preds == quality_labels) / np.product(quality_preds.shape)
+
+        self.log("test_name_acc", chord_name_acc, on_epoch = True, prog_bar = True)
+        self.log("test_root_acc", root_acc, on_epoch = True, prog_bar = True)
+        self.log("test_quality_acc", quality_acc, on_epoch = True, prog_bar = True)
+        self.log("test_similarity", avg_similarity, on_epoch = True, prog_bar = True)
 
     def decode(self, x):
         return self.chord_vocab.itos[x]
