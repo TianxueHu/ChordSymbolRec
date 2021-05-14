@@ -322,10 +322,10 @@ class LitSeq2Seq(pl.LightningModule):
         
         root_preds = root_preds[masks]
         quality_preds = quality_preds[masks]
-        root_label = root_labels[masks]
+        root_labels = root_labels[masks]
         quality_labels = quality_labels[masks]
 
-        root_acc = np.sum(root_preds == root_label) / len(root_preds)
+        root_acc = np.sum(root_preds == root_labels) / len(root_preds)
         quality_acc = np.sum(quality_preds == quality_labels) / len(quality_preds)
 
         self.log("val_name_acc", chord_name_acc, on_epoch = True, prog_bar = True)
