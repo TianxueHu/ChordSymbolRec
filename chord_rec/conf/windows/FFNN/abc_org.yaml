@@ -1,0 +1,37 @@
+experiment:
+  objective: FFNN
+  seed: 0
+  gpu_num: 1
+  device: gpu
+dataset:
+  name: abc_org
+  directory: "D:\\Documents\\2021Spring\\ChordSymbolRec\\all_new_pickle\\ffnn\\abc"
+  train_fname: 'abc_org_ffnn_train_sorted.pkl'
+  val_fname: "abc_org_ffnn_val_sorted.pkl"
+  test_fname: "abc_org_ffnn_train_sorted.pkl"
+  batch_size: 32
+  subset: full
+  shuffle_train: True
+  shuffle_val: False
+  val_ratio: 0.2
+  test_ratio: 0.2
+  num_workers: 1
+model:
+  type: ffnn
+  attn: True
+  hidden_dim: 128
+  n_layers: 2
+  dropout: 0.2
+training:
+  lr: 1e-3
+  momentum: 0.9
+  optimizer_type: AdamW
+  dropout: 0.5
+  epoch: 500
+  save_every_n: 5
+validation:
+  check_interval: 1.0
+  check_ratio: 1.0
+logging:
+  output_dir: logs/
+  progress_bar_refresh_rate: 1
