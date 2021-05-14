@@ -40,7 +40,7 @@ class CheckpointEveryNEpoch(pl.Callback):
 early_stop_callback = EarlyStopping(
    monitor='val_acc',
    min_delta=0.00,
-   patience=10,
+   patience=5,
    verbose=True,
    mode='max'
 )
@@ -51,7 +51,7 @@ if __name__ == "__main__":
     config_path = sys.argv[1]
     conf = OmegaConf.load(config_path)
     data_conf = conf.dataset
-    
+
     seed = conf.experiment.seed
     torch.manual_seed(seed)
     np.random.seed(seed)
