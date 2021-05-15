@@ -5,7 +5,7 @@ experiment:
   device: gpu
 dataset:
   name: abc_org
-  directory: "D:\\Documents\\2021Spring\\ChordSymbolRec\\all_new_pickle\\ffnn\\abc"
+  directory: /srv/share4/ychen3237/all_new_pickle/ffnn/abc
   train_fname: 'abc_org_ffnn_train_sorted.pkl'
   val_fname: "abc_org_ffnn_val_sorted.pkl"
   test_fname: "abc_org_ffnn_train_sorted.pkl"
@@ -15,7 +15,7 @@ dataset:
   shuffle_val: False
   val_ratio: 0.2
   test_ratio: 0.2
-  num_workers: 1
+  num_workers: 4
 model:
   type: ffnn
   attn: True
